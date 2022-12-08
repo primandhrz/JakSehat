@@ -1,0 +1,772 @@
+{
+  "intents": [
+    {
+      "tag": "RSUD Jagakarsa",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Jagakarsa ",
+        "Rumah Sakit Jagakarsa",
+        "3171792",
+        "RSUD Jagakarsa",
+        "RS Jagakarsa",
+        "Jagakarsa"
+      ],
+      "responses": [
+        "RS Jagakarsa , Jl. Moh. Kahfi I No.27A, Jagakarsa, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12630 || <a href='https://tinyurl.com/yx45e8sy' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Jati Padang ",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Jati Padang",
+        "Rumah Sakit Jati Padang ",
+        "3171800",
+        "RSUD Jati Padang",
+        "RS Jati Padang",
+        "Jati Padang"
+      ],
+      "responses": [
+        "RSUD Jati Padang , Jl. Raya Ragunan No.16, Pasar Minggu, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12740 || <a href='https://tinyurl.com/yc7bdhsd' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kebayoran Baru",
+      "patterns": [
+        "Rumah Sakit Umum Kebayoran Baru",
+        "Rumah Sakit Kebayoran Baru",
+        "3171801",
+        "RSUD Kebayoran Baru",
+        "RS Kebayoran Baru",
+        "Kebayoran Baru"
+      ],
+      "responses": [
+        "RSUD Kebayoran Baru, Jl. Abdul Majid Raya No.28, Cipete Utara, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12150 || <a href='https://tinyurl.com/9a48snxj' target='_blank'>Maps</a> "
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kebayoran Lama",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Kebayoran Lama",
+        "Rumah Sakit Kebayoran Lama",
+        "317180",
+        "RSUD Kebayoran Lama",
+        "RS Kebayoran Lama",
+        "Kebayoran Lama"
+      ],
+      "responses": [
+        "RSUD Kebayoran Lama, Jl. Jatayu No.12, Kebayoran Lama Selatan, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12240 || <a href= 'https://tinyurl.com/55578vkj' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Mampang Prapatan",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Mampang Prapatan",
+        "Rumah Sakit Mampang Prapatan",
+        "3171793",
+        "RSUD Mampang Prapatan",
+        "RS Mampang Prapatan",
+        "Mampang Prapatan"
+      ],
+      "responses": [
+        "RSUD Mampang Prapatan, Jl. Kapten Tendean No.9, Mampang Prapatan, Kec. Mampang Prapatan, Kota Jakarta Selatan, DKI Jakarta 12710   || <a href='https://tinyurl.com/37v3wkb6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pasar Minggu ",
+      "patterns": [
+        "Rumah Sakit Umum Pasar Minggu",
+        "Rumah Sakit Pasar Minggu",
+        "3171795",
+        "RSUD Pasar Minggu",
+        "RS Pasar Minggu",
+        "Pasar Minggu"
+      ],
+      "responses": [
+        "RS Pasar Minggu, Jl. TB Simatupang No.1, Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12550 || <a href='https://tinyurl.com/s933nak5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pesanggrahan",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Pesanggrahan",
+        "Rumah Sakit Pesanggrahan",
+        "3171791",
+        "RSUD Pesanggrahan",
+        "RS Pesanggrahan",
+        "Pesanggrahan"
+      ],
+      "responses": [
+        "RSUD Pesanggrahan, Jl. Cenek I No.1, Pesanggrahan, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12320 || <a href='https://tinyurl.com/38ya8sk2' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Tebet",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Tebet",
+        "Rumah Sakit Umum Tebet",
+        "3171790",
+        "RSUD Tebet"
+      ],
+      "responses": [
+        "RSUD Tebet, Jl. Prof. DR. Soepomo SH No.54, Tebet Barat, Kec. Tebet, Kota Jakarta Selatan, DKI Jakarta 12810 || <a href='https://tinyurl.com/57ya2ms3' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Agung",
+      "patterns": ["Rumah Sakit Agung", "RS Agung", "3171632", "Agung"],
+      "responses": [
+        "RS Agung, Jl. Sultan Agung No.67, Pasar Manggis, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12970 || <a href='https://g.page/rumah-sakit-hermina-podomoro?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Ali Sibroh Malisi",
+      "patterns": [
+        "Rumah Sakit Ali Sibroh Malisi",
+        "RS Ali Sibroh Malisi",
+        "3171798",
+        "Rumah Sakit Ali Sibro Malisi",
+        "RS Ali Sibroh Malisi",
+        "Ali Sibroh Malisi"
+      ],
+      "responses": [
+        "RS Ali Sibroh Malisi, Jl. Warung Sila No.1, Ciganjur, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12630 || <a href='https://tinyurl.com/yc6tmy7k' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Aulia Jakarta",
+      "patterns": [
+        "Rumah Sakit Aulia Jakarta",
+        "RS Aulia Jakarta",
+        "3171746",
+        "Aulia Jakarta"
+      ],
+      "responses": [
+        "RS Aulia Jakarta, Jl. Jeruk Raya No.15, Jagakarsa, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12620 || <a href='https://goo.gl/maps/QVQKbDh2XymALaVb8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Avisena",
+      "patterns": [
+        "Rumah Sakit Avisena",
+        "RS Avisena",
+        "3171083",
+        "RS Avisena",
+        "Avisena"
+      ],
+      "responses": [
+        "RS Avisena, Jl. H. Rohimin No.142, Ulujami, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12250  || <a href='https://goo.gl/maps/qrFVaxkDNE7mTXdm9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bhayangkara Sespimma ",
+      "patterns": [
+        "Rumah Saki Bhayangkara Sespimma",
+        "RS Bhayangkara Sespimma",
+        "3171785",
+        "Bhayangkara Sespimma"
+      ],
+      "responses": [
+        "RS Bhayangkara Sespimma, Jl. Ciputat Raya No.40, Pondok Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12310 || <a href='https://g.page/reviewrsrp?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Brawijaya Duren Tiga",
+      "patterns": [
+        "Rumah Sakit Brawijaya Duren Tiga",
+        "RS Brawijaya Duren Tiga ",
+        "3171757",
+        "RS Brawijaya Duren Tiga",
+        "Brawijaya Duren Tiga "
+      ],
+      "responses": [
+        "RS Brawijaya Duren Tiga, Jl. Duren Tiga No.5, Pancoran, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12780 || <a href='https://goo.gl/maps/SWLagRhGwRSUp3iS6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Brawijaya Jakarta",
+      "patterns": [
+        "Rumah Sakit  Brawijaya Jakarta",
+        "RS Brawijaya Jakarta",
+        "3171728",
+        "Rumah Sakit  Brawijaya Jakart",
+        "RS Brawijaya Jakarta",
+        "Brawijaya"
+      ],
+      "responses": [
+        "RS Brawijaya Jakarta ,Jl. Taman Brawijaya No.1, Cipete Utara, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12150  || <a href='https://tinyurl.com/bdhw6ra7' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharmawangsa",
+      "patterns": [
+        "Rumah Sakit Dharmawangsa",
+        "RS Dharmawangsa",
+        "3171060",
+        "Dharmawangsa"
+      ],
+      "responses": [
+        "RS Dharmawangsa, Jl. Dharmawangsa No.13, Pulo, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12160 || <a href='https://goo.gl/maps/Wxy9Jq5bx4CdcQS17' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dr Sutoyo Pusrehab Kemenhan",
+      "patterns": [
+        "Rumah Sakit Dr Sutoyo Puserhab Kemenhan",
+        "RS Dr sutoyo Puserhab Kemenhan",
+        "3171072",
+        "RS Dr Sutoyo Puserhab Kemenhan",
+        "Dr Sutoyo Puserhab Kemenhan"
+      ],
+      "responses": [
+        "RS Dr Sutoyo Puserhab Kemenhan, Jl. RC. Veteran Raya No.178, Bintaro, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12330 || <a href='https://goo.gl/maps/sWUMq4LqD7XEbugBA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Gandaria",
+      "patterns": [
+        "Rumah Sakit Gandaria",
+        "RS Gandaria ",
+        "3171621",
+        "RS Gandaria",
+        "Gandaria"
+      ],
+      "responses": [
+        "RS Gandaria, Jl. Gandaria Tengah II No.6, Kramat Pela, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12130 || <a href='https://tinyurl.com/mw53pch8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Halimun ",
+      "patterns": [
+        "Rumah Sakit Halimun ",
+        "RS Halimun",
+        "3175407",
+        "Rumah Sakit Halimun",
+        "Halimun"
+      ],
+      "responses": [
+        "RS Halimun, Jl. Halimun Raya No.9, Guntur, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12980  || <a href='https://goo.gl/maps/3cToVNHAyQ94fizj6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harapan Kartini",
+      "patterns": [
+        "Rumah Sakit Harapan Kartini",
+        "RS Harapan Kartini",
+        "3171610",
+        "RS Harapan Kartini",
+        "Rumah Sakit Harapan Kartini",
+        "Harapan Kartini"
+      ],
+      "responses": [
+        "RS Harapan Kartini, Jl. Ampera Raya No.2A, Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12560 || <a href='https://goo.gl/maps/whX8LCjxE3sc5pR86' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Indah Medika",
+      "patterns": [
+        "Rumah Sakit Jakarta ",
+        "RS Jakarta",
+        "3171045",
+        "RS Indah Medika",
+        "Rumah Sakit Indah Medika",
+        "Indah Medika"
+      ],
+      "responses": [
+        "RS Indah Medika, Jl. Tebet Raya No.4, Tebet Barat, Kec. Tebet, Kota Jakarta Selatan, DKI Jakarta 12810 || <a href='https://goo.gl/maps/jtrLrygT66ybrnkAA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Jakarta",
+      "patterns": [
+        "Rumah Sakit Umum Pekerja",
+        "RSU Pekerja",
+        "3175410",
+        "Rumah Jakarta",
+        "RS Jakarta",
+        "Jakarta"
+      ],
+      "responses": [
+        "RS Jakarta, Jl. Jend. Sudirman No.49, Karet Semanggi, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12930  || <a href='https://goo.gl/maps/WQ5tj8a2CtzhHsw98' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Jakarta Medical Center",
+      "patterns": [
+        "Rumah Sakit Jakarta Medical Center",
+        "RS Jakarta Medical Center",
+        "3171735",
+        "Rumah Sakit Pelabuhan Jakarta",
+        "RS Pelabuhan Jakarta",
+        "Pelabuhan Jakarta"
+      ],
+      "responses": [
+        "RS Jakarta Medical Center, Jl. Warung Buncit No.15, Kalibata, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12740 || <a href='https://goo.gl/maps/vmHkjBb7JjAY2gw16' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Marinir Cilandak",
+      "patterns": [
+        "Rumah Sakit Marinir Cilandak",
+        "RS Marinir Cilandak",
+        "3171034",
+        "Rumah Sakit Marinir Cilandak",
+        "RS Marinir Cilandak",
+        "Marinir Cilandak"
+      ],
+      "responses": [
+        "RS Marinir Cilandak, Jl. Cilandak KKO No.3, Cilandak Timur, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12560 || <a href='https://tinyurl.com/y4vxf2ad' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mayapada Jakarta",
+      "patterns": [
+        "Rumah Sakit Mayapada Jakarta",
+        "RS Mayapada Jakarta",
+        "3171786",
+        "Rumah Sakit Mayapada Jakarta",
+        "RS Mayapada Jakarta",
+        "Mayapdaa Jakarat "
+      ],
+      "responses": [
+        "RS Mayapda Jakarta, Jl. Lebak Bulus I No.29, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/2zfmttdb' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mayapada Kuningan",
+      "patterns": [
+        "Rumah Sakit Mayapda Kuningan ",
+        "RS Mayapada Kuningan",
+        "3171788",
+        "Rumah Sakit Mayapda Kuningan",
+        "RS Puri Medika",
+        "Puri Medika"
+      ],
+      "responses": [
+        "RS Mayapda Kuningan, Jl. HR. Rasuna Said No.17, Karet Kuningan, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12940|| <a href='https://goo.gl/maps/vAtQeW62H59HKCLf6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Medistra",
+      "patterns": [
+        "Rumah Sakit Medistra",
+        "RS Medistra",
+        "3171788",
+        "Rumah Sakit Medistra",
+        "RS Medistra",
+        "Medistra"
+      ],
+      "responses": [
+        "RS Medistra, Jl. Gatot Subroto No.59, Kuningan Timur, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12950 || <a href='https://goo.gl/maps/UDp7L2hR9ZRZFu9i6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS MMC Jakarta",
+      "patterns": [
+        "Rumah Sakit MMC Jakarta",
+        "RS MMC Jakarta",
+        "3171515",
+        "RS Sukmul Sisma Medika",
+        "Sukmul Sisma Medika"
+      ],
+      "responses": [
+        "RS MMC Jakarta, Jl. HR. Rasuna Said No.21, Karet Kuningan, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12940 || <a href='https://tinyurl.com/2ke49yft' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Muhammadiyah Taman Puring",
+      "patterns": [
+        "Rumah Sakit Muhammadiyah Taman Puring",
+        "RS Muhammadiyah Taman Puring",
+        "3171781",
+        "Rumah Sakit Muhammadiyah Taman Puring",
+        "RS Muhammadiyah Taman Puring",
+        "Muhammadiyah Taman Puring"
+      ],
+      "responses": [
+        "RS  Muhammadiyah Taman Puring, Jl. Gandaria I No.20, Kramat Pela, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12130 || <a href='https://tinyurl.com/6ubb7xbb' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Petukangan",
+      "patterns": [
+        "Rumah Sakit Petukangan",
+        "RS Petukangana",
+        "3171796",
+        "RS Petukangan",
+        "Petukangan"
+      ],
+      "responses": [
+        "RS Petukangan, Jl. Ciledug Raya No.8A, Petukangan Selatan, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12270 || <a href='https://tinyurl.com/3t6v2d9k8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pondok Indah",
+      "patterns": [
+        "Rumah Sakit Pondok Indah",
+        "RS Pondok Indah",
+        "3171504",
+        "Rumah SakitPondok Indah",
+        "RS Pondok Indah",
+        "Pondok Indah"
+      ],
+      "responses": [
+        "RS Pondok Indah, Jl. Taman Duta I No.4, Pondok Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12310JJ || <a href='https://tinyurl.com/2xub99za' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Prikasih",
+      "patterns": [
+        "Rumah Prikasih",
+        "RS Prikasih",
+        "3171574",
+        "RS Prikasih",
+        "Prikasih"
+      ],
+      "responses": [
+        "RS Prikasih, Jl. RS. Fatmawati No.74, Pondok Labu, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12450J|| <a href='https://tinyurl.com/bdcuhczm' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Prof. dr. Moestopo ",
+      "patterns": [
+        "Rumah Sakit Prof. dr. Moestopoh",
+        "RS Prof. dr. Moestopo",
+        "3171691",
+        "Rumah Sakit Prof. dr. Moestopo",
+        "RS Prof. dr. Moestopo",
+        "Prof. dr. Moestopo"
+      ],
+      "responses": [
+        "RS Prof. dr. Moestopo, Jl. Bintaro Permai No.3, Bintaro, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12330 || <a href='https://tinyurl.com/ybsrf9fr' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Pusat Pertamina",
+      "patterns": [
+        "Rumah Sakit Pusat Pertamina",
+        "RS Pusat Pertamina",
+        "3171023",
+        "RS Pusat Pertamina",
+        "Pusat Pertamina"
+      ],
+      "responses": [
+        "RS Pusat Pertamina, Jl. Kyai Maja No.43, Gunung, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12120 || <a href='https://tinyurl.com/3w25kk67' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Setia Mitra",
+      "patterns": [
+        "Rumah Sakit Setia Mitra",
+        "RS Setia Mitra",
+        "3171450",
+        "Rumah Sakit Setia Mitra",
+        "RS Setia Mitra",
+        "Setia Mitra"
+      ],
+      "responses": [
+        "RS Setia Mitra, Jl. RS. Fatmawati No.80, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/y7jhhy6p' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS  Siaga Raya",
+      "patterns": [
+        "Rumah Sakit  Siaga Raya",
+        "RS  Siaga Raya",
+        "3171643",
+        "RS  Siaga Raya",
+        " Siaga Raya"
+      ],
+      "responses": [
+        "RS  Siaga Raya, Jl. Siaga Raya No.4, Pejaten Barat, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12510 || <a href='https://tinyurl.com/2vvcb2yr' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam Asri",
+      "patterns": [
+        "Rumah Sakit Siloam Asri",
+        "RS Siloam Asri",
+        "3171511",
+        "Rumah Sakit Siloam Asri",
+        "RS Siloam Asri",
+        "Siloam Asri"
+      ],
+      "responses": [
+        "RS Siloam Asri, Jl. Duren Tiga No.20, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12760 || <a href='https://tinyurl.com/4ejcjerb' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam Semanggi",
+      "patterns": [
+        "Rumah Sakit  Siloam Semanggi",
+        "RS Siloam Semanggi",
+        "3171056",
+        "Rumah Sakit Siloam Semanggi",
+        "RS  Siloam Semanggi",
+        " Siloam Semanggi"
+      ],
+      "responses": [
+        "RS  Siloam Semanggi, Jl. RS. Fatmawati No.80, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/ym5tmj8h' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam TB Simatupang",
+      "patterns": [
+        "Rumah Sakit Siloam TB Simatupang",
+        "RS Siloam TB Simatupang",
+        "3171789",
+        "RS Siloam TB Simatupang",
+        "Siloam TB Simatupang"
+      ],
+      "responses": [
+        "RS Siloam TB Simatupang, Jl. R.A.Kartini No.8, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430  || <a href='https://tinyurl.com/yjz4pafv' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Tebet",
+      "patterns": [
+        "Rumah Sakit Tebet",
+        "RS Tebet",
+        "3171461",
+        "Rumah Sakit Tebet",
+        "RS Tebet"
+      ],
+      "responses": [
+        "RS Pondok Indah, Jl. Taman Duta I No.4, Pondok Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12310JJ || <a href='https://tinyurl.com/mpnrkn68' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Tria Dipa",
+      "patterns": [
+        "Rumah Sakit Tria Dipa",
+        "RS Tria Dipa",
+        "3171680",
+        "Rumah Sakit Tria Dipa",
+        "RS Tria Dipa",
+        "Tria Dipa"
+      ],
+      "responses": [
+        "RS Tria Dipa, Jl. Raya Pasar Minggu No.3A, Pancoran, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12780 || <a href='https://tinyurl.com/2fbn3yut' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Yadika Kebayoran Lama",
+      "patterns": [
+        "Rumah Sakit Yadika Kebayoran Lama",
+        "RS Yadika Kebayoran Lama",
+        "3171784",
+        "RS Yadika Kebayoran Lama",
+        "Yadika Kebayoran Lama"
+      ],
+      "responses": [
+        "RS Yadika Kebayoran Lama, Jl. Ciputat Raya No.5, Kebayoran Lama Selatan, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12240 || <a href='https://tinyurl.com/yjz4pafv' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Andhika",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Andhika ",
+        "RSIA Andhika",
+        "3171782",
+        "Rumah Sakit  Andhika",
+        "RSIA Andhika",
+        "Andhika"
+      ],
+      "responses": [
+        "RSIA Andhika, Jl. Warung Sila No.8, Ciganjur, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12630 || <a href='https://tinyurl.com/a4n469z6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Asih",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Asih  ",
+        "RSIA Asih",
+        "3171413",
+        "RSIA Asih",
+        "Asih"
+      ],
+      "responses": [
+        "RSIA Asih, Jl. Panglima Polim I No.34, Melawai, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12160 || <a href='https://tinyurl.com/552rc5ep' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Budhi Jaya",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Budhi Jaya ",
+        "RSIA Budhi Jaya",
+        "3171286 ",
+        "RSIA Budhi Jaya",
+        "RSIA Budhi Jaya",
+        "Budhi Jaya"
+      ],
+      "responses": [
+        "RSIA Budhi Jaya,Jl. Dr. Sahardjo No.120, Menteng Atas, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12960 || <a href='https://tinyurl.com/mwumajm6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Kartini ",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Kartini",
+        "RSIA Kartini",
+        "3171713",
+        "Rumah Sakit Ibu Anak Kartini",
+        "RSIA Kartini",
+        " Kartini"
+      ],
+      "responses": [
+        "RSIA Kartini, Jl. Ciledug Raya No.94, Cipulir, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12230 || <a href='https://tinyurl.com/3psyzbnh' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Kemang Medical Care",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Medical Care ",
+        "RSIA Medical Center",
+        "3171783",
+        "RSIA Medical Center",
+        "Medical Center"
+      ],
+      "responses": [
+        "RSIA Medical Center, Jl. Ampera Raya No.34, Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12550 || <a href='https://tinyurl.com/3fwtpu6s' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Panti Nugeraha",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Panti Nugeraha",
+        "RSIA Panti Nugeraha",
+        "3171216",
+        "Rumah Sakit Ibu Anak Panti Nugeraha",
+        "RSIA Panti Nugeraha",
+        "Panti Nugeraha"
+      ],
+      "responses": [
+        "RSIA Panti Nugeraha, Jl. Senayan No.26, Melawai, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12160 || <a href='https://tinyurl.com/yksp4ua9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Zahirah",
+      "patterns": [
+        "Rumah Sakit Umum Zahirah Petukangan",
+        "RSU Zahirah",
+        "3171216",
+        "RSU Zahirah",
+        "Zahira"
+      ],
+      "responses": [
+        "RSU Zahirah, Jl. Sirsak No.21, Jagakarsa, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12620 || <a href='https://tinyurl.com/42r3er4c' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUP Fatmawati",
+      "patterns": [
+        "Rumah Sakit Umum Pusat Fatmawati",
+        "RSUP Fatmawati",
+        "3171504",
+        "Rumah Sakit Umum Pusat Fatmawati",
+        "RSUP Fatmawati",
+        "Fatmawati"
+      ],
+      "responses": [
+        "RSUP Fatmawati , Jl. RS. Fatmawati No.4, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/nuhuhra3' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    }
+  ]
+}

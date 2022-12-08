@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>JakSehat | Platform Cepat Tanggap Kesehatan DKI Jakarta</title>
+
+    <!-- File CSS -->
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: #021D54;
+            color: #FFFFFF;
+        }
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar{
+            width: 85%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-brand{
+            cursor: pointer;
+        }
+        .nav-link{
+            font-size: 16.5px;
+        }
+        table{
+            width: 95%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #021D54;
+        }
+        .ui-jaksehat{
+            border-radius: 10px;
+        }
+        p{
+            color: #FFFFFF;
+        }
+        h1{
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        .col{
+            margin: auto;
+        }
+        a{
+            color: #FFFFFF;
+        }
+        .nav-link:hover{
+            border-bottom: 2px solid #ffffff;
+        }
+        button{
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #FFFFFF;
+            background: transparent;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        button:hover{
+            background: #FFFFFF;
+            color: #021D54;
+        }
+        tr, th, td{
+            border: 1px solid #FFFFFF;
+        }
+        #myInput{
+            width: 75%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Banner: Navbar dan Container -->
+    <div class="banner" style="background-color: #021D54;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #021D54;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ url_for('home') }}">
+                    <img src="../static/images/logo-bw.png" class="logo-brand" alt="Logo" width="180" height="50">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{ url_for('rs') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">Help</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <div class="container">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cari Nama Rumah Sakit di Jakarta Barat.." title="Ketik Nama Rumah Sakit">
+            <table table-hover table-dark id="myTable">
+                <tr class="header">
+                    <th style="width:2%;">No.</th>
+                    <th style="width:5%;">Kode</th>
+                    <th style="width:20%;">Nama Rumah Sakit</th>
+                    <th style="width:12%;">Jenis</th>
+                    <th style="width:2%;">Tipe</th>
+                    <th style="width:59%;">Alamat (Link Google Maps)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3174074</td>
+                    <td>RSUD Cengkareng</td>
+                    <td>RSUD</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/R2BCsGwYETz4Qrwr5" target="_blank">Jl. Bumi Cengkareng Indah No.1, Cengkareng Timur, Kec. Cengkareng, Kota Jakarta Barat, DKI Jakarta 11730</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3174517</td>
+                    <td>RSUD Kembangan</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/caufCMm9eU191KZL6" target="_blank">Jl. Topas Raya No.3, Meruya Utara, Kec. Kembangan, Kota Jakarta Barat, DKI Jakarta 11620</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3174518</td>
+                    <td>RSUD Kalideres</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/pGR6QvQ5QksJfMM4A" target="_blank">Jl. Satu Maret No.48, Pegadungan, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11830</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>3174525</td>
+                    <td>RSUD Taman Sari</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/xZnNNNCBw4EyKyxC9" target="_blank">Jl. Madu No.10A, Mangga Besar, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11180</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>3174529</td>
+                    <td>RS Cendana</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/xZnNNNCBw4EyKyxC9" target="_blank">Jl. Kedoya Raya No.2, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>3174522</td>
+                    <td>RS Ciputra Citragarden</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/ciputrahospital?share" target="_blank">Jl. Satu Maret No.26, Pegadungan, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11830</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>3174063</td>
+                    <td>RS Dharmais</td>
+                    <td>RS Kanker</td>
+                    <td>A</td>
+                    <td><a href="https://g.page/ciputrahospital?share" target="_blank">Jl. Letjen S. Parman No.84, Kota Bambu Selatan, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11420</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>3174041</td>
+                    <td>RS dr. Soeharto Heerjan</td>
+                    <td>RS Jiwa</td>
+                    <td>A</td>
+                    <td><a href="https://g.page/rsjsh?share" target="_blank">Jl. Prof. Dr. Latumeten No.1, Jelambar, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11460</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>3174431</td>
+                    <td>RS Hermina Daan Mogot</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/RSHDMG?share" target="_blank">Jl. Kintamani Raya No.2, Kalideres, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11840</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>3174515</td>
+                    <td>RS Jakarta Eye Center Kedoya</td>
+                    <td>RS Mata</td>
+                    <td>A</td>
+                    <td><a href="https://g.page/rs-mata-JEC-kedoya?share" target="_blank">Jl. Arjuna Utara No.1, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520</a></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>3174519</td>
+                    <td>RS Mitra Keluarga Kalideres</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/f1V7R8diP7U9Ez166" target="_blank">Jl. Peta Selatan No.1, Kalideres, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11840</a></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>3174026</td>
+                    <td>RS Pelni Petamburan</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/YrxDQFmbffxeS3d99" target="_blank">Jl. Ks. Tubun No.92, Slipi, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11410</a></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>3174527</td>
+                    <td>RS Pendidikan Ukrida</td>
+                    <td>RS Gigi &amp; Mulut</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/SpGwtK84F8QMJWhJ9" target="_blank">Jl. Arjuna Utara No.145, Duri Kepa, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11510</a></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>3174351</td>
+                    <td>RS Siloam Kebon Jeruk</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/siloamkebonjeruk?share" target="_blank">Jl. Perjuangan No.8, Kebon Jeruk, Kec. Kebon Jeruk, Jakarta, DKI Jakarta 11530</a></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>3174510</td>
+                    <td>RSIA Anggrek Mas</td>
+                    <td>RSIA</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/3D4PgBbzsxegpawG9" target="_blank">Jl. Anggrek No.2, Kebon Jeruk, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11530</a></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>3174530</td>
+                    <td>RSIA Aries</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/mT4GYxrNUhGYhamu5" target="_blank">Jl. Duri Raya No.22, Duri Utara, Kec. Tambora, Kota Jakarta Barat, DKI Jakarta 11270</a></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>3174260</td>
+                    <td>RSIA Harapan Kita</td>
+                    <td>RSIA</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/hQqJbSk1PWj4ECZeA" target="_blank">Jl. Letjen S. Parman No.87, Kota Bambu Utara, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11420</a></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>3174516</td>
+                    <td>RSIA Ibnu Sina</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/CzCgyRgx2e3ruB638" target="_blank">Jl. Dr. Nurdin I No.3, Grogol, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11450</a></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>3174030</td>
+                    <td>RSU Bhakti Mulia</td>
+                    <td>RSU</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/SzSaKuabjRy7EPJ27" target="_blank">Jl. Ks. Tubun No.79, Slipi, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11410</a></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>3174497</td>
+                    <td>RSU Bina Sehat Mandiri</td>
+                    <td>RSU</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/uc8YU4KKQVej49Uc6" target="_blank">Jl. Duri Raya No.22, Duri Kepa, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11510</a></td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>3174052</td>
+                    <td>RSU Graha Kedoya</td>
+                    <td>RSU</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/rs-grha-kedoya-dki-jakarta?share" target="_blank">Jl. Panjang No.26, Kedoya Utara, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520</a></td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>3174405</td>
+                    <td>RSU Manuela</td>
+                    <td>RSU</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/vKixKK9AJRBuDaHKA" target="_blank">Jl. Mangga Besar VIII No.23, Taman Sari, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11150</a></td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>3174420</td>
+                    <td>RSU Medika Permata Hijau</td>
+                    <td>RSU</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/LCUbW7wJtCUB94ndA" target="_blank">Jl. Kebon Raya No.64, Sukabumi Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11560</a></td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>3174416</td>
+                    <td>RSU Patria IKKT</td>
+                    <td>RSU</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/cu7KoyNbUmMwffjR9" target="_blank">Jl. Cendrawasih No.1, Palmerah, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11480</a></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>3174508</td>
+                    <td>RSU Puri Indah</td>
+                    <td>RSU</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/rspondokindahpuriindah?share" target="_blank">Jl. Puri Indah Raya No.2, Kembangan Selatan, Kec. Kembangan, Kota Jakarta Barat, DKI Jakarta 11610</a></td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>3174475</td>
+                    <td>RSU Puri Mandiri Kedoya</td>
+                    <td>RSU</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/zCAQVZaqrEYJdQRP9" target="_blank">Jl. Raya Kedoya No.2, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520</a></td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>3174486</td>
+                    <td>RSU Royal Taruma</td>
+                    <td>RSU</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/rADdKB7WKhJCQTddA" target="_blank">Jl. Daan Mogot Kedaung No.34, Tanjung Duren Utara, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11470</a></td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>3174015</td>
+                    <td>RSU Sumber Waras</td>
+                    <td>RSU</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/rumah-sakit-sumber-waras?share" target="_blank">Jl. Kyai Tapa No.1, Tomang, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11440</a></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- JS CHATBOT -->
+    <script src="../static/js/app.js"></script>
+    <!-- END JS CHATBOT -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[2];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }       
+            }
+        }
+</script>
+  </body>
+</html>
+

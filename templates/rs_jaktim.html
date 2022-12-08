@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>JakSehat | Platform Cepat Tanggap Kesehatan DKI Jakarta</title>
+
+    <!-- File CSS -->
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: #021D54;
+            color: #FFFFFF;
+        }
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar{
+            width: 85%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-brand{
+            cursor: pointer;
+        }
+        .nav-link{
+            font-size: 16.5px;
+        }
+        table{
+            width: 95%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #021D54;
+        }
+        .ui-jaksehat{
+            border-radius: 10px;
+        }
+        p{
+            color: #FFFFFF;
+        }
+        h1{
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        .col{
+            margin: auto;
+        }
+        a{
+            color: #FFFFFF;
+        }
+        .nav-link:hover{
+            border-bottom: 2px solid #ffffff;
+        }
+        button{
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #FFFFFF;
+            background: transparent;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        button:hover{
+            background: #FFFFFF;
+            color: #021D54;
+        }
+        tr, th, td{
+            border: 1px solid #FFFFFF;
+        }
+        #myInput{
+            width: 75%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Banner: Navbar dan Container -->
+    <div class="banner" style="background-color: #021D54;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #021D54;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ url_for('home') }}">
+                    <img src="../static/images/logo-bw.png" class="logo-brand" alt="Logo" width="180" height="50">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{ url_for('rs') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">Help</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <div class="container">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cari Nama Rumah Sakit di Jakarta Timur.." title="Ketik Nama Rumah Sakit">
+            <table table-hover table-dark id="myTable">
+                <tr class="header">
+                    <th style="width:2%;">No.</th>
+                    <th style="width:5%;">Kode</th>
+                    <th style="width:20%;">Nama Rumah Sakit</th>
+                    <th style="width:12%;">Jenis</th>
+                    <th style="width:2%;">Tipe</th>
+                    <th style="width:59%;">Alamat (Link Google Maps)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3172024</td>
+                    <td>RSUD Budhi Asih</td>
+                    <td>RSUD</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/rsudbudhiasih?share" target="_blank">Jl. Dewi Sartika No.200, Cawang, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13640</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3172771</td>
+                    <td>RSUD Cipayung</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/3d56jp7jbPmX7ibi9" target="_blank">Jl. Mini III No.4, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, DKI Jakarta 13890</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3172762</td>
+                    <td>RSUD Ciracas</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/HYy9nkystrH5uNzR6" target="_blank">Jl. Cibubur I No.1, Cibubur, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13720</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>3172761</td>
+                    <td>RSUD Kramatjati</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/MY5evwXUqkTYNR1T6" target="_blank">Jl. Raya Inpres No.48, Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>3174523</td>
+                    <td>RSUD Matraman</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/KzG4LSm1LStWfF1c8" target="_blank">Jl. Kebon Kelapa No.29, Utan Kayu Selatan, Kec. Matraman, Kota Jakarta Timur, DKI Jakarta 13120</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>3172126</td>
+                    <td>RSUD Pasar Rebo</td>
+                    <td>RSUD</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/yTXELnaNzvMvq3zU8" target="_blank">Jl. TB Simatupang No.30, Gedong, Kec. Pasar Rebo, Kota Jakarta Timur, DKI Jakarta 13760</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>3172757</td>
+                    <td>RS Adhyaksa</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/gLwp2ZTdUhZ6LaKH8" target="_blank">Jl. Mabes Hankam No.60, Ceger, Kec. Cipayung, Kota Jakarta Timur, DKI Jakarta 13820</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>3172747</td>
+                    <td>RS Admira</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/KQ3za1hNTXBsyUuy7" target="_blank">Jl. Kayu Putih No.16, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13260</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>3172765</td>
+                    <td>RS Al-Fauzan</td>
+                    <td>RS</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/qa1WCReo2HDKmNrt8" target="_blank">Jl. Pedati No.3, Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>3172753</td>
+                    <td>RS Antam Medika</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/T66ESiLEH3LpMV2U6" target="_blank">Jl. Pemuda No.1A, Jatinegara Kaum, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210</a></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>3172301</td>
+                    <td>RS Bedah Rawamangun</td>
+                    <td>RS Bedah</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/KVjkfweTaMicwnig9" target="_blank">Jl. Balai Pustaka No.29, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220</a></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>3172072</td>
+                    <td>RS Bhayangkara Raden Said Sukanto</td>
+                    <td>RS</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/KZW96C7joVjFBTci7" target="_blank">Jl. Raya Bogor No.1, Kramat Jati, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13510</a></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>3172752</td>
+                    <td>RS Bina Waluya</td>
+                    <td>RS Jantung</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/3g5K995SQQ68aScM9" target="_blank">Jl. TB Simatupang No.71, Susukan, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13750</a></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>3172758</td>
+                    <td>RS Columbia Asia Pulomas</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/UWDbcxJhtrkKYhV37" target="_blank">Jl. Kayu Putih No.1, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210</a></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>3172702</td>
+                    <td>RS Dharma Nugraha</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/PJPQCAYwVT7iQndJ6" target="_blank">Jl. Balai Pustaka Baru No.19, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220</a></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>3172061</td>
+                    <td>RS dr. Esnawan Antariksa</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/ufm3pyUYkZDLmp9Q8" target="_blank">Jl. Merpati No.2, Halim Perdana Kusuma, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13610</a></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>3172769</td>
+                    <td>RS dr. Euis</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/ofjLupsBvfVT1p938" target="_blank">Jl. H. Naman No.3, Pondok Kelapa, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13450</a></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>3172746</td>
+                    <td>RS Duren Sawit</td>
+                    <td>RS Jiwa</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/LQ9BdfdUEh4dSsn59" target="_blank">Jl. Duren Sawit Baru No.2, Pondok Bambu, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13430</a></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>3172724</td>
+                    <td>RS Haji Jakarta</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/vAJmqjDSYCy3jAoLA" target="_blank">Jl. Raya Pondok Gede No.4, Lubang Buaya, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13650</a></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>3172553</td>
+                    <td>RS Harapan Bunda</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/9tRYSyYA2nt9h5PJ9" target="_blank">Jl. Raya Bogor No.42, Rambutan, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13830</a></td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>3172531</td>
+                    <td>RS Harapan Jayakarta</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/PoJhBPJLAmJfADEh7" target="_blank">Jl. Raya Bekasi No.18, Jatinegara, Kec. Cakung, Kota Jakarta Timur, DKI Jakarta 13030</a></td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>3172520</td>
+                    <td>RS Harum Sisma Medika</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/Aycy7ov2PgqjXqsk6" target="_blank">Jl. Tarum Barat No.13, Cipinang Melayu, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13620</a></td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>3172243</td>
+                    <td>RS Hermina Jatinegara</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/mLithKd8XHVT5fdQA" target="_blank">Jl. Jatinegara Barat No.126, Kampung Melayu, Kec. Jatinegara, Kota Jakarta Timur, DKI Jakarta 13320</a></td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>3172505</td>
+                    <td>RS Islam Jakarta Pondokkopi</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/Kh9xkcqfPMP62WsRA" target="_blank">Jl. Pondok Kopi No.1, Pondok Kopi, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13460</a></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>3172735</td>
+                    <td>RS Islam Klender</td>
+                    <td>RS Jiwa</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/LMTNwmStj6uwZyBZ9" target="_blank">Jl. Bunga Rampai X No.8, Malaka Jaya, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13460</a></td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>3172755</td>
+                    <td>RS Jantung Jakarta</td>
+                    <td>RS Jantung</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/LXgykmpV66W9vE1HA" target="_blank">Jl. Matraman Raya No.23, Palmeriam, Kec. Matraman, Kota Jakarta Timur, DKI Jakarta 13140</a></td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>3172516</td>
+                    <td>RS Kartika Pulomas</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/ya2wHvfU7uAyM9RPA" target="_blank">Jl. Pulo Mas Timur No.2, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210</a></td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>3172083</td>
+                    <td>RS Kesdam Jaya</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/3ck3wMr1hHUnV6sH9" target="_blank">Jl. Mahoni No.2, Gedong, Kec. Pasar Rebo, Kota Jakarta Timur, DKI Jakarta 13760</a></td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>3171435</td>
+                    <td>RS Ketergantungan Obat</td>
+                    <td>RS Jiwa</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/wEski91WV24NFBhD6" target="_blank">Jl. Lapangan Tembak No.75, Cibubur, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13720</a></td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>3172713</td>
+                    <td>RS Mediros</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/4Ty77ocowJMytRnU7" target="_blank">Jl. Perintis Kemerdekaan No.149, Pulo Gadung, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13260</a></td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>3173084</td>
+                    <td>RS Ridwan Meuraksa</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/Fc1hGBd6bYQqLGEZ9" target="_blank">Jl. Taman Mini I No.4, Pinang Ranti, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13560</a></td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>3172766</td>
+                    <td>RS Olahraga Nasional</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/LfSUeLt8gLn9RTtx6" target="_blank">Jl. Jambore No.1, Cibubur, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13720</a></td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>3172495</td>
+                    <td>RS Omni Pulomas</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/GxVGiBLGsyMr4qio7" target="_blank">Jl. Pulo Mas Barat VI No.20, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210</a></td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>3172035</td>
+                    <td>RS Pengayoman Cipinang</td>
+                    <td>RS</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/xM6mj8EX3qfSf4Sr8" target="_blank">Jl. Raya Bekasi Timur No.170, Cipinang Besar Utara, Kec. Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450</a></td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>3172206</td>
+                    <td>RS Premier Jatinegara</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/yx4DupWUwrNMjTZz5" target="_blank">Jl. Jatinegara Timur III No.50, Rawa Bunga, Kec. Jatinegara, Kota Jakarta Timur, DKI Jakarta 13310</a></td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>3172749</td>
+                    <td>RS Pusat Otak Nasional</td>
+                    <td>RS Otak</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/m9iYouPLH3kfae9j6" target="_blank">Jl. Letjen M.T. Haryono Kav. 11, Cawang, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13630</a></td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>3172050</td>
+                    <td>RS Pusdikkes</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/DRHhzTafGpMF72o49" target="_blank">Jl. Raya Bogor No.24, Kramat Jati, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13510</a></td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td>3172767</td>
+                    <td>RS SMEC Jakarta</td>
+                    <td>RS Mata</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/ZUbEEgJx81StoBiz5" target="_blank">Jl. Pemuda No.36, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220</a></td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>3172094</td>
+                    <td>RS Universitas Kristen Indonesia</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/n34mUuBMBAAewA847" target="_blank">Jl. Mayjen Sutoyo No.2, Cawang, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13530</a></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>3172590</td>
+                    <td>RS Yadika Pondokbambu</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/xgd6HLt2vdxpF8UXA" target="_blank">Jl. Pahlawan Revolusi No.47, Pondok Bambu, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13430</a></td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>3172770</td>
+                    <td>RSIA Alvernia Agusta</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/ViA96YnVB4QrJKhG6" target="_blank">Jl. Pemuda No.80, Jati, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220</a></td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td>3172748</td>
+                    <td>RSIA Bunda Aliyah Pondokbambu</td>
+                    <td>RSIA</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/dAp4rhx91iNjrMGP7" target="_blank">Jl. Pahlawan Revolusi No.100, Pondok Bambu, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13430</a></td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>3172760</td>
+                    <td>RSIA El-Shama</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/wvvfH9mSCAWec5sR8" target="_blank">Jl. Raya Bogor No.20, Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540</a></td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td>3172759</td>
+                    <td>RSIA Restu Kasih</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/2Wj4nAjz2ypkPsKK8" target="_blank">Jl. Raya Bogor No.3A, Kramat Jati, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13510</a></td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>3172756</td>
+                    <td>RSIA Sammrie Basra</td>
+                    <td>RSIA</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/stW5XQ75mDkVfSSY9" target="_blank">Jl. Jend. Basuki Rachmat No.31, Pondok Bambu, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13420</a></td>
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td>3172137</td>
+                    <td>RSIA Sayyida</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/XejedVkRU1R5YJA6A" target="_blank">Jl. Taman Malaka Selatan No.6, Pondok Kelapa, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13450</a></td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td>3172013</td>
+                    <td>RSUP Persahabatan</td>
+                    <td>RSU</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/TcXsXAp9V2DDpixe6" target="_blank">Jl. Persahabatan No.1, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13230</a></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- JS CHATBOT -->
+    <script src="../static/js/app.js"></script>
+    <!-- END JS CHATBOT -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[2];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }       
+            }
+        }
+</script>
+  </body>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>JakSehat | Platform Cepat Tanggap Kesehatan DKI Jakarta</title>
+
+    <!-- File CSS -->
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: #021D54;
+            color: #FFFFFF;
+        }
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar{
+            width: 85%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-brand{
+            cursor: pointer;
+        }
+        .nav-link{
+            font-size: 16.5px;
+        }
+        table{
+            width: 95%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #021D54;
+        }
+        .ui-jaksehat{
+            border-radius: 10px;
+        }
+        p{
+            color: #FFFFFF;
+        }
+        h1{
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        .col{
+            margin: auto;
+        }
+        a{
+            color: #FFFFFF;
+        }
+        .nav-link:hover{
+            border-bottom: 2px solid #ffffff;
+        }
+        button{
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #FFFFFF;
+            background: transparent;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        button:hover{
+            background: #FFFFFF;
+            color: #021D54;
+        }
+        tr, th, td{
+            border: 1px solid #FFFFFF;
+        }
+        #myInput{
+            width: 75%;
+            padding: 10px 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Banner: Navbar dan Container -->
+    <div class="banner" style="background-color: #021D54;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #021D54;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ url_for('home') }}">
+                    <img src="../static/images/logo-bw.png" class="logo-brand" alt="Logo" width="180" height="50">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{ url_for('rs') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">Help</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <div class="container">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cari Nama Rumah Sakit di Jakarta Pusat.." title="Ketik Nama Rumah Sakit">
+            <table table-hover table-dark id="myTable">
+                <tr class="header">
+                    <th style="width:2%;">No.</th>
+                    <th style="width:5%;">Kode</th>
+                    <th style="width:20%;">Nama Rumah Sakit</th>
+                    <th style="width:12%;">Jenis</th>
+                    <th style="width:2%;">Tipe</th>
+                    <th style="width:59%;">Alamat (Link Google Maps)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3173700</td>
+                    <td>RSUD Cempakaputih</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/AE7m4Kynq2f8TXp76" target="_blank">Jl. Rawasari Selatan No.1, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3173701</td>
+                    <td>RSUD Joharbaru</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://g.page/rsudjoharbaru?share" target="_blank">Jl. Tanah Tinggi XII No.15, Tanah Tinggi, Kec. Johar Baru, Kota Jakarta Pusat, DKI Jakarta 10540</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3173699</td>
+                    <td>RSUD Kemayoran</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/nWSref4ZZmFHhu4r8" target="_blank">Jl. Serdang Baru I No.3, Serdang, Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10650</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>3173698</td>
+                    <td>RSUD Sawahbesar</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/gFVW51hqADM2zCwj7" target="_blank">Jl. Dwiwarna Raya No.6, Karang Anyar, Kec. Sawah Besar, Kota Jakarta Pusat, DKI Jakarta 10740</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>3173705</td>
+                    <td>RSUD Tanahabang</td>
+                    <td>RSUD</td>
+                    <td>D</td>
+                    <td><a href="https://goo.gl/maps/FiG1AKFNXkY3Z3fF6" target="_blank">Jl. KH. Mas Mansyur No.30, Kebon Kacang, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10240</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>3173521</td>
+                    <td>RSUD Tarakan Jakarta</td>
+                    <td>RSUD</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/aJS9nGnZgfRP5uyN7" target="_blank">Jl. Kyai Caringin No.7, Cideng, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10150</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>3173036</td>
+                    <td>RSAL dr. Mintohardjo</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/Pi2ckqKf3PGd6kvE9" target="_blank">Jl. Bendungan Hilir No.17, Bendungan Hilir, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10210</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>3173543</td>
+                    <td>RS Abdi Waluyo</td>
+                    <td>RS</td>
+                    <td>A</td>
+                    <td><a href="https://g.page/rsabdiwaluyo?share" target="_blank">Jl. HOS. Cokroaminoto No.31, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>3173634</td>
+                    <td>RS Bina Estetika</td>
+                    <td>RS Bedah</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/BinaEstetika?share" target="_blank">Jl. Teuku Cik Ditiro No.41, Menteng, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10310</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>3173131</td>
+                    <td>RS Dharma Jaya</td>
+                    <td>RS Jiwa</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/WXDJALHGUcy9eqww7" target="_blank">Jl. Mangga Besar No.138, Mangga Dua Selatan, Kec. Sawah Besar, Kota Jakarta Pusat, DKI Jakarta 10730</a></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>3173496</td>
+                    <td>RS Dharma Sakti</td>
+                    <td>RS Jiwa</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/wuyhs8R6FoiKUYVXA" target="_blank">Jl. Kaji No.40 Petojo Utara, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10130</a></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>3173671</td>
+                    <td>RS FKG Universitas Indonesia</td>
+                    <td>RS Gigi &amp; Mulut</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/RPVZvKxKicgSK12h7" target="_blank">Jl. Salemba Raya No.4, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430</a></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>3173706</td>
+                    <td>RS Hermina Kemayoran</td>
+                    <td>RS</td>
+                    <td>A</td>
+                    <td><a href="https://g.page/herminakemayoran?share" target="_blank">Jl. Selangit No.10, Gunung Sahari Selatan Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10620</a></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>3173040</td>
+                    <td>RS Husada</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/WHzuLWEzuXdZ44bA6" target="_blank">Jl. Mangga Besar No.137, Mangga Dua Selatan, Kec. Sawah Besar, Kota Jakarta Pusat, DKI Jakarta 10730</a></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>3173073</td>
+                    <td>RS Islam Jakarta</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/UB7a7Cv3DEPeEaww8" target="_blank">Jl. Cempaka Putih Tengah I No.1, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510</a></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>3173623</td>
+                    <td>RS Jakarta Eye Center Menteng</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/rs-mata-jec-menteng?share" target="_blank">Jl. Teuku Cik Ditiro No.46, Menteng, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10310</a></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>3173244</td>
+                    <td>RS Kramat Lima</td>
+                    <td>RS Bedah</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/uVottLgroavXpaeo8" target="_blank">Jl. Kramat V No.6, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430</a></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>3173580</td>
+                    <td>RS Kramat 128</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/ao3jjuNAhRPCFAaJ8" target="_blank">Jl. Kramat Raya No.128, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430</a></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>3173645</td>
+                    <td>RS Menteng Mitra Afia</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://g.page/RSU-MMA?share" target="_blank">Jl. Kali Pasir No.9, Kebon Sirih, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10340</a></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>3173656</td>
+                    <td>RS Mitra Keluarga Kemayoran</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/MIKAKemayoran?share" target="_blank">Jl. HBR. Motik No.12, Kebon Kosong, Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10630</a></td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>3173658</td>
+                    <td>RS Murni Teguh Sudirman</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/Dg9qyxyWH24guV6N6" target="_blank">Jl. Jend. Sudirman No.86, Karet Tengsin, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10220</a></td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>3173510</td>
+                    <td>RS Panti Raharja</td>
+                    <td>RS THT</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/fers8nLCbDtGSwDC8" target="_blank">Jl. Sawo No.56, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350</a></td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>3173474</td>
+                    <td>RS Pertamina Jaya</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/dscWUAXMCX1TkUSk9" target="_blank">Jl. Jend. Ahmad Yani No.2, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510</a></td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>3173062</td>
+                    <td>RS PGI Cikini</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/3v6N4kUmqf6bHjmg6" target="_blank">Jl. Raden Saleh No.40, Cikini, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10330</a></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>3173441</td>
+                    <td>RS Primaya Evasari</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/TTqfd6DTDjnXj92H6" target="_blank">Jl. Rawamangun No.47, Rawasari, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10570</a></td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>3173612</td>
+                    <td>RS Prof. dr. Nizar</td>
+                    <td>RS THT</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/qpLPMQmttfynmb8S6" target="_blank">Jl. Kesehatan No.9, Petojo Selatan, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10160</a></td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>3173532</td>
+                    <td>RS Proklamasi</td>
+                    <td>RS Bedah</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/thtproklamasi?share" target="_blank">Jl. Proklamasi No.43, Pegangsaan, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10320</a></td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>3173506</td>
+                    <td>RS Radjak Salemba</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/gXcYGodhAU5QRx5TA" target="_blank">Jl. Salemba Tengah No.24, Paseban, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10440</a></td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>3173697</td>
+                    <td>RS RE. Martadinata</td>
+                    <td>RS Gigi &amp; Mulut</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/QqKgF9gyh7oByR986" target="_blank">Jl. Farmasi No.1, Bendungan Hilir, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10210</a></td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>3171768</td>
+                    <td>RS Sahid Sahirman</td>
+                    <td>RS</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/EmVTxvpT7Tiu1Qmi8" target="_blank">Jl. Jend. Sudirman No.82, Karet Tengsin, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10250</a></td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>3173704</td>
+                    <td>RS Salemba Satu</td>
+                    <td>RS Bedah</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/CouCDbT6fFycDZyS8" target="_blank">Jl. Salemba I No.11, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430</a></td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>3173051</td>
+                    <td>RS Sint Carolus</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/dczhySvtkxD6ucxv5" target="_blank">Jl. Salemba Raya No.41, Paseban, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10440</a></td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>3173712</td>
+                    <td>RS Yarsi Jakarta</td>
+                    <td>RS</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/rumahsakityarsi?share" target="_blank">Jl. Letjend Suprapto No.13, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510</a></td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>3173372</td>
+                    <td>RSIA Angkasa</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/Yw2zGGVEcSbuB7dCA" target="_blank">Jl. Budi Kemuliaan No.12, Gambir, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10110</a></td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>3173682</td>
+                    <td>RSIA Berkat Ibu</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/wmjSLTUpBScgj7FR9" target="_blank">Jl. Sumur Batu Raya No.13, Cempaka Baru, Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10640</a></td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>3173105</td>
+                    <td>RSIA Budi Kemuliaan</td>
+                    <td>RSIA</td>
+                    <td>B</td>
+                    <td><a href="https://g.page/rumah-sakit-budi-kemuliaan?share" target="_blank">Jl. Budi Kemuliaan No.25, Gambir, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10110</a></td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>3173120</td>
+                    <td>RSIA Bunda Jakarta</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/vXq34zqowd8JCXo67" target="_blank">Jl. Teuku Cik Ditiro No.28, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350</a></td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td>3173695</td>
+                    <td>RSIA Tambak</td>
+                    <td>RSIA</td>
+                    <td>C</td>
+                    <td><a href="https://goo.gl/maps/gGfZiYh3USWZAX7u5" target="_blank">Jl. Tambak No.18, Pegangsaan, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10320</a></td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>3173116</td>
+                    <td>RSIA YPK Mandiri</td>
+                    <td>RSIA</td>
+                    <td>B</td>
+                    <td><a href="https://goo.gl/maps/q7QMbhW8NBh1kZWV9" target="_blank">Jl. Gereja Theresia No.22, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350</a></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>3173025</td>
+                    <td>RSPAD Gatot Soebroto</td>
+                    <td>RSU</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/Maf3R31VtaS9eoNB9" target="_blank">Jl. Abdul Rahman Saleh No.24, Senen, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10410</a></td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>3173014</td>
+                    <td>RSUPN dr. Cipto Mangunkusumo</td>
+                    <td>RSU</td>
+                    <td>A</td>
+                    <td><a href="https://goo.gl/maps/zHAwjaMXKo7ygjm37" target="_blank">Jl. Pangeran Diponegoro No.71, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430</a></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- JS CHATBOT -->
+    <script src="../static/js/app.js"></script>
+    <!-- END JS CHATBOT -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[2];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }       
+            }
+        }
+</script>
+  </body>
+</html>

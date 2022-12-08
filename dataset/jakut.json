@@ -1,0 +1,170 @@
+{"intents": [
+        {"tag": "RS Mitra Keluarga Kelapa Gading",
+         "patterns": ["Rumah Sakit Mitra Keluarga Kelapa Gading", "Rumah Sakit Mitra Keluarga", "3175385", "RS Mitra Keluarga Kelapa Gading", "RS Mitra Keluarga", "Mitra Keluarga Kelapa Gading", "Kelapa Gading"],
+         "responses": ["RS Mitra Keluarga Kelapa Gading, Jl. Raya Gading Kirana No.2, Kelapa Gading Barat, Kec. Kelapa Gading, Kota Jakarta Utara, DKI Jakarta 14240 || <a href='https://goo.gl/maps/K6Ey6vom8W9K5imD6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSUD Koja",
+         "patterns": ["Rumah Sakit Umum Daerah Koja", "Rumah Sakit Koja", "3175016", "RSUD Koja", "RS Koja", "Koja"],
+         "responses": ["RSUD Koja, Jl. Deli No.4, Koja, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14220 || <a href='https://goo.gl/maps/BsV3cs541n4jgAWm9' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSUD Pademangan",
+         "patterns": ["Rumah Sakit Umum Daerah Pademangan", "Rumah Sakit Pademangan", "3175016", "RSUD Pademangan", "RS Pademangan", "Pademangan"],
+         "responses": ["RSUD Pademangan, Jl. Budi Mulia Raya No.2, Pademangan Barat, Kec. Pademangan, Kota Jakarta Utara, DKI Jakarta 14420 || <a href='https://goo.gl/maps/izmYB1Z23ERwi8jr7' target='_blank'>Maps</a> "],
+         "context_set": ""
+        },
+
+        {"tag": "RSUD Tanjung Priok",
+         "patterns": ["Rumah Sakit Umum Daerah Tanjung Priok", "Rumah Sakit Tanjung Priok", "3175416", "RSUD Tanjung Priok", "RS Tanjung Priok", "Tanjung Priok"],
+         "responses": ["RSUD Tanjungpriok, Jl. Bugis No.3, Kebon Bawang, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14320 || <a href='https://goo.gl/maps/nB2XhbTr6a4N1xps6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSUD Tugu Koja",
+         "patterns": ["Rumah Sakit Umum Daerah Tugu Koja", "Rumah Sakit Tugu Koja", "3175412", "RSUD Tugu Koja", "RS Tugu Koja", "Tugu Koja"],
+         "responses": ["RSUD Tugu Koja, Jl. Walang Permai No.39, Tugu Utara, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14260 || <a href='https://g.page/rsud_tugukoja?share' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS Atma Jaya",
+         "patterns": ["Rumah Sakit Atma Jaya", "RS Atma Jaya", "3175031", "Atma Jaya"],
+         "responses": ["RS Atma Jaya, Jl. Pluit Raya No.2, Penjaringan, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14440 || <a href='https://goo.gl/maps/tXEuFqEr3xWJ5jCv6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS Darurat Wisma Atlet",
+         "patterns": ["Rumah Sakit Darurat Wisma Atlet", "Rumah Sakit Wisma Atlet", "3175182", "RS Darurat Wisma Atlet", "RS Wisma Atlet", "Wisma Atlet"],
+         "responses": ["RS Darurat Wisma Atlet, Jl. Rd.H. Keneng Mudatsir No.13, Pademangan Timur, Kec. Pademangan, Kota Jakarta Utara, DKI Jakarta 14360 || <a href='https://goo.gl/maps/bm2oHAyTV2WB3oEq5' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS Duta Indah",
+         "patterns": ["Rumah Sakit Duta Indah", "RS Duta Indah", "3175411", "Duta Indah"],
+         "responses": ["RS Duta Indah, Jl. Teluk Gong Raya No.12, Pejagalan, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14450 || <a href='https://goo.gl/maps/M6np9deLbQSL5TaH6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS Hermina Podomoro",
+         "patterns": ["Rumah Sakit Hermina Podomoro", "RS Hermina Podomoro", "3175412", "Hermina Podomoro", "Podomoro"],
+         "responses": ["RS Hermina Podomoro, Jl. Danau Agung II No.3, Sunter Agung, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14350 || <a href='https://g.page/rumah-sakit-hermina-podomoro?share' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS Islam Jakarta Sukapura",
+         "patterns": ["Rumah Sakit Islam Jakarta Sukapura", "RS Islam Jakarta Sukapura", "3175326", "Rumah Sakit Islam Sukapura", "RS Islam Sukapura", "Sukapura"],
+         "responses": ["RS Islam Jakarta Sukapura, Jl. Tipar Cakung No.5, Sukapura, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://g.page/rsislamjakartasukapura?share' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS Primasana",
+         "patterns": ["Rumah Sakit Primasana", "RS Primasana", "3175417", "Primasana"],
+         "responses": ["RS Primasana, Jl. Kebon Bawang No.1, Kebon Bawang, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14320 || <a href='https://goo.gl/maps/QVQKbDh2XymALaVb8' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS dr. Sulianti Saroso",
+         "patterns": ["Rumah Sakit dr. Sulianti Saroso", "RS dr. Sulianti Saroso", "3175064", "RS Sulianti Saroso", "dr. Sulianti Saroso", "Sulianti Saroso"],
+         "responses": ["RS dr. Sulianti Saroso, Jl. Sunter Permai Raya No.2, Papanggo, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14340 || <a href='https://goo.gl/maps/qrFVaxkDNE7mTXdm9' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RS Royal Progress",
+         "patterns": ["Rumah Sakit Royal Progress", "RS Royal Progress", "3175330", "Royal Progress"],
+         "responses": ["RS Royal Progress, Jl. Danau Sunter Utara No.14, Sunter Agung, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14350 || <a href='https://g.page/reviewrsrp?share' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSIA Family",
+         "patterns": ["Rumah Sakit Ibu dan Anak Family", "RSIA Family", "3175363", "RS Family", "Family"],
+         "responses": ["RSIA Family, Jl. Pluit Mas I No.5A, Pejagalan, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14450 || <a href='https://goo.gl/maps/SWLagRhGwRSUp3iS6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSIA Grand Family",
+         "patterns": ["Rumah Sakit Ibu dan Anak Grand Family", "RSIA Grand Family", "3175409", "Grand Family"],
+         "responses": ["RSIA Grand Family, Jl. Pantai Indah Selatan No.1, Kamal Muara, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14470 || <a href='https://goo.gl/maps/Wxy9Jq5bx4CdcQS17' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSIA Santo Yusuf",
+         "patterns": ["Rumah Sakit Ibu da Anak Santo Yusuf", "RSIA Santo Yusuf", "3174509", "RS Santo Yusuf", "Santo Yusuf"],
+         "responses": ["RSIA Santo Yusuf, Jl. Ganggeng Raya No.9, Sungai Bambu, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://goo.gl/maps/sWUMq4LqD7XEbugBA' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Firdaus",
+         "patterns": ["Rumah Sakit Umum Firdaus", "RSU Firdaus", "3175408", "RS Firdaus", "Firdaus"],
+         "responses": ["RSU Firdaus, Jl. Siak No.14, Sukapura, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://goo.gl/maps/JBMHakKuc4uGbdsw5' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Gading Pluit",
+         "patterns": ["Rumah Sakit Umum Gading Pluit", "RSU Gading Pluit", "3175407", "Rumah Sakit Gading Pluit", "Gading Pluit"],
+         "responses": ["RSU Gading Pluit, Jl. Boulevard Timur No.1, Pegangsaan Dua, Kec. Kelapa Gading, Kota Jakarta Utara, DKI Jakarta 14250 || <a href='https://goo.gl/maps/3cToVNHAyQ94fizj6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Mulyasari",
+         "patterns": ["Rumah Sakit Umum Mulyasari", "RSU Mulyasari", "3175075", "RS Mulyasari", "Rumah Sakit Mulyasari", "Mulyasari"],
+         "responses": ["RSU Mulyasari, Jl. Plumpang Semper No.19, Tugu Utara, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14260 || <a href='https://goo.gl/maps/whX8LCjxE3sc5pR86' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Pantai Indah Kapuk",
+         "patterns": ["Rumah Sakit Umum Pantai Indah Kapuk", "RSU Pantai Indah Kapuk", "3175352", "RS Pantai Indah Kapuk", "Rumah Sakit Pantai Indah Kapuk", "Pantai Indah Kapuk"],
+         "responses": ["RSU Pantai Indah Kapuk, Jl. Pantai Indah Utara III, Kapuk Muara, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14460 || <a href='https://goo.gl/maps/jtrLrygT66ybrnkAA' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Pekerja",
+         "patterns": ["Rumah Sakit Umum Pekerja", "RSU Pekerja", "3175410", "Rumah Sakit Pekerja", "RS Pekerja", "Pekerja"],
+         "responses": ["RSU Pekerja, Jl. Tipar Cakung No.46, Sukapura, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://goo.gl/maps/WQ5tj8a2CtzhHsw98' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Pelabuhan Jakarta",
+         "patterns": ["Rumah Sakit Umum Pelabuhan Jakarta", "RSU Pelabuhan Jakarta", "3175042", "Rumah Sakit Pelabuhan Jakarta", "RS Pelabuhan Jakarta", "Pelabuhan Jakarta"],
+         "responses": ["RSU Pelabuhan Jakarta, Jl. Kramat Jaya Raya No.1, Tugu Utara, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14260 || <a href='https://goo.gl/maps/vmHkjBb7JjAY2gw16' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Pluit",
+         "patterns": ["Rumah Sakit Umum Pluit", "RSU Pluit", "3175341", "Rumah Sakit Pluit", "RS Pluit", "Pluit"],
+         "responses": ["RSU Pluit, Jl. Pluit Selatan Raya No.2, Pluit, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14450 || <a href='https://goo.gl/maps/zGMjWrxfbDzLpJQDA' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Port Medical Center",
+         "patterns": ["Rumah Sakit Umum Port Medical Center", "RSU Port Medical Center", "3175396", "Rumah Sakit Port Medical Center", "RS Port Medical Center", "Port Medical Center"],
+         "responses": ["RSU Port Medical Center, Jl. Enggano No.10, Tanjung Priok, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14310 || <a href='https://goo.gl/maps/5BnS7nmnsdjHbVKE7' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Puri Medika",
+         "patterns": ["Rumah Sakit Umum Puri Medika", "RSU Puri Medika", "3175374", "Rumah Sakit Puri Medika", "RS Puri Medika", "Puri Medika"],
+         "responses": ["RSU Puri Medika, Jl. Sungai Bambu Raya No.5, Sungai Bambu, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14320 || <a href='https://goo.gl/maps/vAtQeW62H59HKCLf6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Satya Negara",
+         "patterns": ["Rumah Sakit Umum Satya Negara", "RSU Satya Negara", "3175315", "Rumah Sakit Satya Negara", "RS Satya Negara", "Satya Negara"],
+         "responses": ["RSU Satya Negara, Jl. Agung Utara XXIV No.1, Sunter Agung, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14350 || <a href='https://goo.gl/maps/UDp7L2hR9ZRZFu9i6' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSU Sukmul Sisma Medika",
+         "patterns": ["Rumah Sakit Umum Sukmul Sisma Medika", "RSU Sukmul Sisma Medika", "3175181", "Rumah Sakit Sukmul Sisma Medika", "RS Sukmul Sisma Medika", "Sukmul Sisma Medika"],
+         "responses": ["RSU Sukmul Sisma Medika, Jl. Tenggiri No 18, Tanjung Priok, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14310 || <a href='https://goo.gl/maps/H6uuG3wbcyn5Fx3v8' target='_blank'>Maps</a>"],
+         "context_set": ""
+        },
+
+        {"tag": "RSUD Cilincing",
+         "patterns": ["Rumah Sakit Umum Daerah Cilincing", "RSUD Cilincing", "3175414", "Rumah Sakit Cilincing", "RS Cilincing", "Cilincing"],
+         "responses": ["RSUD Cilincing, Jl. Madya Kebantenan No.4, Semper Timur, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14130 || <a href='https://goo.gl/maps/nnP5sLdqzcWLCdXX7' target='_blank'>Maps<"],
+         "context_set": ""
+        }
+   ]
+}

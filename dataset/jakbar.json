@@ -1,0 +1,413 @@
+{
+  "intents": [
+    {
+      "tag": "RSUD Cengkareng",
+      "patterns": [
+        "Rumah Sakit Cengkareng",
+        "3174074",
+        "Cengkareng",
+        "RS Cengkareng",
+        "RSUD Cengkareng"
+      ],
+      "responses": [
+        "RSUD Cengkareng, Lokasi: Jl. Bumi Cengkareng Indah No.1, Cengkareng Timur, Kec. Cengkareng, Kota Jakarta Barat, DKI Jakarta 11730 || <a href='https://goo.gl/maps/R2BCsGwYETz4Qrwr5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kembangan",
+      "patterns": [
+        "Rumah Sakit Kembangan",
+        "3174517",
+        "Kembangan",
+        "RS Kembangan",
+        "RSUD Kembangan"
+      ],
+      "responses": [
+        "RSUD Kembangan, Lokasi: Jl. Bumi Cengkareng Indah No.1, Cengkareng Timur, Kec. Cengkareng, Kota Jakarta Barat, DKI Jakarta 11730 || <a href='https://goo.gl/maps/caufCMm9eU191KZL6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kalideres",
+      "patterns": [
+        "Rumah Sakit Kalideres",
+        "3174518",
+        "Kalideres",
+        "RS Kalideres",
+        "RSUD Kalideres"
+      ],
+      "responses": [
+        "RSUD Kalideres, Lokasi: Jl. Satu Maret No.48, Pegadungan, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11830 || <a href='https://goo.gl/maps/pGR6QvQ5QksJfMM4A' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Taman Sari",
+      "patterns": [
+        "Rumah Sakit Taman Sari",
+        "3174525",
+        "Taman Sari",
+        "RS Taman Sari",
+        "RSUD Taman Sari"
+      ],
+      "responses": [
+        "RSUD Taman Sari, Lokasi: Jl. Madu No.10A, Mangga Besar, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11180 || <a href='https://goo.gl/maps/xZnNNNCBw4EyKyxC9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Cendana",
+      "patterns": ["Rumah Sakit Cendana", "3174529", "Cendana", "RS Cendana"],
+      "responses": [
+        "RS Cendana, Lokasi: Jl. Kedoya Raya No.2, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://goo.gl/maps/qtMcR8cXiTQVeCL37' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Ciputra Citragarden",
+      "patterns": [
+        "Rumah Sakit Ciputra Citragarden",
+        "3174522",
+        "Ciputra Citragarden",
+        "RS Ciputra Citragarden"
+      ],
+      "responses": [
+        "RS Ciputra Citragarden, Lokasi: Jl. Satu Maret No.26, Pegadungan, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11830 || <a href='https://g.page/ciputrahospital?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharmais",
+      "patterns": [
+        "Rumah Sakit Dharmais",
+        "3174063",
+        "Dharmais",
+        "RS Dharmais"
+      ],
+      "responses": [
+        "RS Dharmais, Lokasi: Jl. Letjen S. Parman No.84, Kota Bambu Selatan, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11420 || <a href='https://goo.gl/maps/H2Eq9QTXCTYL9H6t7' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS dr. Soeharto Heerjan",
+      "patterns": [
+        "Rumah Sakit dr. Soeharto Heerjan",
+        "Rumah Sakit Soeharto Heerjan",
+        "3174041",
+        "dr. Soeharto Heerjan",
+        "Soeharto Heerjan",
+        "RS dr. Soeharto Heerjan",
+        "RS Soeharto Heerjan"
+      ],
+      "responses": [
+        "RS dr. Soeharto Heerjan, Lokasi: Jl. Prof. Dr. Latumeten No.1, Jelambar, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11460 || <a href='https://g.page/rsjsh?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Hermina Daan Mogot",
+      "patterns": [
+        "Rumah Hermina Daan Mogot",
+        "3174431",
+        "Hermina Daan Mogot",
+        "RS Hermina Daan Mogot"
+      ],
+      "responses": [
+        "RS Hermina Daan Mogot, Lokasi: Jl. Kintamani Raya No.2, Kalideres, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11840 || <a href='https://g.page/RSHDMG?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Jakarta Eye Center Kedoya",
+      "patterns": [
+        "Rumah Sakit Jakarta Eye Center Kedoya",
+        "3174515",
+        "Jakarta Eye Center Kedoya",
+        "RS Jakarta Eye Center Kedoya"
+      ],
+      "responses": [
+        "RS Jakarta Eye Center Kedoya, Lokasi: Jl. Arjuna Utara No.1, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://g.page/rs-mata-JEC-kedoya?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mitra Keluarga Kalideres",
+      "patterns": [
+        "Rumah Sakit Mitra Keluarga Kalideres",
+        "3174519",
+        "Mitra Keluarga Kalideres",
+        "RS Mitra Keluarga Kalideres"
+      ],
+      "responses": [
+        "RS Mitra Keluarga Kalideres, Lokasi: Jl. Peta Selatan No.1, Kalideres, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11840 || <a href='https://goo.gl/maps/f1V7R8diP7U9Ez166' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Pelni Petamburan",
+      "patterns": [
+        "Rumah Sakit Pelni Petamburan",
+        "3174026",
+        "Pelni Petamburan",
+        "RS Pelni Petamburan"
+      ],
+      "responses": [
+        "RS Pelni Petamburan, Lokasi: Jl. Ks. Tubun No.92, Slipi, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11410 || <a href='https://goo.gl/maps/YrxDQFmbffxeS3d99' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Pendidikan Ukrida",
+      "patterns": [
+        "Rumah Sakit Pendidikan Ukrida",
+        "3174527",
+        "Pendidikan Ukrida",
+        "RS Pendidikan Ukrida"
+      ],
+      "responses": [
+        "RS Pendidikan Ukrida, Lokasi: Jl. Arjuna Utara No.145, Duri Kepa, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11510 || <a href='https://goo.gl/maps/SpGwtK84F8QMJWhJ9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam Kebon Jeruk",
+      "patterns": [
+        "Rumah Sakit Siloam Kebon Jeruk",
+        "3174351",
+        "Siloam Kebon Jeruk",
+        "RS Siloam Kebon Jeruk"
+      ],
+      "responses": [
+        "RS Siloam Kebon Jeruk, Lokasi: Jl. Perjuangan No.8, Kebon Jeruk, Kec. Kebon Jeruk, Jakarta, DKI Jakarta 11530 || <a href='https://g.page/siloamkebonjeruk?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Anggrek Mas",
+      "patterns": [
+        "Rumah Sakit Anggrek Mas",
+        "Rumah Sakit Ibu dan Anak Anggrek Mas",
+        "3174510",
+        "Anggrek Mas",
+        "RS Anggrek Mas",
+        "RSIA Anggrek Mas"
+      ],
+      "responses": [
+        "RSIA Anggrek Mas, Lokasi: Jl. Anggrek No.2, Kebon Jeruk, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11530 || <a href='https://goo.gl/maps/3D4PgBbzsxegpawG9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Aries",
+      "patterns": [
+        "Rumah Sakit Aries",
+        "Rumah Sakit Ibu dan Anak Aries",
+        "3174530",
+        "Aries",
+        "RS Aries",
+        "RSIA Aries"
+      ],
+      "responses": [
+        "RSIA Aries, Lokasi: Jl. Duri Raya No.22, Duri Utara, Kec. Tambora, Kota Jakarta Barat, DKI Jakarta 11270 || <a href='https://goo.gl/maps/mT4GYxrNUhGYhamu5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Harapan Kita",
+      "patterns": [
+        "Rumah Sakit Harapan Kita",
+        "3174260",
+        "Harapan Kita",
+        "RS Harapan Kita",
+        "RSIA Harapan Kita"
+      ],
+      "responses": [
+        "RSIA Harapan Kita, Lokasi: Jl. Letjen S. Parman No.87, Kota Bambu Utara, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11420 || <a href='https://goo.gl/maps/hQqJbSk1PWj4ECZeA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Ibnu Sina",
+      "patterns": [
+        "Rumah Sakit Ibnu Sina",
+        "3174516",
+        "Ibnu Sina",
+        "RS Ibnu Sina",
+        "RSIA Ibnu Sina"
+      ],
+      "responses": [
+        "RSIA Ibnu Sina, Lokasi: Jl. Dr. Nurdin I No.3, Grogol, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11450 || <a href='https://goo.gl/maps/CzCgyRgx2e3ruB638' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Bhakti Mulia",
+      "patterns": [
+        "Rumah Sakit Bhakti Mulia",
+        "3174030",
+        "Bhakti Mulia",
+        "RS Bhakti Mulia",
+        "RSU Bhakti Mulia"
+      ],
+      "responses": [
+        "RSU Bhakti Mulia, Lokasi: Jl. Ks. Tubun No.79, Slipi, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11410 || <a href='https://goo.gl/maps/SzSaKuabjRy7EPJ27' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Bina Sehat Mandiri",
+      "patterns": [
+        "Rumah Sakit Bina Sehat Mandiri",
+        "3174497",
+        "Bina Sehat Mandiri",
+        "RS Bina Sehat Mandiri",
+        "RSU Bina Sehat Mandiri"
+      ],
+      "responses": [
+        "RSU Bina Sehat Mandiri, Lokasi: Jl. Duri Raya No.22, Duri Kepa, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11510 || <a href='https://goo.gl/maps/uc8YU4KKQVej49Uc6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Graha Kedoya",
+      "patterns": [
+        "Rumah Sakit Graha Kedoya",
+        "3174052",
+        "Graha Kedoya",
+        "RS Graha Kedoya",
+        "RSU Graha Kedoya"
+      ],
+      "responses": [
+        "RSU Graha Kedoya, Lokasi: Jl. Panjang No.26, Kedoya Utara, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://g.page/rs-grha-kedoya-dki-jakarta?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Manuela",
+      "patterns": [
+        "Rumah Sakit Manuela",
+        "3174405",
+        "Manuela",
+        "RS Manuela",
+        "RSU Manuela"
+      ],
+      "responses": [
+        "RSU Manuela, Lokasi: Jl. Mangga Besar VIII No.23, Taman Sari, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11150 || <a href='https://goo.gl/maps/vKixKK9AJRBuDaHKA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Medika Permata Hijau",
+      "patterns": [
+        "Rumah Sakit Medika Permata Hijau",
+        "3174420",
+        "Medika Permata Hijau",
+        "RS Medika Permata Hijau",
+        "RSU Medika Permata Hijau"
+      ],
+      "responses": [
+        "RSU Medika Permata Hijau, Lokasi: Jl. Kebon Raya No.64, Sukabumi Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11560 || <a href='https://goo.gl/maps/LCUbW7wJtCUB94ndA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Patria IKKT",
+      "patterns": [
+        "Rumah Sakit Patria IKKT",
+        "3174416",
+        "Patria IKKT",
+        "RS Patria IKKT",
+        "RSU Patria IKKT"
+      ],
+      "responses": [
+        "RSU Patria IKKT, Lokasi: Jl. Cendrawasih No.1, Palmerah, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11480 || <a href='https://goo.gl/maps/cu7KoyNbUmMwffjR9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Puri Indah",
+      "patterns": [
+        "Rumah Sakit Puri Indah",
+        "3174508",
+        "Puri Indah",
+        "RS Puri Indah",
+        "RSU Puri Indah"
+      ],
+      "responses": [
+        "RSU Puri Indah, Lokasi: Jl. Puri Indah Raya No.2, Kembangan Selatan, Kec. Kembangan, Kota Jakarta Barat, DKI Jakarta 11610 || <a href='https://g.page/rspondokindahpuriindah?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Puri Mandiri Kedoya",
+      "patterns": [
+        "Rumah Sakit Puri Mandiri Kedoya",
+        "3174475",
+        "Medika Puri Mandiri Kedoya",
+        "RS Puri Mandiri Kedoya",
+        "RSU Puri Mandiri Kedoya"
+      ],
+      "responses": [
+        "RSU Puri Mandiri Kedoya, Lokasi: Jl. Raya Kedoya No.2, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://goo.gl/maps/zCAQVZaqrEYJdQRP9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Royal Taruma",
+      "patterns": [
+        "Rumah Sakit Royal Taruma",
+        "3174486",
+        "Royal Taruma",
+        "RS Royal Taruma",
+        "RSU Royal Taruma"
+      ],
+      "responses": [
+        "RSU Royal Taruma, Lokasi: Jl. Daan Mogot Kedaung No.34, Tanjung Duren Utara, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11470 || <a href='https://goo.gl/maps/rADdKB7WKhJCQTddA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Sumber Waras",
+      "patterns": [
+        "Rumah Sakit Sumber Waras",
+        "3174015",
+        "Sumber Waras",
+        "RS Sumber Waras",
+        "RSU Sumber Waras"
+      ],
+      "responses": [
+        "RSU Sumber Waras, Lokasi: Jl. Kyai Tapa No.1, Tomang, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11440 || <a href='https://g.page/rumah-sakit-sumber-waras?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    }
+  ]
+}

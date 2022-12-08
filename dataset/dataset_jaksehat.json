@@ -1,0 +1,3360 @@
+{
+  "intents": [
+    {
+      "tag": "Terpotong",
+      "patterns": [
+        "Apa yang harus dilakukan jika terkena luka Terpotong?",
+        "Bagaimana cara menyembuhkan luka Terpotong?",
+        "Obat apa yang harus diajukan untuk Luka yang Terpotong?",
+        "apa yang harus diterapkan pada luka potongan?",
+        "Terpotong"
+      ],
+      "responses": [
+        "1) Cuci luka dengan benar untuk mencegah infeksi dan hentikan pendarahan dengan menekan selama 1-2 menit sampai pendarahan berhenti. 2) Oleskan Petroleum Jelly untuk memastikan luka lembab agar cepat sembuh. 3) Terakhir tutup luka dengan perban steril. 4) Pereda nyeri seperti acetaminophen dapat diterapkan."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Lecet",
+      "patterns": [
+        "bagaimana cara mengobati luka lecet?",
+        "Apakah luka lecet menyebabkan bekas luka?",
+        "Lecet",
+        "Luka Lecet",
+        "apa yang harus dilakukan jika lecet?",
+        "Obat apa yang harus digunakan untuk lecet?",
+        "Bagaimana cara menyembuhkan lecet?"
+      ],
+      "responses": [
+        "1) Mulailah dengan mencuci tangan. 2) Bersihkan area dengan lembut dengan air dingin hingga hangat dan sabun lembut. 3) Buang kotoran atau partikel lain dari luka menggunakan pinset steril. 4) Untuk goresan ringan yang tidak berdarah, biarkan luka terbuka. 5) Jika luka berdarah, gunakan kain bersih atau perban, dan tekan area tersebut dengan lembut untuk menghentikan pendarahan. 6) Tutupi luka yang berdarah dengan lapisan tipis salep antibiotik topikal, seperti Bacitracin, atau salep penghalang kelembaban steril, seperti Aquaphor. 7) Tutup dengan perban atau kain kasa bersih. 8) Bersihkan luka dengan lembut dan ganti salep dan perban sekali sehari. 9) Perhatikan area tersebut dari tanda-tanda infeksi, seperti nyeri atau kemerahan dan bengkak. 10) Temui dokter Anda jika Anda mencurigai adanya infeksi."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Sengatan",
+      "patterns": [
+        "Bagaimana cara mengobati luka sengatan?",
+        "Sengatan",
+        "luka sengatan",
+        "Apa yang harus dilakukan jika Anda terkena sengatan?",
+        "Obat apa yang harus diterapkan jika terkena sengatan?"
+      ],
+      "responses": [
+        "1) Hapus semua penyengat segera. 2) Beberapa ahli merekomendasikan untuk mengikis penyengat dengan kartu kredit. 3) Menerapkan es ke situs dapat memberikan sedikit kelegaan. 4) Oleskan es selama 20 menit sekali setiap jam sesuai kebutuhan. 5) Bungkus es dengan handuk atau simpan kain di antara es dan kulit agar tidak membekukan kulit. 6) Mengambil antihistamin seperti diphenhydramine (Benadryl) atau yang tidak menenangkan seperti loratadine (Claritin) akan membantu mengatasi gatal dan bengkak. 7) Ambil acetaminophen (Tylenol) atau ibuprofen (Motrin) untuk menghilangkan rasa sakit sesuai kebutuhan. 8) Cuci situs yang tersengat dengan sabun dan air. 9) Menempatkan krim hidrokortison pada sengatan dapat membantu meredakan kemerahan, gatal, dan bengkak."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Terpecah",
+      "patterns": [
+        "Bagaimana menghapus pecahan?",
+        "Bagaimana cara menyembuhkan Pecahan?",
+        "Apa yang harus dilakukan jika saya memiliki pecahan?",
+        "Bagaimana Anda membawa pecahan ke permukaan?"
+      ],
+      "responses": [
+        "1) Rendahkan dalam garam Epsom. Larutkan secangkir garam ke dalam bak mandi air hangat dan rendam bagian tubuh mana pun yang memiliki serpihan. Jika tidak, Anda juga bisa memasukkan sebagian garam ke pembalut dan membiarkannya tertutup selama sehari; ini pada akhirnya akan membantu membawa serpihan itu ke permukaan. 2) Cuka atau minyak. Cara sederhana lain untuk menghilangkan serpihan yang membandel adalah dengan merendam area yang terkena dalam minyak (zaitun atau jagung) atau cuka putih. Cukup tuangkan beberapa ke dalam mangkuk dan rendam area tersebut selama sekitar 20 hingga 30 menit,"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Keseleo",
+      "patterns": [
+        "Bagaimana cara mengobati keseleo?",
+        "apa yang harus dilakukan jika saya mengalami keseleo?",
+        "Krim mana yang harus diterapkan jika saya keseleo?",
+        "Obat apa yang harus digunakan jika saya mengalami keseleo?"
+      ],
+      "responses": [
+        "1) Gunakan kompres es atau mandi lumpur es segera selama 15 hingga 20 menit dan ulangi setiap dua hingga tiga jam saat Anda bangun. 2) Untuk membantu menghentikan pembengkakan, kompres pergelangan kaki dengan perban elastis sampai pembengkakan berhenti. 3) Dalam kebanyakan kasus, pereda nyeri — seperti ibuprofen (Advil, Motrin IB, lainnya) atau naproxen sodium (Aleve, lainnya) atau acetaminophen (Tylenol, lainnya) cukup untuk mengatasi nyeri pergelangan kaki yang terkilir."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Tegang",
+      "patterns": [
+        "Bagaimana Anda mengobati ketegangan?",
+        "apa yang harus dilakukan jika saya terkena ketegangan?",
+        "Krim mana yang harus diterapkan jika saya mengalami ketegangan?",
+        "Obat mana yang harus diterapkan jika saya mengalami ketegangan?",
+        "Bagaimana Anda mendiagnosis suatu ketegangan?",
+        "Apakah panas atau es lebih baik untuk otot yang tertarik?"
+      ],
+      "responses": [
+        "1) Istirahat, Es, Kompresi dan Ketinggian dapat digunakan untuk menyembuhkan strain. 2) Hindari menggunakan otot Anda selama beberapa hari, terutama jika gerakan menyebabkan peningkatan rasa sakit dan juga oleskan es segera setelah melukai otot Anda. Ini akan meminimalkan pembengkakan. 3) Jangan menaruh es langsung di kulit Anda. Gunakan kompres es atau bungkus es dengan handuk. 4) Untuk mengurangi pembengkakan, bungkus area yang terkena dengan perban elastis sampai bengkak berkurang."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Demam",
+      "patterns": [
+        "Bagaimana cara mengobati Demam ringan?",
+        "apa yang harus dilakukan jika saya mengalami demam ringan?",
+        "Obat apa yang harus diminum jika saya demam ringan?",
+        "Demam"
+      ],
+      "responses": [
+        "1) Minum banyak cairan agar tetap terhidrasi. 2) Kenakan pakaian yang ringan. 3) Gunakan selimut tipis jika Anda merasa kedinginan, sampai kedinginan berakhir. 4) Minum acetaminophen (Tylenol, lainnya) atau ibuprofen (Advil, Motrin IB, lainnya). 5) Dapatkan bantuan medis jika demam berlangsung lebih dari lima hari berturut-turut."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Hidung Tersumbat",
+      "patterns": [
+        "Bagaimana cara mengatasi hidung tersumbat?",
+        "apa yang harus dilakukan jika saya mengalami hidung tersumbat?",
+        "Obat apa yang harus diminum jika saya mengalami hidung tersumbat?",
+        "apa yang harus dilakukan jika hidung saya tersumbat?",
+        "apa yang harus dilakukan jika hidung saya tersumbat?",
+        "Berapa lama hidung tersumbat?"
+      ],
+      "responses": [
+        "1) Saat Anda sesak, fokuslah untuk menjaga saluran hidung dan sinus Anda tetap lembab. Untuk menjaga agar saluran hidung tetap lembab, Anda dapat: 1) Menggunakan pelembab udara atau vaporizer. 2) Minum banyak cairan. Ini akan mengencerkan lendir Anda, yang dapat membantu mencegah sinus yang tersumbat. 3) Letakkan handuk basah yang hangat di wajah Anda. Ini dapat meredakan ketidaknyamanan dan membuka saluran hidung Anda."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Batuk",
+      "patterns": [
+        "Bagaimana cara menyembuhkan batuk?",
+        "Bagaimana cara anda mengobati batuk?",
+        "apa yang harus dilakukan jika saya batuk?",
+        "Bagaimana Anda menyingkirkan batuk?"
+      ],
+      "responses": [
+        "1) Madu : Gunakan madu untuk mengobati batuk, campurkan 2 sendok teh (sdt) dengan air hangat atau teh herbal. Minum ramuan ini sekali atau dua kali sehari. Jangan berikan madu pada anak di bawah 1 tahun. 2) Jahe : Seduh teh jahe yang menenangkan dengan menambahkan 20-40 gram (g) irisan jahe segar ke dalam secangkir air panas. Biarkan curam selama beberapa menit sebelum diminum. Tambahkan madu atau jus lemon untuk meningkatkan rasa dan lebih menenangkan batuk. 3) Cairan : Tetap terhidrasi sangat penting bagi mereka yang batuk atau pilek. Penelitian menunjukkan bahwa minum cairan pada suhu kamar dapat meredakan batuk, pilek, dan bersin."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Sakit Tenggorokan",
+      "patterns": [
+        "Bagaimana cara mengobati sakit tenggorokan?",
+        "apa yang harus dilakukan jika saya sakit tenggorokan?",
+        "Obat apa yang harus diminum jika saya sakit tenggorokan?",
+        "Bagaimana cara menyembuhkan sakit tenggorokan?"
+      ],
+      "responses": [
+        "1) Pastikan Anda banyak istirahat dan minum banyak cairan. 2) Tarik napas uap, Jalankan air panas di wastafel. Letakkan handuk di atas Anda untuk menjebak uap, dan minta orang itu bersandar di wastafel dengan air mengalir. Katakan padanya untuk bernapas dalam-dalam melalui mulut dan hidungnya selama 5 sampai 10 menit. Ulangi beberapa kali sehari. 3) Suruh dia menyesap kaldu ayam atau teh hangat dengan madu. Jangan berikan madu kepada anak di bawah usia 12 bulan."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Masalah Pencernaan",
+      "patterns": [
+        "Bagaimana cara mengatasi masalah pencernaan?",
+        "apa yang harus dilakukan jika saya memiliki masalah pencernaan?",
+        "Obat apa yang harus diminum jika saya mengalami masalah pencernaan?",
+        "Bagaimana cara menyembuhkan masalah pencernaan?"
+      ],
+      "responses": [
+        "1) Mengisi kembali cairan tubuh 2) Jangan minum obat antidiare atau pencahar atau obat pereda nyeri, kecuali ditentukan oleh profesional medis.3) Mengonsumsi antasida dapat membantu, sesuai rekomendasi profesional kesehatan. 4) Jika rentan terhadap sering mulas, cari bantuan medis. 5) Mengkonsumsi makanan yang tidak pedas secara teratur, dapat meredakan nyeri maag. 6) Cari bantuan medis, jika kondisi berlanjut atau terus memburuk."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Masalah Kulit",
+      "patterns": [
+        "Bagaimana cara mengatasi masalah kulit?",
+        "apa yang harus dilakukan jika saya mengalami alergi kulit?",
+        "Obat apa yang harus diminum jika saya mengalami alergi kulit?",
+        "Bagaimana cara menyembuhkan alergi kulit?"
+      ],
+      "responses": [
+        "1) Krim hidrokortison. 2) Salep seperti lotion kalamin. 3) Antihistamin. 4) Kompres dingin. 5) Mandi oatmeal. 6) Bicaralah dengan dokter Anda tentang apa yang terbaik untuk ruam spesifik Anda."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Sakit Perut",
+      "patterns": [
+        "Bagaimana cara mengobati Sakit Perut?",
+        "apa yang harus saya lakukan jika saya mengalami Sakit Perut?",
+        "Obat apa yang harus diminum jika saya mengalami Sakit Perut?",
+        "Bagaimana cara menyembuhkan Sakit Perut?"
+      ],
+      "responses": [
+        "1) Berikan cairan bening untuk diminum, seperti air, kaldu, atau jus buah yang diencerkan dengan air. 2) Sajikan makanan hambar, seperti biskuit asin, roti tawar, roti kering, nasi, agar-agar, atau saus apel. 3) Hindari makanan pedas atau berminyak dan minuman berkafein atau berkarbonasi sampai 48 jam setelah semua gejala hilang."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Memar",
+      "patterns": [
+        "Bagaimana Anda Mengobati Memar?",
+        "apa yang harus dilakukan jika saya mendapatkan memar?",
+        "Obat apa yang harus diminum jika saya mengalami Memar?",
+        "Bagaimana cara menyembuhkan Memar?"
+      ],
+      "responses": [
+        "1) Eskan memar dengan kompres es yang dibungkus dengan handuk. 2) Biarkan di tempat selama 10 sampai 20 menit. 3) Ulangi beberapa kali sehari selama satu atau dua hari sesuai kebutuhan. 4) Kompres bagian yang memar jika bengkak, menggunakan perban elastis."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Jari Kaki Patah",
+      "patterns": [
+        "Bagaimana cara mengobati Jari Kaki Patah?",
+        "apa yang harus dilakukan jika saya mendapatkan Patah Kaki?",
+        "Obat apa yang harus diminum jika saya mengalami Patah Kaki?",
+        "Bagaimana cara menyembuhkan Jari Kaki Patah?"
+      ],
+      "responses": [
+        "1) Untuk membantu mengurangi rasa sakit dan bengkak pada jari kaki yang patah, angkat kaki, kompres luka, dan jauhkan kaki. 2)Bergantung pada tingkat keparahan patah tulang, jari kaki mungkin perlu dipasang kembali (dikurangi), dan beberapa patah tulang jari kaki majemuk mungkin memerlukan pembedahan.3) Sebagian besar jari kaki yang patah sembuh tanpa komplikasi dalam enam minggu."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Tersedak",
+      "patterns": [
+        "Bagaimana Anda Mengobati Tersedak?",
+        "apa yang harus saya lakukan jika saya tersedak?",
+        "Obat apa yang harus diminum jika saya tersedak?",
+        "Bagaimana cara menyembuhkan Tersedak?"
+      ],
+      "responses": [
+        "1) Dorong mereka untuk terus batuk untuk mencoba membersihkan sumbatan. 2) Minta mereka untuk mencoba memuntahkan benda itu jika ada di mulutnya. 3) Jika batuk tidak berhasil, mulai pukulan kembali dan dorongan perut."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Luka",
+      "patterns": [
+        "Bagaimana caramu merawat luka?",
+        "apa yang harus dilakukan jika saya mendapatkan Luka?",
+        "Obat apa yang harus diminum jika saya terluka?",
+        "Bagaimana cara menyembuhkan luka?"
+      ],
+      "responses": [
+        "1) Bilas luka atau luka dengan air dan tekan dengan kasa steril, perban, atau kain bersih. 2) Jika darah merembes melalui perban, letakkan perban lain di atas yang pertama dan terus berikan tekanan. 3) Angkat bagian tubuh yang terluka untuk memperlambat pendarahan. 4) Saat pendarahan berhenti, tutup luka dengan perban baru yang bersih."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Diare",
+      "patterns": [
+        "Bagaimana cara mengobati Diare?",
+        "apa yang harus saya lakukan jika saya terkena Diare?",
+        "Obat apa yang harus diminum jika saya terkena Diare?",
+        "Bagaimana cara menyembuhkan Diare?"
+      ],
+      "responses": [
+        "1) Menghidrasi tubuh sangat penting untuk pulih dari diare. Hal ini menyebabkan tubuh kehilangan elektrolit seperti natrium dan klorida. 2) Sangat disarankan untuk menghindari produk susu, karena dapat memperburuk diare pada beberapa orang. 3) Namun, jika diare berlangsung lebih dari 2 hari, dapatkan bantuan medis untuk menghindari komplikasi."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Gigitan Beku",
+      "patterns": [
+        "Bagaimana Anda mengobati gigitan beku?",
+        "apa yang harus dilakukan jika saya mendapatkan gigitan beku?",
+        "Obat apa yang harus diminum jika saya terkena gigitan beku?",
+        "Bagaimana cara menyembuhkan gigitan beku?"
+      ],
+      "responses": [
+        "1) Periksa hipotermia. 2) Lindungi kulit Anda dari kerusakan lebih lanjut. 3) Keluar dari dingin. Setelah Anda berada di tempat yang hangat, lepaskan pakaian basah dan balut dengan selimut hangat. 4) Hangatkan kembali area yang terkena radang dingin dengan lembut. Rendam jari tangan, jari kaki, atau ekstremitas lain yang terkena radang dingin dalam air hangat — 105 hingga 110 F (sekitar 40 hingga 43 C). 5) Minum cairan hangat. Teh, kopi, cokelat panas, atau sup dapat membantu menghangatkan Anda dari dalam. 6) Pertimbangkan obat nyeri. Jika Anda kesakitan, pertimbangkan pereda nyeri yang dijual bebas, seperti paracetamol atau ibuprofen. 7) Cari bantuan medis untuk hal yang lebih serius daripada frost bite ringan."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Kelelahan Panas",
+      "patterns": [
+        "Bagaimana Anda mengobati Kelelahan Panas?",
+        "apa yang harus dilakukan jika saya merasa Lelah karena panas?",
+        "Obat apa yang harus diminum jika saya kelelahan?",
+        "Bagaimana cara menyembuhkan Kelelahan Panas?"
+      ],
+      "responses": [
+        "1) Beristirahat di tempat yang sejuk, seperti dalam ruangan ber-AC, lokasi yang teduh, atau duduk di depan kipas. Istirahatkan kepala dengan kaki terangkat lebih tinggi dari jantung Anda. 2) Minum minuman dingin, seperti air dingin atau minuman olahraga. Jangan konsumsi minuman beralkohol yang malah menyebabkan dehidrasi. 3) Lakukan pendinginan, misalnya dengan berendam atau mandi air dingin. Apabila tidak memungkinkan, cukup letakkan handuk yang direndam air dingin pada kulit Anda. 4) Lepas pakaian yang tidak diperlukan dan pastikan ringan dan tidak mengikat. 5) Minum 1 liter perjam yang mengandung elektrolit."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Sengatan Panas",
+      "patterns": [
+        "Bagaimana cara mengobati Sengatan Panas?",
+        "apa yang harus saya lakukan jika saya terkena Sengatan Panas?",
+        "Obat apa yang harus diminum jika saya terkena Sengatan Panas?",
+        "Bagaimana cara menyembuhkan Sengatan Panas?"
+      ],
+      "responses": [
+        "1) Pindahkan korban ke tempat dingin atau ruangan ber-AC. 2) Kompres kain basah dan dingin, gunakan kipas angin. 3) Siram badan korban dengan menggunakan air dingin. 4) Monitor suhu badan dan lanjutkan tindakan awal sampai suhu badan korban turun dibawah 38 derajat celcius. 5) Segera hubungi dokter untuk pertolongan lebih lanjut. Untuk mencegah sengatan panas dapat dilakukan Oleskan tabir surya ke kulit, pilih tabir surya dengan SPF minimal 30, cukupi asupan cairan. Hal ini untuk mencegah dehidrasi."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Gigitan Serangga",
+      "patterns": [
+        "Bagaimana cara mengobati Gigitan Serangga?",
+        "Apa yang harus dilakukan jika saya digigit serangga?",
+        "Obat apa yang harus diminum jika saya digigit serangga?",
+        "Bagaimana cara menyembuhkan gigitan serangga?"
+      ],
+      "responses": [
+        "1) Tempelkan es ke area gigitan selama kurang lebih 10 menit. Balut es menggunakan kain bersih agar tidak kontak langsung dengan kulit. 2) Oleskan antiseptik pada area tersebut. 3) Campurkan soda kue dengan air hangat lalu oleskan ke area yang digigit. 4) Pakai lotion kalamin dan salep hidrokortison untuk meredakan gejala digigit serangga."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Hidung Berdarah",
+      "patterns": [
+        "Bagaimana cara mengobati hidung berdarah?",
+        "Apa yang harus dilakukan jika hidung saya berdarah?",
+        "Obat apa yang harus diminum jika mimisan?",
+        "Bagaimana cara menyembuhkan mimisan?"
+      ],
+      "responses": [
+        "1) Duduk tegak dan jangan berbaring agar tekanan pada pembuluh darah dalam hidung dapat berkurang sehingga perdarahan bisa segera berhenti. 2) Condongkan tubuh ke depan agar darah yang keluar dari hidung tidak masuk ke tenggorokan, karena darah yang tertelan dapat memicu muntah. 3) Pencet hidung selama 10-15 menit dan bernapaslah melalui mulut. 4) Kompres pangkal hidung dengan kompres dingin untuk memperlambat perdarahan. 5) Salah satu obat yang bisa digunakan untuk menghentikan dan mengurangi perdarahan di hidung adalah asam traneksamat."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Otot Tertarik",
+      "patterns": [
+        "Bagaimana cara mengobati Otot Tertarik?",
+        "Apa yang harus dilakukan jika otot saya tertarik?",
+        "Obat apa yang harus diminum jika otot saya tertarik?",
+        "Bagaimana cara menyembuhkan otot yang tertarik?"
+      ],
+      "responses": [
+        "1) Jangan panik dan istirahatkan otot yang menegang. 2) Lakukan terapi dingin (kantong berisi es atau gel dingin dibungkus dengan handuk tipis) segera tempelkan pada otot yang menegang karena itu akan menyempitkan pembuluh darah lokal dan mengurangi respons peradangan. Terapi dingin harus dilakukan selama 10-20 menit setiap jamnya (semakin luas atau dalam otot yang terkena, semakin lama waktunya), lalu kurangi frekuensi saat nyeri dan pembengkakan berkurang. 3) Rendam otot menegang yang kronis di dalam campuran air hangat dan garam Epsom selama 20-30 menit karena hal itu dapat mengurangi nyeri dan pembengkakan otot secara signifikan. 4) Minumlah obat antiperadangan. Obat antiperadangan yang umum meliputi ibuprofen (Advil, Motrin), naproxen (Aleve) dan aspirin, namun obat-obat tersebut cenderung keras bagi lambung, jadi batasi konsumsi kurang dari 2 minggu."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Pendarahan Rektal",
+      "patterns": [
+        "Bagaimana cara mengobati Pendarahan Rektal?",
+        "Apa yang harus dilakukan jika saya mengalami Pendarahan Rektal?",
+        "Obat apa yang harus diminum jika saya mengalami Pendarahan Rektal?",
+        "Bagaimana cara menyembuhkan Pendarahan pada Rektal?"
+      ],
+      "responses": [
+        "1) Tidak tegang saat buang air besar. 2) Menggunakan tisu toilet yang dibasahi, tidak kering untuk membersihkan setelah buang air besar. 3) Duduk di air hangat (bak mandi atau sitz bath) selama 15 menit setelah buang air besar. 4) Meningkatkan serat dalam makanan Anda. 5) Minum lebih banyak air atau cairan lain. 6) Mempertimbangkan untuk mengonsumsi pelunak feses yang dijual bebas setiap hari. 7) Gunakan antibiotic, untuk mengobati kolitis, dokter menyarankan obat penekan asam perut dan obat anti inflamasi."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Terbakar Sinar Matahari",
+      "patterns": [
+        "Bagaimana cara mengobati Terbakar Sinar Matahari?",
+        "Apa yang harus dilakukan jika saya terkena Terbakar Sinar Matahari?",
+        "Obat apa yang harus diminum jika saya terkena Terbakar Sinar Matahari?",
+        "Bagaimana cara menyembuhkan Terbakar Sinar Matahari?"
+      ],
+      "responses": [
+        "1) Kompres dengan air dingin pada area kulit yang terbakar sinar matahari. 2) Oleskan gel lidah buaya. 3) Kompres dengan masker timun. 4) Gunakan yoghurt. 5) Oleskan madu. 6) Kompres kantong teh dingin. 7) Coba minyak kelapa. 8) Tahan dorongan untuk mengelupas kulit."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Nyeri Testis",
+      "patterns": [
+        "Bagaimana cara mengobati Nyeri Testis?",
+        "Apa yang harus dilakukan jika saya mengalami Nyeri Testis?",
+        "Obat apa yang harus diminum jika saya mengalami Nyeri Testis?",
+        "Bagaimana cara menyembuhkan Nyeri Testis?"
+      ],
+      "responses": [
+        "1) Kompres testis dengan es. Ambil es lalu letakkan di skrotum selama 30 menit. Bungkus es dengan handuk atau kain. 2) Mandi air hangat untuk meringankan rasa sakit dan dapat mempercepat aliran darah ke testis. 3) Angkat, berbaring di tempat tidur dan mengangkat skrotum juga bisa dilakukan untuk meredakan buah zakar nyeri. Gulung sapu tangan dan letakkan di bawah skrotum. 4) Memakai celana dalam pendukung atletik. 5) Nyeri pada testis akibat peradangan umumnya dapat membaik dengan mengonsumsi obat pereda nyeri, seperti ibuprofen atau paracetamol."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Pusing",
+      "patterns": [
+        "Bagaimana cara mengobati Pusing?",
+        "Apa yang harus dilakukan jika saya mengalami Pusing?",
+        "Obat apa yang harus diminum jika saya mengalami Pusing?",
+        "Bagaimana cara menyembuhkan Pusing?"
+      ],
+      "responses": [
+        "1) Minum air putih. 2) Singkirkan tekanan dari kepala. Rileks sejenak dan melepaskan tekanan tersebut dari kepala. Tekanan tersebut dapat muncul dari kuncir, jepit, topi, atau aksesoris lainnya. 3) Hirup minyak kayu putih. 4) Kompres air dingin. 5) Refleksologi. 6) Obat pusing yang dapat dikonsumsi diantaranya adalah paracetamol, dan asetosal."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Pendarahan Normal",
+      "patterns": [
+        "Bagaimana cara mengobati pendarahan?",
+        "Apa yang harus dilakukan jika saya mengalami Pendarahan?",
+        "Obat apa yang harus diminum jika saya berdarah?",
+        "Bagaimana cara menyembuhkan Pendarahan?"
+      ],
+      "responses": [
+        "1) Cuci tangan terlebih dahulu. 2) Lakukan penekanan pada area luka. Tekan area luka dengan kain bersih, tisu, atau kasa, untuk menghentikan pendarahan. 3) bersihkan area luka dengan air dan sabun untuk menghilangkan kotoran yang masih menempel. Hindari penggunaan bahan antiseptik, seperti hidrogen peroksida, karena dapat menyebabkan iritasi serta memperparah luka. 4)  Tutup luka dengan perban atau kain kasa. 5) Oleskan salep antibiotik."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Cedera Mata",
+      "patterns": [
+        "Bagaimana cara mengobati Cidera mata?",
+        "Bagaimana cara mengobati Cedera mata?",
+        "Apa yang harus dilakukan jika saya mengalami cedera mata?",
+        "Apa yang harus dilakukan jika saya mengalami cidera mata?",
+        "Obat apa yang harus diminum jika mata saya terluka?",
+        "Bagaimana cara menyembuhkan mata yang terluka?"
+      ],
+      "responses": [
+        "1) Mengompres mata. Caranya, yaitu tekan kain atau handuk yang dibasahi air dingin secara perlahan ke arah mata. Pastikan Anda hanya menekan bagian sekitar mata dan hindari memberi tekanan langsung pada bola mata Anda. 2) Jangan mengucek mata. 3) Pasang pelindung di mata yang terluka. 4) Membilas mata dengan air. 5) Memeriksakan diri ke dokter. 6) Hindari konsumsi obat, seperti aspirin, ibuprofen, atau obat NSAID yang berisiko meningkatkan perdarahan pada mata."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Pembakaran Kimia",
+      "patterns": [
+        "Bagaimana cara mengobati luka bakar kimia?",
+        "Apa yang harus dilakukan jika saya mengalami Luka Bakar Kimia?",
+        "Obat apa yang harus diminum jika terbakar karena bahan kimia?",
+        "Bagaimana cara menyembuhkan Luka Bakar Kimia?"
+      ],
+      "responses": [
+        "1) Jauhkan bahan kimia yang menyebabkan luka bakar. 2) Bilas bagian yang kena luka bakar di bawah air mengalir selama 10—20 menit (jangan terlalu sebentar). 3) Lepaskan pakaian atau perhiasan atau kain yang terkontaminasi bahan kimia di tubuh. 4) Untuk menjaga kondisi luka agar tidak semakin parah, bungkus area yang terbakar dengan perban atau lap bersih secara longgar. 5) Jika luka bakar tidak terlalu dalam, Anda bisa menggunakan pereda nyeri seperti ibuprofen atau paracetamol (acetaminophen). Jika luka tersebut sangat berat, tunggu petugas medis datang untuk melakukan tindakan selanjutnya. Atau segera ke IGD terdekat."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Racun",
+      "patterns": [
+        "Bagaimana cara mengobati Racun?",
+        "Apa yang harus dilakukan jika saya terkena Racun?",
+        "Obat apa yang harus diminum jika saya keracunan?",
+        "Bagaimana cara menyembuhkan Keracunan?"
+      ],
+      "responses": [
+        "Racun yang Tertelan : 1) Minta penderita untuk meludahkan sisa racun yang masih ada di mulut. 2) Jika penderita muntah secara tidak sengaja, segera bersihkan mulut dan tenggorokannya menggunakan jari. 3) Sambil menunggu pertolongan medis datang, baringkan penderita dengan posisi miring ke arah kiri dan berikan bantal atau penyangga pada punggungnya. Tarik dan tekuk tungkai yang berada di atas ke arah depan. Posisi seperti ini disebut posisi pemulihan (recovery position). 4) Jika korban keracunan sadar, minta ia untuk duduk dan pastikan penderita tetap sadar hingga tim medis datang. 5) Apabila korban keracunan tidak bernapas, lakukan prosedur CPR (resusitasi jantung paru) jika Anda mengetahui caranya. Racun yang Terhirup : 1) segera bawa ia keluar dari lokasi untuk menghirup udara yang lebih bersih. 2) Jika penderita muntah  dalam posisi berbaring, miringkan kepalanya ke samping untuk mencegah ia tersedak. 3) Apabila penderita tidak responsif, napasnya terhenti, atau tidak bernapas, lakukan prosedur CPR selagi menunggu bantuan medis datang. Racun yang Mengenai Kulit : 1) Jika kulit terpapar zat beracun, segera lepaskan pakaian yang dikenakan menggunakan sarung tangan. 2) Bersihkan kulit dari racun dengan cara mencucinya menggunakan air dan sabun selama 15-20 menit. 3) Jika kondisi kulit terlihat semakin parah atau mengalami pembengkakan, segera cari bantuan medis di rumah sakit terdekat."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Gigi",
+      "patterns": [
+        "Bagaimana cara mengobati Gigi berlubang?",
+        "Apa yang harus dilakukan jika Gigi saya berlubang?",
+        "Obat apa yang harus diminum jika gigi saya berlubang?",
+        "menyembuhkan gigi yang berlubang?"
+      ],
+      "responses": [
+        "1) Berkumur air garam. Untuk membuat larutan garam, Anda dapat mencampurkan 1/2 sendok teh garam ke dalam segelas air hangat, lalu gunakan sebagai cairan untuk kumur. 2) Berkumur larutan hidrogen peroksida. larutkan hidrogen peroksida 3% ke dalam air dengan perbandingan yang sama, lalu gunakan untuk berkumur selama 30 detik. 3) Mengompres dingin. Anda dapat membuat kompres dingin dengan merendam handuk di air es, menggunakan ice pack, ice gel, atau es yang dibungkus dengan kain. Namun, hindari menempelkan es langsung ke kulit, untuk menghindari cedera pada kulit. 4) Menempelkan teh celup. simpan teh celup di dalam freezer selama beberapa menit untuk mendinginkannya. Kemudian, tempelkan kantong teh di bagian gigi yang berlubang. 5) Obat yang bisa Anda dapatkan di apotek terdekat untuk mengatasi masalah gigi berlubang : Cataflam, Eugenia Dental, Dentasol, Cooling 5 Plus, Ponstan, Ibuprofen."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Kejang",
+      "patterns": [
+        "Bagaimana cara mengobati kejang?",
+        "Apa yang harus dilakukan jika saya kejang?",
+        "Obat apa yang harus diminum jika saya kejang?",
+        "Bagaimana cara menyembuhkan kejang?"
+      ],
+      "responses": [
+        "1) Baringkan penderita di tempat aman dan jauhkan dari benda berbahaya atau benda tajam. 2) Hindari menggunakan cara kekerasan untuk menahan gerakan penderita. 3) Letakkan bantal atau alas lain untuk menyangga kepala penderita. 4) Jangan memasukkan benda apa pun ke dalam mulut penderita selama kejang. 5) Longgarkan pakaian yang ketat, terutama di bagian leher penderita. 6) Posisikan kepala penderita miring ke kanan atau kiri, untuk mencegah muntahan masuk ke dalam tenggorokan. 7) Segera panggil bantuan medis dari IGD atau pusat kesehatan terdekat. 8) Temani penderita sampai kejangnya berhenti atau sampai petugas medis datang. 9) Berikut adalah obat antikonvulsan yang dapat dikonsumsi untuk mencegah dan mengatasi kejang : Diazepam, Carbamazepine, Phenytoin, Topamax, Asam valproate, Gapapentin, Levetiracetam."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Cedera Kepala",
+      "patterns": [
+        "Bagaimana cara mengobati Cedera Kepala?",
+        "Bagaimana cara mengobati Cidera Kepala?",
+        "Apa yang harus dilakukan jika mengalami Cedera Kepala?",
+        "Apa yang harus dilakukan jika mengalami Cidera Kepala?",
+        "Obat apa yang harus diminum jika mengalami cedera di kepala?",
+        "Obat apa yang harus diminum jika mengalami cidera di kepala?",
+        "Bagaimana cara menyembuhkan Cedera Kepala?",
+        "Bagaimana cara menyembuhkan Cidera Kepala?"
+      ],
+      "responses": [
+        "1) Observasi keadaan. 2) Stabilkan posisi kepala. 3) Lakukan penekanan bila ada perdarahan. 4) Tutup luka pada bagian kepala. 5) Kompres dingin. 4) Konsumsi obat antinyeri bila perlu, seperti paracetamol, dan hindari penggunaan obat antiinfalamasi golongan NSAID, seperti ibuprofen atau aspirin, tanpa instruksi dokter. Pasalnya, hal ini dikhawatirkan dapat meningkatkan risiko perdarahan dalam otak."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Pingsan",
+      "patterns": [
+        "Bagaimana cara mengobati Pingsan?",
+        "Apa yang harus dilakukan jika saya merasa ingin Pingsan?",
+        "Obat apa yang harus diminum jika saya Pingsan?",
+        "Bagaimana cara menyembuhkan Pingsan?"
+      ],
+      "responses": [
+        "1) Baringkan pasien pingsan. 2) Pindahkan ke lokasi yang aman. 3) Posisikan kaki lebih tinggi. 4) Longgarkan pakaian. 5) Pantau pernapasan dan kerja jantung dan berikan napas buatan apabila diperlukan. 6) Pantau tanda kegawatan yang dapat membahayakan jiwa, seperti bibir dan wajah pasien membiru, detak jantung sangat lemah, ada keluhan nyeri dada sebelumnya, napas terlihat sesak, sulit dibangunkan, tampak kebingungan, gelisah, tidak menyadari kondisi sekitar. 7) Hubungi petugas kesehatan apabila tindakan-tindakan tadi tidak memperoleh kesadaran. Pencegahan pingsan dapat dilakukan dengan menjaga diri tetap fit, dengan cukup tidur dan beristirahat, makan teratur dan mengonsumsi makanan sehat dengan gizi seimbang, mencukupi kebutuhan cairan dengan minum air putih yang cukup agar terhindar dari dehidrasi, mengubah posisi secara perlahan saat akan berdiri dari posisi duduk atau berbaring."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Sakit Kepala",
+      "patterns": [
+        "Bagaimana cara mengobati Sakit Kepala ringan?",
+        "Apa yang harus dilakukan jika sakit kepala ringan?",
+        "Obat apa yang harus diminum jika sakit kepala ringan?",
+        "Bagaimana cara menyembuhkan sakit kepala ringan?"
+      ],
+      "responses": [
+        "1) Berikan ibuprofen (Advil, Motrin), aspirin, atau acetaminophen (Tylenol) untuk nyeri. 2) Hindari ibuprofen dan NSAID lainnya jika orang tersebut mengalami gagal jantung atau gagal ginjal. 3) Jangan berikan aspirin kepada anak di bawah usia 18 tahun."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Flu",
+      "patterns": [
+        "Bagaimana cara mengobati Pilek?",
+        "Apa yang harus dilakukan jika saya terkena Pilek ringan?",
+        "Obat apa yang harus diminum jika saya pilek?",
+        "Bagaimana cara menyembuhkan Pilek?",
+        "Bagaimana cara mengobati Flu?",
+        "Apa yang harus dilakukan jika saya terkena Flu ringan?",
+        "Obat apa yang harus diminum jika saya Flu?",
+        "Bagaimana cara menyembuhkan Flu?"
+      ],
+      "responses": [
+        "1) Tetap terhidrasi sangat penting untuk membantu 'membuang' flu, serta untuk memecah kemacetan dan menjaga tenggorokan Anda tetap terlumasi. 2) Vitamin C sangat membantu saat melawan infeksi, jadi pada tanda pertama pilek pastikan untuk meningkatkan asupan Anda dengan makan banyak buah beri, buah jeruk, pepaya, brokoli, dan paprika merah yang akan membantu Anda tetap terlindungi. 3) Ketika datang untuk memerangi pilek, Vitamin D sangat penting dalam membantu mengatur respon imun."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Ruam",
+      "patterns": [
+        "Bagaimana cara mengobati Ruam?",
+        "Apa yang harus dilakukan jika saya mengalami Ruam?",
+        "Obat apa yang harus diminum jika saya mengalami Ruam?",
+        "Bagaimana cara menyembuhkan Ruam?"
+      ],
+      "responses": [
+        "1) Minyak zaitun membantu dalam penyembuhan dan mendorong pembaruan kulit karena mengandung vitamin E dan antioksidan. Ini juga menenangkan kulit dan mengurangi rasa gatal. 2) Soda kue berguna dalam mengeringkan ruam kulit serta meredakan gatal dan peradangan. 3) Aloe Vera, Berkat sifat antibakteri, antijamur, anti-inflamasi dan emoliennya, lidah buaya sangat baik untuk mengobati sejumlah penyakit kulit termasuk ruam dan juga menenangkan kulit."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Gigitan Ular",
+      "patterns": [
+        "Bagaimana cara mengobati gigitan ular?",
+        "Apa yang harus dilakukan jika saya digigit ular?",
+        "Obat apa yang harus diminum jika saya digigit ular?",
+        "Bagaimana cara menyembuhkan gigitan ular?",
+        "Saya digigit oleh seekor ular"
+      ],
+      "responses": [
+        "Sambil menunggu bantuan medis: 1) Pindahkan orang tersebut melampaui jarak serang ular. 2) Minta orang tersebut berbaring dengan luka di bawah jantung. 3) Jaga agar orang tersebut tetap tenang dan istirahat, tetap diam untuk mencegah racun menyebar. 4) Tutup luka dengan perban yang longgar dan steril. 5) Lepaskan semua perhiasan dari area yang digigit. 6) Lepas sepatu jika kaki atau telapak kaki tergigit."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Gigitan Binatang",
+      "patterns": [
+        "Bagaimana cara mengobati gigitan hewan?",
+        "Bagaimana cara mengobati gigitan monyet?",
+        "Bagaimana cara mengobati gigitan anjing?",
+        "Apa yang harus dilakukan jika saya digigit hewan?",
+        "Obat apa yang harus diminum jika saya digigit monyet?",
+        "Bagaimana cara menyembuhkan gigitan anjing?",
+        "Saya digigit anjing"
+      ],
+      "responses": [
+        "1) Cuci luka dengan sabun dan air hangat. 2) Tekan dengan lembut kain bersih di atas luka untuk menghentikan aliran darah. 3) Oleskan salep antibakteri pada luka. 4) Tutup dengan perban steril. 5) Perhatikan tanda-tanda infeksi. 6) Cari bantuan jika Anda mencurigai adanya infeksi atau kemungkinan terpapar rabies, atau jika lukanya parah."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Tenggelam",
+      "patterns": [
+        "Apa yang harus dilakukan ketika ada seseorang yang tenggelam?",
+        "Seseorang Tenggelam",
+        "Apa yang harus pertama kali dilakukan ketika ada seseorang yang tengglam?",
+        "Tenggelam"
+      ],
+      "responses": [
+        "1) Tempatkan telinga Anda di sebelah mulut dan hidung orang tersebut. Apakah Anda merasakan udara di pipi Anda? 2) Lihat untuk melihat apakah dada orang tersebut bergerak. Jika Orang tersebut Tidak Bernafas, Periksa Nadi. 3) Periksa denyut nadi orang tersebut selama 10 detik. Jika Tidak Ada Nadi, Mulai CPR."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Resusitasi Jantung Paru",
+      "patterns": [
+        "Bagaimana cara memberikan Resusitasi Jantung Paru?",
+        "Apa yang harus dilakukan dalam Resusitasi Jantung Paru?",
+        "Langkah apa yang harus dilakukan dalam Resusitasi Jantung Paru?",
+        "Bagaimana cara membantu orang yang tenggelam dalam Resusitasi Jantung Paru?"
+      ],
+      "responses": [
+        "1) Untuk orang dewasa atau anak-anak, letakkan tumit satu tangan di tengah dada di garis puting susu. Anda juga dapat mendorong dengan satu tangan di atas tangan lainnya. Untuk bayi, letakkan dua jari di tulang dada. 2) Untuk orang dewasa atau anak-anak, tekan ke bawah minimal 2 inci. Pastikan untuk tidak menekan tulang rusuk. Untuk bayi, tekan sekitar 1 dan 1/2 inci. Pastikan untuk tidak menekan ujung tulang dada. 3) Lakukan kompresi dada saja, dengan kecepatan 100-120 kali per menit atau lebih. Biarkan dada naik sepenuhnya di antara dorongan. 4) Periksa untuk melihat apakah orang tersebut sudah mulai bernapas."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Patah Tulang",
+      "patterns": [
+        "Bagaimana cara mengobati Patah Tulang?",
+        "Apa yang harus dilakukan jika saya mengalami Patah Tulang?",
+        "Obat apa yang harus diminum jika saya mengalami Patah Tulang?",
+        "Bagaimana cara menyembuhkan Patah Tulang?"
+      ],
+      "responses": [
+        "1) Menghentikan pendarahan. Berikan tekanan pada luka dengan perban steril, kain bersih atau pakaian bersih. 2) Imobilisasi area yang cedera. Jangan mencoba meluruskan kembali tulang atau mendorong tulang yang mencuat ke dalam. Jika Anda telah dilatih tentang cara memasang bidai dan bantuan profesional tidak tersedia, pasang bidai pada area di atas dan di bawah tempat patah tulang. Membalut belat dapat membantu mengurangi ketidaknyamanan. 3) Oleskan kompres es untuk membatasi pembengkakan dan membantu menghilangkan rasa sakit. Jangan mengoleskan es langsung ke kulit. Bungkus es dengan handuk, selembar kain atau bahan lain. 4) Rawat syok. Jika orang tersebut merasa pingsan atau bernapas dengan napas pendek dan cepat, baringkan orang tersebut dengan kepala sedikit lebih rendah dari badan dan, jika mungkin, angkat kaki."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Daftar Rumah Sakit DKI Jakarta",
+      "patterns": [
+        "Daftar Rumah Sakit DKI Jakarta",
+        "Lokasi Rumah Sakit DKI Jakarta",
+        "Rumah Sakit DKI Jakarta",
+        "DKI Jakarta",
+        "RS DKI Jakarta"
+      ],
+      "responses": [
+        "Klik <a href='/rs' target='_blank'>link</a> untuk melihat daftar Rumah Sakit yang ada di DKI Jakarta"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Daftar Rumah Sakit Jakarta Barat",
+      "patterns": [
+        "Daftar Rumah Sakit Jakarta Barat",
+        "Lokasi Rumah Sakit Jakarta Barat",
+        "Rumah Sakit Jakarta Barat",
+        "Jakarta Barat",
+        "RS Jakarta Barat"
+      ],
+      "responses": [
+        "Klik <a href='/rs_jakbar' target='_blank'>link</a> untuk melihat daftar Rumah Sakit yang tersedia di Jakarta Barat"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Daftar Rumah Sakit Jakarta Pusat",
+      "patterns": [
+        "Daftar Rumah Sakit Jakarta Pusat",
+        "Lokasi Rumah Sakit Jakarta Pusat",
+        "Rumah Sakit Jakarta Pusat",
+        "Jakarta Pusat",
+        "RS Jakarta Pusat"
+      ],
+      "responses": [
+        "Klik <a href='/rs_jakpus' target='_blank'>link</a> untuk melihat daftar Rumah Sakit yang tersedia di Jakarta Pusat"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Daftar Rumah Sakit Jakarta Selatan",
+      "patterns": [
+        "Daftar Rumah Sakit Jakarta Selatan",
+        "Lokasi Rumah Sakit Jakarta Selatan",
+        "Rumah Sakit Jakarta Selatan",
+        "Jakarta Selatan",
+        "RS Jakarta Selatan"
+      ],
+      "responses": [
+        "Klik <a href='/rs_jaksel' target='_blank'>link</a> untuk melihat daftar Rumah Sakit yang tersedia di Jakarta Selatan"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Daftar Rumah Sakit Jakarta Timur",
+      "patterns": [
+        "Daftar Rumah Sakit Jakarta Timur",
+        "Lokasi Rumah Sakit Jakarta Timur",
+        "Rumah Sakit Jakarta Timur",
+        "Jakarta Timur",
+        "RS Jakarta Timur"
+      ],
+      "responses": [
+        "Klik <a href='/rs_jaktim' target='_blank'>link</a> untuk melihat daftar Rumah Sakit yang tersedia di Jakarta Timur"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Daftar Rumah Sakit Jakarta Utara",
+      "patterns": [
+        "Daftar Rumah Sakit Jakarta Utara",
+        "Lokasi Rumah Sakit Jakarta Utara",
+        "Rumah Sakit Jakarta Utara",
+        "Jakarta Utara",
+        "RS Jakarta Utara"
+      ],
+      "responses": [
+        "Klik <a href='/rs_jakut' target='_blank'>link</a> untuk melihat daftar Rumah Sakit yang tersedia di Jakarta Utara"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Cengkareng",
+      "patterns": [
+        "Rumah Sakit Cengkareng",
+        "3174074",
+        "Cengkareng",
+        "RS Cengkareng",
+        "RSUD Cengkareng"
+      ],
+      "responses": [
+        "RSUD Cengkareng, Lokasi: Jl. Bumi Cengkareng Indah No.1, Cengkareng Timur, Kec. Cengkareng, Kota Jakarta Barat, DKI Jakarta 11730 || <a href='https://goo.gl/maps/R2BCsGwYETz4Qrwr5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kembangan",
+      "patterns": [
+        "Rumah Sakit Kembangan",
+        "3174517",
+        "Kembangan",
+        "RS Kembangan",
+        "RSUD Kembangan"
+      ],
+      "responses": [
+        "RSUD Kembangan, Lokasi: Jl. Bumi Cengkareng Indah No.1, Cengkareng Timur, Kec. Cengkareng, Kota Jakarta Barat, DKI Jakarta 11730 || <a href='https://goo.gl/maps/caufCMm9eU191KZL6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kalideres",
+      "patterns": [
+        "Rumah Sakit Kalideres",
+        "3174518",
+        "Kalideres",
+        "RS Kalideres",
+        "RSUD Kalideres"
+      ],
+      "responses": [
+        "RSUD Kalideres, Lokasi: Jl. Satu Maret No.48, Pegadungan, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11830 || <a href='https://goo.gl/maps/pGR6QvQ5QksJfMM4A' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Taman Sari",
+      "patterns": [
+        "Rumah Sakit Taman Sari",
+        "3174525",
+        "Taman Sari",
+        "RS Taman Sari",
+        "RSUD Taman Sari"
+      ],
+      "responses": [
+        "RSUD Taman Sari, Lokasi: Jl. Madu No.10A, Mangga Besar, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11180 || <a href='https://goo.gl/maps/xZnNNNCBw4EyKyxC9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Cendana",
+      "patterns": ["Rumah Sakit Cendana", "3174529", "Cendana", "RS Cendana"],
+      "responses": [
+        "RS Cendana, Lokasi: Jl. Kedoya Raya No.2, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://goo.gl/maps/qtMcR8cXiTQVeCL37' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Ciputra Citragarden",
+      "patterns": [
+        "Rumah Sakit Ciputra Citragarden",
+        "3174522",
+        "Ciputra Citragarden",
+        "RS Ciputra Citragarden"
+      ],
+      "responses": [
+        "RS Ciputra Citragarden, Lokasi: Jl. Satu Maret No.26, Pegadungan, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11830 || <a href='https://g.page/ciputrahospital?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharmais",
+      "patterns": [
+        "Rumah Sakit Dharmais",
+        "3174063",
+        "Dharmais",
+        "RS Dharmais"
+      ],
+      "responses": [
+        "RS Dharmais, Lokasi: Jl. Letjen S. Parman No.84, Kota Bambu Selatan, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11420 || <a href='https://goo.gl/maps/H2Eq9QTXCTYL9H6t7' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS dr. Soeharto Heerjan",
+      "patterns": [
+        "Rumah Sakit dr. Soeharto Heerjan",
+        "Rumah Sakit Soeharto Heerjan",
+        "3174041",
+        "dr. Soeharto Heerjan",
+        "Soeharto Heerjan",
+        "RS dr. Soeharto Heerjan",
+        "RS Soeharto Heerjan"
+      ],
+      "responses": [
+        "RS dr. Soeharto Heerjan, Lokasi: Jl. Prof. Dr. Latumeten No.1, Jelambar, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11460 || <a href='https://g.page/rsjsh?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Hermina Daan Mogot",
+      "patterns": [
+        "Rumah Hermina Daan Mogot",
+        "3174431",
+        "Hermina Daan Mogot",
+        "RS Hermina Daan Mogot"
+      ],
+      "responses": [
+        "RS Hermina Daan Mogot, Lokasi: Jl. Kintamani Raya No.2, Kalideres, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11840 || <a href='https://g.page/RSHDMG?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Jakarta Eye Center Kedoya",
+      "patterns": [
+        "Rumah Sakit Jakarta Eye Center Kedoya",
+        "3174515",
+        "Jakarta Eye Center Kedoya",
+        "RS Jakarta Eye Center Kedoya"
+      ],
+      "responses": [
+        "RS Jakarta Eye Center Kedoya, Lokasi: Jl. Arjuna Utara No.1, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://g.page/rs-mata-JEC-kedoya?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mitra Keluarga Kalideres",
+      "patterns": [
+        "Rumah Sakit Mitra Keluarga Kalideres",
+        "3174519",
+        "Mitra Keluarga Kalideres",
+        "RS Mitra Keluarga Kalideres"
+      ],
+      "responses": [
+        "RS Mitra Keluarga Kalideres, Lokasi: Jl. Peta Selatan No.1, Kalideres, Kec. Kalideres, Kota Jakarta Barat, DKI Jakarta 11840 || <a href='https://goo.gl/maps/f1V7R8diP7U9Ez166' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Pelni Petamburan",
+      "patterns": [
+        "Rumah Sakit Pelni Petamburan",
+        "3174026",
+        "Pelni Petamburan",
+        "RS Pelni Petamburan"
+      ],
+      "responses": [
+        "RS Pelni Petamburan, Lokasi: Jl. Ks. Tubun No.92, Slipi, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11410 || <a href='https://goo.gl/maps/YrxDQFmbffxeS3d99' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Pendidikan Ukrida",
+      "patterns": [
+        "Rumah Sakit Pendidikan Ukrida",
+        "3174527",
+        "Pendidikan Ukrida",
+        "RS Pendidikan Ukrida"
+      ],
+      "responses": [
+        "RS Pendidikan Ukrida, Lokasi: Jl. Arjuna Utara No.145, Duri Kepa, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11510 || <a href='https://goo.gl/maps/SpGwtK84F8QMJWhJ9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam Kebon Jeruk",
+      "patterns": [
+        "Rumah Sakit Siloam Kebon Jeruk",
+        "3174351",
+        "Siloam Kebon Jeruk",
+        "RS Siloam Kebon Jeruk"
+      ],
+      "responses": [
+        "RS Siloam Kebon Jeruk, Lokasi: Jl. Perjuangan No.8, Kebon Jeruk, Kec. Kebon Jeruk, Jakarta, DKI Jakarta 11530 || <a href='https://g.page/siloamkebonjeruk?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Anggrek Mas",
+      "patterns": [
+        "Rumah Sakit Anggrek Mas",
+        "Rumah Sakit Ibu dan Anak Anggrek Mas",
+        "3174510",
+        "Anggrek Mas",
+        "RS Anggrek Mas",
+        "RSIA Anggrek Mas"
+      ],
+      "responses": [
+        "RSIA Anggrek Mas, Lokasi: Jl. Anggrek No.2, Kebon Jeruk, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11530 || <a href='https://goo.gl/maps/3D4PgBbzsxegpawG9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Aries",
+      "patterns": [
+        "Rumah Sakit Aries",
+        "Rumah Sakit Ibu dan Anak Aries",
+        "3174530",
+        "Aries",
+        "RS Aries",
+        "RSIA Aries"
+      ],
+      "responses": [
+        "RSIA Aries, Lokasi: Jl. Duri Raya No.22, Duri Utara, Kec. Tambora, Kota Jakarta Barat, DKI Jakarta 11270 || <a href='https://goo.gl/maps/mT4GYxrNUhGYhamu5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Harapan Kita",
+      "patterns": [
+        "Rumah Sakit Harapan Kita",
+        "3174260",
+        "Harapan Kita",
+        "RS Harapan Kita",
+        "RSIA Harapan Kita"
+      ],
+      "responses": [
+        "RSIA Harapan Kita, Lokasi: Jl. Letjen S. Parman No.87, Kota Bambu Utara, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11420 || <a href='https://goo.gl/maps/hQqJbSk1PWj4ECZeA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Ibnu Sina",
+      "patterns": [
+        "Rumah Sakit Ibnu Sina",
+        "3174516",
+        "Ibnu Sina",
+        "RS Ibnu Sina",
+        "RSIA Ibnu Sina"
+      ],
+      "responses": [
+        "RSIA Ibnu Sina, Lokasi: Jl. Dr. Nurdin I No.3, Grogol, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11450 || <a href='https://goo.gl/maps/CzCgyRgx2e3ruB638' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Bhakti Mulia",
+      "patterns": [
+        "Rumah Sakit Bhakti Mulia",
+        "3174030",
+        "Bhakti Mulia",
+        "RS Bhakti Mulia",
+        "RSU Bhakti Mulia"
+      ],
+      "responses": [
+        "RSU Bhakti Mulia, Lokasi: Jl. Ks. Tubun No.79, Slipi, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11410 || <a href='https://goo.gl/maps/SzSaKuabjRy7EPJ27' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Bina Sehat Mandiri",
+      "patterns": [
+        "Rumah Sakit Bina Sehat Mandiri",
+        "3174497",
+        "Bina Sehat Mandiri",
+        "RS Bina Sehat Mandiri",
+        "RSU Bina Sehat Mandiri"
+      ],
+      "responses": [
+        "RSU Bina Sehat Mandiri, Lokasi: Jl. Duri Raya No.22, Duri Kepa, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11510 || <a href='https://goo.gl/maps/uc8YU4KKQVej49Uc6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Graha Kedoya",
+      "patterns": [
+        "Rumah Sakit Graha Kedoya",
+        "3174052",
+        "Graha Kedoya",
+        "RS Graha Kedoya",
+        "RSU Graha Kedoya"
+      ],
+      "responses": [
+        "RSU Graha Kedoya, Lokasi: Jl. Panjang No.26, Kedoya Utara, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://g.page/rs-grha-kedoya-dki-jakarta?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Manuela",
+      "patterns": [
+        "Rumah Sakit Manuela",
+        "3174405",
+        "Manuela",
+        "RS Manuela",
+        "RSU Manuela"
+      ],
+      "responses": [
+        "RSU Manuela, Lokasi: Jl. Mangga Besar VIII No.23, Taman Sari, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11150 || <a href='https://goo.gl/maps/vKixKK9AJRBuDaHKA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Medika Permata Hijau",
+      "patterns": [
+        "Rumah Sakit Medika Permata Hijau",
+        "3174420",
+        "Medika Permata Hijau",
+        "RS Medika Permata Hijau",
+        "RSU Medika Permata Hijau"
+      ],
+      "responses": [
+        "RSU Medika Permata Hijau, Lokasi: Jl. Kebon Raya No.64, Sukabumi Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11560 || <a href='https://goo.gl/maps/LCUbW7wJtCUB94ndA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Patria IKKT",
+      "patterns": [
+        "Rumah Sakit Patria IKKT",
+        "3174416",
+        "Patria IKKT",
+        "RS Patria IKKT",
+        "RSU Patria IKKT"
+      ],
+      "responses": [
+        "RSU Patria IKKT, Lokasi: Jl. Cendrawasih No.1, Palmerah, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11480 || <a href='https://goo.gl/maps/cu7KoyNbUmMwffjR9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Puri Indah",
+      "patterns": [
+        "Rumah Sakit Puri Indah",
+        "3174508",
+        "Puri Indah",
+        "RS Puri Indah",
+        "RSU Puri Indah"
+      ],
+      "responses": [
+        "RSU Puri Indah, Lokasi: Jl. Puri Indah Raya No.2, Kembangan Selatan, Kec. Kembangan, Kota Jakarta Barat, DKI Jakarta 11610 || <a href='https://g.page/rspondokindahpuriindah?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Puri Mandiri Kedoya",
+      "patterns": [
+        "Rumah Sakit Puri Mandiri Kedoya",
+        "3174475",
+        "Medika Puri Mandiri Kedoya",
+        "RS Puri Mandiri Kedoya",
+        "RSU Puri Mandiri Kedoya"
+      ],
+      "responses": [
+        "RSU Puri Mandiri Kedoya, Lokasi: Jl. Raya Kedoya No.2, Kedoya Selatan, Kec. Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 11520 || <a href='https://goo.gl/maps/zCAQVZaqrEYJdQRP9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Royal Taruma",
+      "patterns": [
+        "Rumah Sakit Royal Taruma",
+        "3174486",
+        "Royal Taruma",
+        "RS Royal Taruma",
+        "RSU Royal Taruma"
+      ],
+      "responses": [
+        "RSU Royal Taruma, Lokasi: Jl. Daan Mogot Kedaung No.34, Tanjung Duren Utara, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11470 || <a href='https://goo.gl/maps/rADdKB7WKhJCQTddA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Sumber Waras",
+      "patterns": [
+        "Rumah Sakit Sumber Waras",
+        "3174015",
+        "Sumber Waras",
+        "RS Sumber Waras",
+        "RSU Sumber Waras"
+      ],
+      "responses": [
+        "RSU Sumber Waras, Lokasi: Jl. Kyai Tapa No.1, Tomang, Kec. Grogol Petamburan, Kota Jakarta Barat, DKI Jakarta 11440 || <a href='https://g.page/rumah-sakit-sumber-waras?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Cempaka Putih",
+      "patterns": [
+        "Rumah Sakit Cempakaputih",
+        "Rumah Sakit Cempaka Putih",
+        "3173700",
+        "Cempakaputih",
+        "Cempaka Putih",
+        "RS Cempakaputih",
+        "RS Cempaka Putih"
+      ],
+      "responses": [
+        "RS Cempaka Putih, Lokasi: Jl. Rawasari Selatan No.1, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510 || <a href='https://goo.gl/maps/AE7m4Kynq2f8TXp76' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Joharbaru",
+      "patterns": [
+        "Rumah Sakit Joharbaru",
+        "3173701",
+        "Joharbaru",
+        "RS Joharbaru",
+        "RSUD Joharbaru "
+      ],
+      "responses": [
+        "RSUD Joharbaru, Lokasi: Jl. Tanah Tinggi XII No.15, Tanah Tinggi, Kec. Johar Baru, Kota Jakarta Pusat, DKI Jakarta 10540 || <a href='https://g.page/rsudjoharbaru?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kemayoran",
+      "patterns": [
+        "Rumah Sakit Kemayoran",
+        "3173699",
+        "Kemayoran",
+        "RS Kemayoran",
+        "RSUD Kemayoran"
+      ],
+      "responses": [
+        "RSUD Kemayoran, Lokasi: Jl. Serdang Baru I No.3, Serdang, Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10650 || <a href='https://goo.gl/maps/nWSref4ZZmFHhu4r8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Sawahbesar",
+      "patterns": [
+        "Rumah Sakit Sawahbesar",
+        "Rumah Sakit Sawah Besar",
+        "3173698",
+        "Sawahbesar",
+        "Sawah Besar",
+        "RS Sawahbesar",
+        "RS Sawah Besar",
+        "RSUD Sawahbesar",
+        "RSUD Sawah Besar"
+      ],
+      "responses": [
+        "RSUD Sawah Besar, Lokasi: Jl. Dwiwarna Raya No.6, Karang Anyar, Kec. Sawah Besar, Kota Jakarta Pusat, DKI Jakarta 10740 || <a href='https://goo.gl/maps/gFVW51hqADM2zCwj7' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Tanahabang",
+      "patterns": [
+        "Rumah Sakit Tanahabang",
+        "Rumah Sakit Tanah Abang",
+        "3173705",
+        "Tanahabang",
+        "Tanah Abang",
+        "RS Tanahabang",
+        "RS Tanah Abang",
+        "RSUD Tanahabang",
+        "RSUD Tanah Abang"
+      ],
+      "responses": [
+        "RSUD Tanah Abang, Lokasi: Jl. KH. Mas Mansyur No.30, Kebon Kacang, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10240 || <a href='https://goo.gl/maps/FiG1AKFNXkY3Z3fF6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Tarakan Jakarta",
+      "patterns": [
+        "Rumah Sakit Tarakan Jakarta",
+        "3173521",
+        "Tarakan Jakarta",
+        "RS Tarakan Jakarta",
+        "RSUD Tarakan Jakarta"
+      ],
+      "responses": [
+        "RSUD Tarakan Jakarta, Lokasi: Jl. Kyai Caringin No.7, Cideng, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10150 || <a href='https://goo.gl/maps/aJS9nGnZgfRP5uyN7' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSAL dr. Mintohardjo",
+      "patterns": [
+        "Rumah Sakit dr. Mintohardjo",
+        "Rumah Sakit Mintohardjo",
+        "3173036",
+        "dr. Mintohardjo",
+        "Mintohardjo",
+        "RS dr. Mintohardjo",
+        "RS Mintohardjo",
+        "RSAL dr. Mintohardjo",
+        "RSAL Mintohardjo"
+      ],
+      "responses": [
+        "RSAL dr. Mintohardjo, Lokasi: Jl. Bendungan Hilir No.17, Bendungan Hilir, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10210 || <a href='https://goo.gl/maps/Pi2ckqKf3PGd6kvE9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Abdi Waluyo",
+      "patterns": [
+        "Rumah Sakit Abdi Waluyo",
+        "3173543",
+        "Abdi Waluyo",
+        "RS Abdi Waluyo"
+      ],
+      "responses": [
+        "RS Abdi Waluyo, Lokasi: Jl. HOS. Cokroaminoto No.31, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350 || <a href='https://g.page/rsabdiwaluyo?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bina Estetika",
+      "patterns": [
+        "Rumah Sakit Bina Estetika",
+        "3173634",
+        "Bina Estetika",
+        "RS Bina Estetika"
+      ],
+      "responses": [
+        "Jl. Teuku Cik Ditiro No.41, Menteng, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10310 || <a href='https://g.page/BinaEstetika?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharma Jaya",
+      "patterns": [
+        "Rumah Sakit Dharma Jaya",
+        "3173131",
+        "Dharma Jaya",
+        "RS Dharma Jaya"
+      ],
+      "responses": [
+        "GMAPS KURANG JELAS || RS Jiwa Dharma Sakti, Lokasi: Jl. Mangga Besar No.138, Mangga Dua Selatan, Kec. Sawah Besar, Kota Jakarta Pusat, DKI Jakarta 10730 || <a href='https://goo.gl/maps/WXDJALHGUcy9eqww7' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharma Sakti",
+      "patterns": [
+        "Rumah Sakit Dharma Sakti",
+        "3173496",
+        "Dharma Sakti",
+        "RS Dharma Sakti"
+      ],
+      "responses": [
+        "RS Dharma Sakti, Lokasi: Jl. Kaji No.40 Petojo Utara, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10130 || <a href='https://goo.gl/maps/wuyhs8R6FoiKUYVXA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS FKG Universitas Indonesia",
+      "patterns": [
+        "Rumah Sakit FKG Universitas Indonesia",
+        "3173671",
+        "FKG Universitas Indonesia",
+        "RS FKG Universitas Indonesia"
+      ],
+      "responses": [
+        "RS FKG Universitas Indonesia, Lokasi: Jl. Salemba Raya No.4, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430 || <a href='https://goo.gl/maps/RPVZvKxKicgSK12h7' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Hermina Kemayoran",
+      "patterns": [
+        "Rumah Sakit Hermina Kemayoran",
+        "3173706",
+        "Hermina Kemayoran",
+        "RS Hermina Kemayoran"
+      ],
+      "responses": [
+        "RS Hermina Kemayoran, Lokasi: Jl. Selangit No.10, Gunung Sahari Selatan Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10620 || <a href='https://g.page/herminakemayoran?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Husada",
+      "patterns": ["Rumah Sakit Husada", "3173040", "Husada", "RS Husada"],
+      "responses": [
+        "RS Husada, Lokasi: Jl. Mangga Besar No.137, Mangga Dua Selatan, Kec. Sawah Besar, Kota Jakarta Pusat, DKI Jakarta 10730 || <a href='https://goo.gl/maps/WHzuLWEzuXdZ44bA6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Islam Jakarta",
+      "patterns": [
+        "Rumah Sakit Islam Jakarta",
+        "3173073",
+        "Islam Jakarta",
+        "RS Islam Jakarta"
+      ],
+      "responses": [
+        "RS Islam Jakarta, Lokasi: Jl. Cempaka Putih Tengah I No.1, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510 || <a href='https://goo.gl/maps/UB7a7Cv3DEPeEaww8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Jakarta Eye Center Menteng",
+      "patterns": [
+        "Rumah Sakit Jakarta Eye Center Menteng",
+        "3173623",
+        "Jakarta Eye Center Menteng",
+        "RS Jakarta Eye Center Menteng"
+      ],
+      "responses": [
+        "RS Jakarta Eye Center Menteng, Lokasi: Jl. Teuku Cik Ditiro No.46, Menteng, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10310 || <a href='https://g.page/rs-mata-jec-menteng?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Kramat Lima",
+      "patterns": [
+        "Rumah Sakit Kramat Lima",
+        "3173244",
+        "Kramat Lima",
+        "RS Kramat Lima"
+      ],
+      "responses": [
+        "GMAPS KURANG JELAS || RS Kramat Lima, Lokasi: Jl. Kramat V No.6, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430 || <a href='https://goo.gl/maps/uVottLgroavXpaeo8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Kramat 128",
+      "patterns": [
+        "Rumah Sakit Kramat 128",
+        "3173580",
+        "Kramat 128",
+        "RS Kramat 128"
+      ],
+      "responses": [
+        "RS Kramat 128, Lokasi: Jl. Kramat Raya No.128, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430 || <a href='https://goo.gl/maps/ao3jjuNAhRPCFAaJ8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Menteng Mitra Afia",
+      "patterns": [
+        "Rumah Sakit Menteng Mitra Afia",
+        "3173645",
+        "Menteng Mitra Afia",
+        "RS Menteng Mitra Afia"
+      ],
+      "responses": [
+        "RS Menteng Mitra Afia, Lokasi: Jl. Kali Pasir No.9, Kebon Sirih, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10340 || <a href='https://g.page/RSU-MMA?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mitra Keluarga Kemayoran",
+      "patterns": [
+        "Rumah Sakit Mitra Keluarga Kemayoran",
+        "3173656",
+        "Mitra Keluarga Kemayoran",
+        "RS Mitra Keluarga Kemayoran"
+      ],
+      "responses": [
+        "RS Mitra Keluarga Kemayoran, Lokasi: Jl. HBR. Motik No.12, Kebon Kosong, Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10630 || <a href='https://g.page/MIKAKemayoran?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Murni Teguh Sudirman",
+      "patterns": [
+        "Rumah Sakit Murni Teguh Sudirman",
+        "3173658",
+        "Murni Teguh Sudirman",
+        "RS Murni Teguh Sudirman"
+      ],
+      "responses": [
+        "RS Murni Teguh Sudirman, Lokasi: Jl. Jend. Sudirman No.86, Karet Tengsin, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10220 || <a href='https://goo.gl/maps/Dg9qyxyWH24guV6N6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Panti Raharja",
+      "patterns": [
+        "Rumah Sakit Panti Raharja",
+        "3173510",
+        "Panti Raharja",
+        "RS Panti Raharja"
+      ],
+      "responses": [
+        "RS Panti Raharja, Lokasi: Jl. Sawo No.56, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350 || <a href='https://goo.gl/maps/fers8nLCbDtGSwDC8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Pertamina Jaya",
+      "patterns": [
+        "Rumah Sakit Pertamina Jaya",
+        "3173474",
+        "Pertamina Jaya",
+        "RS Pertamina Jaya"
+      ],
+      "responses": [
+        "RS Pertamina Jaya, Lokasi: Jl. Jend. Ahmad Yani No.2, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510 || <a href='https://goo.gl/maps/dscWUAXMCX1TkUSk9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS PGI Cikini",
+      "patterns": [
+        "Rumah Sakit PGI Cikini",
+        "3173062",
+        "PGI Cikini",
+        "RS PGI Cikini"
+      ],
+      "responses": [
+        "RS PGI Cikini, Lokasi: Jl. Raden Saleh No.40, Cikini, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10330 || <a href='https://goo.gl/maps/3v6N4kUmqf6bHjmg6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Primaya Evasari",
+      "patterns": [
+        "Rumah Sakit Primaya Evasari",
+        "3173441",
+        "Primaya Evasari",
+        "RS Primaya Evasari"
+      ],
+      "responses": [
+        "RS Primaya Evasari, Lokasi: Jl. Rawamangun No.47, Rawasari, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10570 || <a href='https://goo.gl/maps/TTqfd6DTDjnXj92H6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Prof. dr. Nizar",
+      "patterns": [
+        "Rumah Sakit Prof. dr. Nizar",
+        "Rumah Sakit Prof. Nizar",
+        "Rumah Sakit dr. Nizar",
+        "Rumah Sakit Nizar",
+        "3173612",
+        "Prof. dr. Nizar",
+        "Prof. Nizar",
+        "dr. Nizar",
+        "Nizar",
+        "RS Prof. dr. Nizar",
+        "RS Prof. Nizar",
+        "RS dr. Nizar",
+        "RS Nizar"
+      ],
+      "responses": [
+        "RS Prof. dr. Nizar, Lokasi: Jl. Kesehatan No.9, Petojo Selatan, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10160 || <a href='https://goo.gl/maps/qpLPMQmttfynmb8S6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Proklamasi",
+      "patterns": [
+        "Rumah Sakit Proklamasi",
+        "3173532",
+        "Proklamasi",
+        "RS Proklamasi"
+      ],
+      "responses": [
+        "RS Proklamasi, Lokasi: Jl. Proklamasi No.43, Pegangsaan, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10320 || <a href='https://g.page/thtproklamasi?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Radjak Salemba",
+      "patterns": [
+        "Rumah Sakit Radjak Salemba",
+        "3173506",
+        "Radjak Salemba",
+        "RS Radjak Salemba"
+      ],
+      "responses": [
+        "RS Radjak Salemba, Lokasi: Jl. Salemba Tengah No.24, Paseban, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10440 || <a href='https://goo.gl/maps/gXcYGodhAU5QRx5TA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS RE. Martadinata",
+      "patterns": [
+        "Rumah Sakit RE. Martadinata",
+        "Rumah Sakit Martadinata",
+        "3173697",
+        "RE. Martadinata",
+        "Martadinata",
+        "RS RE. Martadinata",
+        "RS Martadinata"
+      ],
+      "responses": [
+        "RS RE. Martadinata, Lokasi: Jl. Farmasi No.1, Bendungan Hilir, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10210 || <a href='https://goo.gl/maps/QqKgF9gyh7oByR986' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Sahid Sahirman",
+      "patterns": [
+        "Rumah Sakit Sahid Sahirman",
+        "3171768",
+        "Sahid Sahirman",
+        "RS Sahid Sahirman"
+      ],
+      "responses": [
+        "RS Sahid Sahirman, Lokasi: Jl. Jend. Sudirman No.82, Karet Tengsin, Kec. Tanah Abang, Kota Jakarta Pusat, DKI Jakarta 10250 || <a href='https://goo.gl/maps/EmVTxvpT7Tiu1Qmi8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Salemba Satu",
+      "patterns": [
+        "Rumah Sakit Salemba Satu",
+        "3173704",
+        "Salemba Satu",
+        "RS Salemba Satu"
+      ],
+      "responses": [
+        "RS Salemba Satu, Lokasi: Jl. Salemba I No.11, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430 || <a href='https://goo.gl/maps/CouCDbT6fFycDZyS8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Sint Carolus",
+      "patterns": [
+        "Rumah Sakit Sint Carolus",
+        "3173051",
+        "Sint Carolus",
+        "RS Sint Carolus"
+      ],
+      "responses": [
+        "RS Sint Carolus, Lokasi: Jl. Salemba Raya No.41, Paseban, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10440 || <a href='https://goo.gl/maps/dczhySvtkxD6ucxv5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Yarsi Jakarta",
+      "patterns": [
+        "Rumah Sakit Yarsi Jakarta",
+        "3173712",
+        "Yarsi Jakarta",
+        "RS Yarsi Jakarta"
+      ],
+      "responses": [
+        "RS Yarsi Jakarta, Lokasi: Jl. Letjend Suprapto No.13, Cempaka Putih Timur, Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510 || <a href='https://g.page/rumahsakityarsi?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Angkasa",
+      "patterns": [
+        "Rumah Sakit Angkasa",
+        "3173372",
+        "Angkasa",
+        "RS Angkasa",
+        "RSIA Angkasa"
+      ],
+      "responses": [
+        "RSIA Angkasa, Lokasi: Jl. Budi Kemuliaan No.12, Gambir, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10110 || <a href='https://goo.gl/maps/Yw2zGGVEcSbuB7dCA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Berkat Ibu",
+      "patterns": [
+        "Rumah Sakit Berkat Ibu",
+        "3173682",
+        "Berkat Ibu",
+        "RS Berkat Ibu",
+        "RSIA Berkat Ibu"
+      ],
+      "responses": [
+        "GMAPS LOKASI TUTUP PERMANEN || RSIA Berkat Ibu, Lokasi: Jl. Sumur Batu Raya No.13, Cempaka Baru, Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10640 || <a href='https://goo.gl/maps/wmjSLTUpBScgj7FR9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Budi Kemuliaan",
+      "patterns": [
+        "Rumah Sakit Budi Kemuliaan",
+        "3173105",
+        "Budi Kemuliaan",
+        "RS Budi Kemuliaan",
+        "RSIA Budi Kemuliaan"
+      ],
+      "responses": [
+        "RSIA Budi Kemuliaan, Lokasi: Jl. Budi Kemuliaan No.25, Gambir, Kec. Gambir, Kota Jakarta Pusat, DKI Jakarta 10110 || <a href='https://g.page/rumah-sakit-budi-kemuliaan?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Bunda Jakarta",
+      "patterns": [
+        "Rumah Sakit Bunda Jakarta",
+        "3173120",
+        "Bunda Jakarta",
+        "RS Bunda Jakarta",
+        "RSIA Bunda Jakarta"
+      ],
+      "responses": [
+        "RSIA Bunda Jakarta, Lokasi: Jl. Teuku Cik Ditiro No.28, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350 || <a href='https://goo.gl/maps/vXq34zqowd8JCXo67' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Tambak",
+      "patterns": [
+        "Rumah Sakit Tambak",
+        "3173695",
+        "Tambak",
+        "RS Tambak",
+        "RSIA Tambak"
+      ],
+      "responses": [
+        "RSIA Tambak, Lokasi: Jl. Tambak No.18, Pegangsaan, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10320 || <a href='https://goo.gl/maps/gGfZiYh3USWZAX7u5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA YPK Mandiri",
+      "patterns": [
+        "Rumah Sakit YPK Mandiri",
+        "3173116",
+        "YPK Mandiri",
+        "RS YPK Mandiri",
+        "RSIA YPK Mandiri"
+      ],
+      "responses": [
+        "RSIA YPK Mandiri, Lokasi: Jl. Gereja Theresia No.22, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350 || <a href='https://goo.gl/maps/q7QMbhW8NBh1kZWV9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSPAD Gatot Soebroto",
+      "patterns": [
+        "Rumah Sakit Gatot Soebroto",
+        "3173025",
+        "Gatot Soebroto",
+        "RS Gatot Soebroto",
+        "RSPAD Gatot Soebroto"
+      ],
+      "responses": [
+        "RSPAD Gatot Soebroto, Lokasi: Jl. Abdul Rahman Saleh No.24, Senen, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10410 || <a href='https://goo.gl/maps/Maf3R31VtaS9eoNB9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUPN dr. Cipto Mangunkusumo",
+      "patterns": [
+        "Rumah Sakit dr. Cipto Mangunkusumo",
+        "Rumah Sakit Cipto Mangunkusumo",
+        "3173014",
+        "dr. Cipto Mangunkusumo",
+        "Cipto Mangunkusumo",
+        "RS dr. Cipto Mangunkusumo",
+        "RS Cipto Mangunkusumo",
+        "RSUPN dr. Cipto Mangunkusumo",
+        "RSUPN Cipto Mangunkusumo"
+      ],
+      "responses": [
+        "RSUPN dr. Cipto Mangunkusumo, Lokasi: Jl. Pangeran Diponegoro No.71, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430 || <a href='https://goo.gl/maps/zHAwjaMXKo7ygjm37' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Jagakarsa",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Jagakarsa ",
+        "Rumah Sakit Jagakarsa",
+        "3171792",
+        "RSUD Jagakarsa",
+        "RS Jagakarsa",
+        "Jagakarsa"
+      ],
+      "responses": [
+        "RS Jagakarsa , Jl. Moh. Kahfi I No.27A, Jagakarsa, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12630 || <a href='https://tinyurl.com/yx45e8sy' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Jati Padang ",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Jati Padang",
+        "Rumah Sakit Jati Padang ",
+        "3171800",
+        "RSUD Jati Padang",
+        "RS Jati Padang",
+        "Jati Padang"
+      ],
+      "responses": [
+        "RSUD Jati Padang , Jl. Raya Ragunan No.16, Pasar Minggu, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12740 || <a href='https://tinyurl.com/yc7bdhsd' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kebayoran Baru",
+      "patterns": [
+        "Rumah Sakit Umum Kebayoran Baru",
+        "Rumah Sakit Kebayoran Baru",
+        "3171801",
+        "RSUD Kebayoran Baru",
+        "RS Kebayoran Baru",
+        "Kebayoran Baru"
+      ],
+      "responses": [
+        "RSUD Kebayoran Baru, Jl. Abdul Majid Raya No.28, Cipete Utara, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12150 || <a href='https://tinyurl.com/9a48snxj' target='_blank'>Maps</a> "
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kebayoran Lama",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Kebayoran Lama",
+        "Rumah Sakit Kebayoran Lama",
+        "317180",
+        "RSUD Kebayoran Lama",
+        "RS Kebayoran Lama",
+        "Kebayoran Lama"
+      ],
+      "responses": [
+        "RSUD Kebayoran Lama, Jl. Jatayu No.12, Kebayoran Lama Selatan, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12240 || <a href= 'https://tinyurl.com/55578vkj' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Mampang Prapatan",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Mampang Prapatan",
+        "Rumah Sakit Mampang Prapatan",
+        "3171793",
+        "RSUD Mampang Prapatan",
+        "RS Mampang Prapatan",
+        "Mampang Prapatan"
+      ],
+      "responses": [
+        "RSUD Mampang Prapatan, Jl. Kapten Tendean No.9, Mampang Prapatan, Kec. Mampang Prapatan, Kota Jakarta Selatan, DKI Jakarta 12710   || <a href='https://tinyurl.com/37v3wkb6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pasar Minggu ",
+      "patterns": [
+        "Rumah Sakit Umum Pasar Minggu",
+        "Rumah Sakit Pasar Minggu",
+        "3171795",
+        "RSUD Pasar Minggu",
+        "RS Pasar Minggu",
+        "Pasar Minggu"
+      ],
+      "responses": [
+        "RS Pasar Minggu, Jl. TB Simatupang No.1, Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12550 || <a href='https://tinyurl.com/s933nak5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pesanggrahan",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Pesanggrahan",
+        "Rumah Sakit Pesanggrahan",
+        "3171791",
+        "RSUD Pesanggrahan",
+        "RS Pesanggrahan",
+        "Pesanggrahan"
+      ],
+      "responses": [
+        "RSUD Pesanggrahan, Jl. Cenek I No.1, Pesanggrahan, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12320 || <a href='https://tinyurl.com/38ya8sk2' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Tebet",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Tebet",
+        "Rumah Sakit Umum Tebet",
+        "3171790",
+        "RSUD Tebet"
+      ],
+      "responses": [
+        "RSUD Tebet, Jl. Prof. DR. Soepomo SH No.54, Tebet Barat, Kec. Tebet, Kota Jakarta Selatan, DKI Jakarta 12810 || <a href='https://tinyurl.com/57ya2ms3' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Agung",
+      "patterns": ["Rumah Sakit Agung", "RS Agung", "3171632", "Agung"],
+      "responses": [
+        "RS Agung, Jl. Sultan Agung No.67, Pasar Manggis, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12970 || <a href='https://g.page/rumah-sakit-hermina-podomoro?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Ali Sibroh Malisi",
+      "patterns": [
+        "Rumah Sakit Ali Sibroh Malisi",
+        "RS Ali Sibroh Malisi",
+        "3171798",
+        "Rumah Sakit Ali Sibro Malisi",
+        "RS Ali Sibroh Malisi",
+        "Ali Sibroh Malisi"
+      ],
+      "responses": [
+        "RS Ali Sibroh Malisi, Jl. Warung Sila No.1, Ciganjur, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12630 || <a href='https://tinyurl.com/yc6tmy7k' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Aulia Jakarta",
+      "patterns": [
+        "Rumah Sakit Aulia Jakarta",
+        "RS Aulia Jakarta",
+        "3171746",
+        "Aulia Jakarta"
+      ],
+      "responses": [
+        "RS Aulia Jakarta, Jl. Jeruk Raya No.15, Jagakarsa, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12620 || <a href='https://goo.gl/maps/QVQKbDh2XymALaVb8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Avisena",
+      "patterns": [
+        "Rumah Sakit Avisena",
+        "RS Avisena",
+        "3171083",
+        "RS Avisena",
+        "Avisena"
+      ],
+      "responses": [
+        "RS Avisena, Jl. H. Rohimin No.142, Ulujami, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12250  || <a href='https://goo.gl/maps/qrFVaxkDNE7mTXdm9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bhayangkara Sespimma ",
+      "patterns": [
+        "Rumah Saki Bhayangkara Sespimma",
+        "RS Bhayangkara Sespimma",
+        "3171785",
+        "Bhayangkara Sespimma"
+      ],
+      "responses": [
+        "RS Bhayangkara Sespimma, Jl. Ciputat Raya No.40, Pondok Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12310 || <a href='https://g.page/reviewrsrp?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Brawijaya Duren Tiga",
+      "patterns": [
+        "Rumah Sakit Brawijaya Duren Tiga",
+        "RS Brawijaya Duren Tiga ",
+        "3171757",
+        "RS Brawijaya Duren Tiga",
+        "Brawijaya Duren Tiga "
+      ],
+      "responses": [
+        "RS Brawijaya Duren Tiga, Jl. Duren Tiga No.5, Pancoran, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12780 || <a href='https://goo.gl/maps/SWLagRhGwRSUp3iS6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Brawijaya Jakarta",
+      "patterns": [
+        "Rumah Sakit  Brawijaya Jakarta",
+        "RS Brawijaya Jakarta",
+        "3171728",
+        "Rumah Sakit  Brawijaya Jakart",
+        "RS Brawijaya Jakarta",
+        "Brawijaya"
+      ],
+      "responses": [
+        "RS Brawijaya Jakarta ,Jl. Taman Brawijaya No.1, Cipete Utara, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12150  || <a href='https://tinyurl.com/bdhw6ra7' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharmawangsa",
+      "patterns": [
+        "Rumah Sakit Dharmawangsa",
+        "RS Dharmawangsa",
+        "3171060",
+        "Dharmawangsa"
+      ],
+      "responses": [
+        "RS Dharmawangsa, Jl. Dharmawangsa No.13, Pulo, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12160 || <a href='https://goo.gl/maps/Wxy9Jq5bx4CdcQS17' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dr Sutoyo Pusrehab Kemenhan",
+      "patterns": [
+        "Rumah Sakit Dr Sutoyo Puserhab Kemenhan",
+        "RS Dr sutoyo Puserhab Kemenhan",
+        "3171072",
+        "RS Dr Sutoyo Puserhab Kemenhan",
+        "Dr Sutoyo Puserhab Kemenhan"
+      ],
+      "responses": [
+        "RS Dr Sutoyo Puserhab Kemenhan, Jl. RC. Veteran Raya No.178, Bintaro, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12330 || <a href='https://goo.gl/maps/sWUMq4LqD7XEbugBA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Gandaria",
+      "patterns": [
+        "Rumah Sakit Gandaria",
+        "RS Gandaria ",
+        "3171621",
+        "RS Gandaria",
+        "Gandaria"
+      ],
+      "responses": [
+        "RS Gandaria, Jl. Gandaria Tengah II No.6, Kramat Pela, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12130 || <a href='https://tinyurl.com/mw53pch8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Halimun ",
+      "patterns": [
+        "Rumah Sakit Halimun ",
+        "RS Halimun",
+        "3175407",
+        "Rumah Sakit Halimun",
+        "Halimun"
+      ],
+      "responses": [
+        "RS Halimun, Jl. Halimun Raya No.9, Guntur, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12980  || <a href='https://goo.gl/maps/3cToVNHAyQ94fizj6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harapan Kartini",
+      "patterns": [
+        "Rumah Sakit Harapan Kartini",
+        "RS Harapan Kartini",
+        "3171610",
+        "RS Harapan Kartini",
+        "Rumah Sakit Harapan Kartini",
+        "Harapan Kartini"
+      ],
+      "responses": [
+        "RS Harapan Kartini, Jl. Ampera Raya No.2A, Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12560 || <a href='https://goo.gl/maps/whX8LCjxE3sc5pR86' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Indah Medika",
+      "patterns": [
+        "Rumah Sakit Jakarta ",
+        "RS Jakarta",
+        "3171045",
+        "RS Indah Medika",
+        "Rumah Sakit Indah Medika",
+        "Indah Medika"
+      ],
+      "responses": [
+        "RS Indah Medika, Jl. Tebet Raya No.4, Tebet Barat, Kec. Tebet, Kota Jakarta Selatan, DKI Jakarta 12810 || <a href='https://goo.gl/maps/jtrLrygT66ybrnkAA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Jakarta",
+      "patterns": [
+        "Rumah Sakit Umum Pekerja",
+        "RSU Pekerja",
+        "3175410",
+        "Rumah Jakarta",
+        "RS Jakarta",
+        "Jakarta"
+      ],
+      "responses": [
+        "RS Jakarta, Jl. Jend. Sudirman No.49, Karet Semanggi, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12930  || <a href='https://goo.gl/maps/WQ5tj8a2CtzhHsw98' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Jakarta Medical Center",
+      "patterns": [
+        "Rumah Sakit Jakarta Medical Center",
+        "RS Jakarta Medical Center",
+        "3171735",
+        "Rumah Sakit Pelabuhan Jakarta",
+        "RS Pelabuhan Jakarta",
+        "Pelabuhan Jakarta"
+      ],
+      "responses": [
+        "RS Jakarta Medical Center, Jl. Warung Buncit No.15, Kalibata, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12740 || <a href='https://goo.gl/maps/vmHkjBb7JjAY2gw16' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Marinir Cilandak",
+      "patterns": [
+        "Rumah Sakit Marinir Cilandak",
+        "RS Marinir Cilandak",
+        "3171034",
+        "Rumah Sakit Marinir Cilandak",
+        "RS Marinir Cilandak",
+        "Marinir Cilandak"
+      ],
+      "responses": [
+        "RS Marinir Cilandak, Jl. Cilandak KKO No.3, Cilandak Timur, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12560 || <a href='https://tinyurl.com/y4vxf2ad' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mayapada Jakarta",
+      "patterns": [
+        "Rumah Sakit Mayapada Jakarta",
+        "RS Mayapada Jakarta",
+        "3171786",
+        "Rumah Sakit Mayapada Jakarta",
+        "RS Mayapada Jakarta",
+        "Mayapdaa Jakarat "
+      ],
+      "responses": [
+        "RS Mayapda Jakarta, Jl. Lebak Bulus I No.29, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/2zfmttdb' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mayapada Kuningan",
+      "patterns": [
+        "Rumah Sakit Mayapda Kuningan ",
+        "RS Mayapada Kuningan",
+        "3171788",
+        "Rumah Sakit Mayapda Kuningan",
+        "RS Puri Medika",
+        "Puri Medika"
+      ],
+      "responses": [
+        "RS Mayapda Kuningan, Jl. HR. Rasuna Said No.17, Karet Kuningan, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12940|| <a href='https://goo.gl/maps/vAtQeW62H59HKCLf6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Medistra",
+      "patterns": [
+        "Rumah Sakit Medistra",
+        "RS Medistra",
+        "3171788",
+        "Rumah Sakit Medistra",
+        "RS Medistra",
+        "Medistra"
+      ],
+      "responses": [
+        "RS Medistra, Jl. Gatot Subroto No.59, Kuningan Timur, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12950 || <a href='https://goo.gl/maps/UDp7L2hR9ZRZFu9i6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS MMC Jakarta",
+      "patterns": [
+        "Rumah Sakit MMC Jakarta",
+        "RS MMC Jakarta",
+        "3171515",
+        "RS Sukmul Sisma Medika",
+        "Sukmul Sisma Medika"
+      ],
+      "responses": [
+        "RS MMC Jakarta, Jl. HR. Rasuna Said No.21, Karet Kuningan, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12940 || <a href='https://tinyurl.com/2ke49yft' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Muhammadiyah Taman Puring",
+      "patterns": [
+        "Rumah Sakit Muhammadiyah Taman Puring",
+        "RS Muhammadiyah Taman Puring",
+        "3171781",
+        "Rumah Sakit Muhammadiyah Taman Puring",
+        "RS Muhammadiyah Taman Puring",
+        "Muhammadiyah Taman Puring"
+      ],
+      "responses": [
+        "RS  Muhammadiyah Taman Puring, Jl. Gandaria I No.20, Kramat Pela, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12130 || <a href='https://tinyurl.com/6ubb7xbb' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Petukangan",
+      "patterns": [
+        "Rumah Sakit Petukangan",
+        "RS Petukangana",
+        "3171796",
+        "RS Petukangan",
+        "Petukangan"
+      ],
+      "responses": [
+        "RS Petukangan, Jl. Ciledug Raya No.8A, Petukangan Selatan, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12270 || <a href='https://tinyurl.com/3t6v2d9k8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pondok Indah",
+      "patterns": [
+        "Rumah Sakit Pondok Indah",
+        "RS Pondok Indah",
+        "3171504",
+        "Rumah SakitPondok Indah",
+        "RS Pondok Indah",
+        "Pondok Indah"
+      ],
+      "responses": [
+        "RS Pondok Indah, Jl. Taman Duta I No.4, Pondok Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12310JJ || <a href='https://tinyurl.com/2xub99za' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Prikasih",
+      "patterns": [
+        "Rumah Prikasih",
+        "RS Prikasih",
+        "3171574",
+        "RS Prikasih",
+        "Prikasih"
+      ],
+      "responses": [
+        "RS Prikasih, Jl. RS. Fatmawati No.74, Pondok Labu, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12450J|| <a href='https://tinyurl.com/bdcuhczm' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Prof. dr. Moestopo ",
+      "patterns": [
+        "Rumah Sakit Prof. dr. Moestopoh",
+        "RS Prof. dr. Moestopo",
+        "3171691",
+        "Rumah Sakit Prof. dr. Moestopo",
+        "RS Prof. dr. Moestopo",
+        "Prof. dr. Moestopo"
+      ],
+      "responses": [
+        "RS Prof. dr. Moestopo, Jl. Bintaro Permai No.3, Bintaro, Kec. Pesanggrahan, Kota Jakarta Selatan, DKI Jakarta 12330 || <a href='https://tinyurl.com/ybsrf9fr' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Pusat Pertamina",
+      "patterns": [
+        "Rumah Sakit Pusat Pertamina",
+        "RS Pusat Pertamina",
+        "3171023",
+        "RS Pusat Pertamina",
+        "Pusat Pertamina"
+      ],
+      "responses": [
+        "RS Pusat Pertamina, Jl. Kyai Maja No.43, Gunung, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12120 || <a href='https://tinyurl.com/3w25kk67' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Setia Mitra",
+      "patterns": [
+        "Rumah Sakit Setia Mitra",
+        "RS Setia Mitra",
+        "3171450",
+        "Rumah Sakit Setia Mitra",
+        "RS Setia Mitra",
+        "Setia Mitra"
+      ],
+      "responses": [
+        "RS Setia Mitra, Jl. RS. Fatmawati No.80, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/y7jhhy6p' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS  Siaga Raya",
+      "patterns": [
+        "Rumah Sakit  Siaga Raya",
+        "RS  Siaga Raya",
+        "3171643",
+        "RS  Siaga Raya",
+        " Siaga Raya"
+      ],
+      "responses": [
+        "RS  Siaga Raya, Jl. Siaga Raya No.4, Pejaten Barat, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12510 || <a href='https://tinyurl.com/2vvcb2yr' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam Asri",
+      "patterns": [
+        "Rumah Sakit Siloam Asri",
+        "RS Siloam Asri",
+        "3171511",
+        "Rumah Sakit Siloam Asri",
+        "RS Siloam Asri",
+        "Siloam Asri"
+      ],
+      "responses": [
+        "RS Siloam Asri, Jl. Duren Tiga No.20, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12760 || <a href='https://tinyurl.com/4ejcjerb' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam Semanggi",
+      "patterns": [
+        "Rumah Sakit  Siloam Semanggi",
+        "RS Siloam Semanggi",
+        "3171056",
+        "Rumah Sakit Siloam Semanggi",
+        "RS  Siloam Semanggi",
+        " Siloam Semanggi"
+      ],
+      "responses": [
+        "RS  Siloam Semanggi, Jl. RS. Fatmawati No.80, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/ym5tmj8h' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Siloam TB Simatupang",
+      "patterns": [
+        "Rumah Sakit Siloam TB Simatupang",
+        "RS Siloam TB Simatupang",
+        "3171789",
+        "RS Siloam TB Simatupang",
+        "Siloam TB Simatupang"
+      ],
+      "responses": [
+        "RS Siloam TB Simatupang, Jl. R.A.Kartini No.8, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430  || <a href='https://tinyurl.com/yjz4pafv' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Tebet",
+      "patterns": [
+        "Rumah Sakit Tebet",
+        "RS Tebet",
+        "3171461",
+        "Rumah Sakit Tebet",
+        "RS Tebet"
+      ],
+      "responses": [
+        "RS Pondok Indah, Jl. Taman Duta I No.4, Pondok Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12310JJ || <a href='https://tinyurl.com/mpnrkn68' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Tria Dipa",
+      "patterns": [
+        "Rumah Sakit Tria Dipa",
+        "RS Tria Dipa",
+        "3171680",
+        "Rumah Sakit Tria Dipa",
+        "RS Tria Dipa",
+        "Tria Dipa"
+      ],
+      "responses": [
+        "RS Tria Dipa, Jl. Raya Pasar Minggu No.3A, Pancoran, Kec. Pancoran, Kota Jakarta Selatan, DKI Jakarta 12780 || <a href='https://tinyurl.com/2fbn3yut' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Yadika Kebayoran Lama",
+      "patterns": [
+        "Rumah Sakit Yadika Kebayoran Lama",
+        "RS Yadika Kebayoran Lama",
+        "3171784",
+        "RS Yadika Kebayoran Lama",
+        "Yadika Kebayoran Lama"
+      ],
+      "responses": [
+        "RS Yadika Kebayoran Lama, Jl. Ciputat Raya No.5, Kebayoran Lama Selatan, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12240 || <a href='https://tinyurl.com/yjz4pafv' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Andhika",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Andhika ",
+        "RSIA Andhika",
+        "3171782",
+        "Rumah Sakit  Andhika",
+        "RSIA Andhika",
+        "Andhika"
+      ],
+      "responses": [
+        "RSIA Andhika, Jl. Warung Sila No.8, Ciganjur, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12630 || <a href='https://tinyurl.com/a4n469z6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Asih",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Asih  ",
+        "RSIA Asih",
+        "3171413",
+        "RSIA Asih",
+        "Asih"
+      ],
+      "responses": [
+        "RSIA Asih, Jl. Panglima Polim I No.34, Melawai, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12160 || <a href='https://tinyurl.com/552rc5ep' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Budhi Jaya",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Budhi Jaya ",
+        "RSIA Budhi Jaya",
+        "3171286 ",
+        "RSIA Budhi Jaya",
+        "RSIA Budhi Jaya",
+        "Budhi Jaya"
+      ],
+      "responses": [
+        "RSIA Budhi Jaya,Jl. Dr. Sahardjo No.120, Menteng Atas, Kec. Setiabudi, Kota Jakarta Selatan, DKI Jakarta 12960 || <a href='https://tinyurl.com/mwumajm6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Kartini ",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Kartini",
+        "RSIA Kartini",
+        "3171713",
+        "Rumah Sakit Ibu Anak Kartini",
+        "RSIA Kartini",
+        " Kartini"
+      ],
+      "responses": [
+        "RSIA Kartini, Jl. Ciledug Raya No.94, Cipulir, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12230 || <a href='https://tinyurl.com/3psyzbnh' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Kemang Medical Care",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Medical Care ",
+        "RSIA Medical Center",
+        "3171783",
+        "RSIA Medical Center",
+        "Medical Center"
+      ],
+      "responses": [
+        "RSIA Medical Center, Jl. Ampera Raya No.34, Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12550 || <a href='https://tinyurl.com/3fwtpu6s' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Panti Nugeraha",
+      "patterns": [
+        "Rumah Sakit Ibu Anak Panti Nugeraha",
+        "RSIA Panti Nugeraha",
+        "3171216",
+        "Rumah Sakit Ibu Anak Panti Nugeraha",
+        "RSIA Panti Nugeraha",
+        "Panti Nugeraha"
+      ],
+      "responses": [
+        "RSIA Panti Nugeraha, Jl. Senayan No.26, Melawai, Kec. Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta 12160 || <a href='https://tinyurl.com/yksp4ua9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Zahirah",
+      "patterns": [
+        "Rumah Sakit Umum Zahirah Petukangan",
+        "RSU Zahirah",
+        "3171216",
+        "RSU Zahirah",
+        "Zahira"
+      ],
+      "responses": [
+        "RSU Zahirah, Jl. Sirsak No.21, Jagakarsa, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12620 || <a href='https://tinyurl.com/42r3er4c' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUP Fatmawati",
+      "patterns": [
+        "Rumah Sakit Umum Pusat Fatmawati",
+        "RSUP Fatmawati",
+        "3171504",
+        "Rumah Sakit Umum Pusat Fatmawati",
+        "RSUP Fatmawati",
+        "Fatmawati"
+      ],
+      "responses": [
+        "RSUP Fatmawati , Jl. RS. Fatmawati No.4, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430 || <a href='https://tinyurl.com/nuhuhra3' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Mitra Keluarga Kelapa Gading",
+      "patterns": [
+        "Rumah Sakit Mitra Keluarga Kelapa Gading",
+        "Rumah Sakit Mitra Keluarga",
+        "3175385",
+        "RS Mitra Keluarga Kelapa Gading",
+        "RS Mitra Keluarga",
+        "Mitra Keluarga Kelapa Gading",
+        "Kelapa Gading"
+      ],
+      "responses": [
+        "RS Mitra Keluarga Kelapa Gading, Jl. Raya Gading Kirana No.2, Kelapa Gading Barat, Kec. Kelapa Gading, Kota Jakarta Utara, DKI Jakarta 14240 || <a href='https://goo.gl/maps/K6Ey6vom8W9K5imD6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Koja",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Koja",
+        "Rumah Sakit Koja",
+        "3175016",
+        "RSUD Koja",
+        "RS Koja",
+        "Koja"
+      ],
+      "responses": [
+        "RSUD Koja, Jl. Deli No.4, Koja, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14220 || <a href='https://goo.gl/maps/BsV3cs541n4jgAWm9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pademangan",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Pademangan",
+        "Rumah Sakit Pademangan",
+        "3175016",
+        "RSUD Pademangan",
+        "RS Pademangan",
+        "Pademangan"
+      ],
+      "responses": [
+        "RSUD Pademangan, Jl. Budi Mulia Raya No.2, Pademangan Barat, Kec. Pademangan, Kota Jakarta Utara, DKI Jakarta 14420 || <a href='https://goo.gl/maps/izmYB1Z23ERwi8jr7' target='_blank'>Maps</a> "
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Tanjung Priok",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Tanjung Priok",
+        "Rumah Sakit Tanjung Priok",
+        "3175416",
+        "RSUD Tanjung Priok",
+        "RS Tanjung Priok",
+        "Tanjung Priok"
+      ],
+      "responses": [
+        "RSUD Tanjungpriok, Jl. Bugis No.3, Kebon Bawang, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14320 || <a href='https://goo.gl/maps/nB2XhbTr6a4N1xps6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Tugu Koja",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Tugu Koja",
+        "Rumah Sakit Tugu Koja",
+        "3175412",
+        "RSUD Tugu Koja",
+        "RS Tugu Koja",
+        "Tugu Koja"
+      ],
+      "responses": [
+        "RSUD Tugu Koja, Jl. Walang Permai No.39, Tugu Utara, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14260 || <a href='https://g.page/rsud_tugukoja?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Atma Jaya",
+      "patterns": [
+        "Rumah Sakit Atma Jaya",
+        "RS Atma Jaya",
+        "3175031",
+        "Atma Jaya"
+      ],
+      "responses": [
+        "RS Atma Jaya, Jl. Pluit Raya No.2, Penjaringan, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14440 || <a href='https://goo.gl/maps/tXEuFqEr3xWJ5jCv6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Darurat Wisma Atlet",
+      "patterns": [
+        "Rumah Sakit Darurat Wisma Atlet",
+        "Rumah Sakit Wisma Atlet",
+        "3175182",
+        "RS Darurat Wisma Atlet",
+        "RS Wisma Atlet",
+        "Wisma Atlet"
+      ],
+      "responses": [
+        "RS Darurat Wisma Atlet, Jl. Rd.H. Keneng Mudatsir No.13, Pademangan Timur, Kec. Pademangan, Kota Jakarta Utara, DKI Jakarta 14360 || <a href='https://goo.gl/maps/bm2oHAyTV2WB3oEq5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Duta Indah",
+      "patterns": [
+        "Rumah Sakit Duta Indah",
+        "RS Duta Indah",
+        "3175411",
+        "Duta Indah"
+      ],
+      "responses": [
+        "RS Duta Indah, Jl. Teluk Gong Raya No.12, Pejagalan, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14450 || <a href='https://goo.gl/maps/M6np9deLbQSL5TaH6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Hermina Podomoro",
+      "patterns": [
+        "Rumah Sakit Hermina Podomoro",
+        "RS Hermina Podomoro",
+        "3175412",
+        "Hermina Podomoro",
+        "Podomoro"
+      ],
+      "responses": [
+        "RS Hermina Podomoro, Jl. Danau Agung II No.3, Sunter Agung, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14350 || <a href='https://g.page/rumah-sakit-hermina-podomoro?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Islam Jakarta Sukapura",
+      "patterns": [
+        "Rumah Sakit Islam Jakarta Sukapura",
+        "RS Islam Jakarta Sukapura",
+        "3175326",
+        "Rumah Sakit Islam Sukapura",
+        "RS Islam Sukapura",
+        "Sukapura"
+      ],
+      "responses": [
+        "RS Islam Jakarta Sukapura, Jl. Tipar Cakung No.5, Sukapura, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://g.page/rsislamjakartasukapura?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Primasana",
+      "patterns": [
+        "Rumah Sakit Primasana",
+        "RS Primasana",
+        "3175417",
+        "Primasana"
+      ],
+      "responses": [
+        "RS Primasana, Jl. Kebon Bawang No.1, Kebon Bawang, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14320 || <a href='https://goo.gl/maps/QVQKbDh2XymALaVb8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS dr. Sulianti Saroso",
+      "patterns": [
+        "Rumah Sakit dr. Sulianti Saroso",
+        "RS dr. Sulianti Saroso",
+        "3175064",
+        "RS Sulianti Saroso",
+        "dr. Sulianti Saroso",
+        "Sulianti Saroso"
+      ],
+      "responses": [
+        "RS dr. Sulianti Saroso, Jl. Sunter Permai Raya No.2, Papanggo, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14340 || <a href='https://goo.gl/maps/qrFVaxkDNE7mTXdm9' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Royal Progress",
+      "patterns": [
+        "Rumah Sakit Royal Progress",
+        "RS Royal Progress",
+        "3175330",
+        "Royal Progress"
+      ],
+      "responses": [
+        "RS Royal Progress, Jl. Danau Sunter Utara No.14, Sunter Agung, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14350 || <a href='https://g.page/reviewrsrp?share' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Family",
+      "patterns": [
+        "Rumah Sakit Ibu dan Anak Family",
+        "RSIA Family",
+        "3175363",
+        "RS Family",
+        "Family"
+      ],
+      "responses": [
+        "RSIA Family, Jl. Pluit Mas I No.5A, Pejagalan, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14450 || <a href='https://goo.gl/maps/SWLagRhGwRSUp3iS6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Grand Family",
+      "patterns": [
+        "Rumah Sakit Ibu dan Anak Grand Family",
+        "RSIA Grand Family",
+        "3175409",
+        "Grand Family"
+      ],
+      "responses": [
+        "RSIA Grand Family, Jl. Pantai Indah Selatan No.1, Kamal Muara, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14470 || <a href='https://goo.gl/maps/Wxy9Jq5bx4CdcQS17' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSIA Santo Yusuf",
+      "patterns": [
+        "Rumah Sakit Ibu da Anak Santo Yusuf",
+        "RSIA Santo Yusuf",
+        "3174509",
+        "RS Santo Yusuf",
+        "Santo Yusuf"
+      ],
+      "responses": [
+        "RSIA Santo Yusuf, Jl. Ganggeng Raya No.9, Sungai Bambu, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://goo.gl/maps/sWUMq4LqD7XEbugBA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Firdaus",
+      "patterns": [
+        "Rumah Sakit Umum Firdaus",
+        "RSU Firdaus",
+        "3175408",
+        "RS Firdaus",
+        "Firdaus"
+      ],
+      "responses": [
+        "RSU Firdaus, Jl. Siak No.14, Sukapura, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://goo.gl/maps/JBMHakKuc4uGbdsw5' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Gading Pluit",
+      "patterns": [
+        "Rumah Sakit Umum Gading Pluit",
+        "RSU Gading Pluit",
+        "3175407",
+        "Rumah Sakit Gading Pluit",
+        "Gading Pluit"
+      ],
+      "responses": [
+        "RSU Gading Pluit, Jl. Boulevard Timur No.1, Pegangsaan Dua, Kec. Kelapa Gading, Kota Jakarta Utara, DKI Jakarta 14250 || <a href='https://goo.gl/maps/3cToVNHAyQ94fizj6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Mulyasari",
+      "patterns": [
+        "Rumah Sakit Umum Mulyasari",
+        "RSU Mulyasari",
+        "3175075",
+        "RS Mulyasari",
+        "Rumah Sakit Mulyasari",
+        "Mulyasari"
+      ],
+      "responses": [
+        "RSU Mulyasari, Jl. Plumpang Semper No.19, Tugu Utara, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14260 || <a href='https://goo.gl/maps/whX8LCjxE3sc5pR86' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Pantai Indah Kapuk",
+      "patterns": [
+        "Rumah Sakit Umum Pantai Indah Kapuk",
+        "RSU Pantai Indah Kapuk",
+        "3175352",
+        "RS Pantai Indah Kapuk",
+        "Rumah Sakit Pantai Indah Kapuk",
+        "Pantai Indah Kapuk"
+      ],
+      "responses": [
+        "RSU Pantai Indah Kapuk, Jl. Pantai Indah Utara III, Kapuk Muara, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14460 || <a href='https://goo.gl/maps/jtrLrygT66ybrnkAA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Pekerja",
+      "patterns": [
+        "Rumah Sakit Umum Pekerja",
+        "RSU Pekerja",
+        "3175410",
+        "Rumah Sakit Pekerja",
+        "RS Pekerja",
+        "Pekerja"
+      ],
+      "responses": [
+        "RSU Pekerja, Jl. Tipar Cakung No.46, Sukapura, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14140 || <a href='https://goo.gl/maps/WQ5tj8a2CtzhHsw98' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Pelabuhan Jakarta",
+      "patterns": [
+        "Rumah Sakit Umum Pelabuhan Jakarta",
+        "RSU Pelabuhan Jakarta",
+        "3175042",
+        "Rumah Sakit Pelabuhan Jakarta",
+        "RS Pelabuhan Jakarta",
+        "Pelabuhan Jakarta"
+      ],
+      "responses": [
+        "RSU Pelabuhan Jakarta, Jl. Kramat Jaya Raya No.1, Tugu Utara, Kec. Koja, Kota Jakarta Utara, DKI Jakarta 14260 || <a href='https://goo.gl/maps/vmHkjBb7JjAY2gw16' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Pluit",
+      "patterns": [
+        "Rumah Sakit Umum Pluit",
+        "RSU Pluit",
+        "3175341",
+        "Rumah Sakit Pluit",
+        "RS Pluit",
+        "Pluit"
+      ],
+      "responses": [
+        "RSU Pluit, Jl. Pluit Selatan Raya No.2, Pluit, Kec. Penjaringan, Kota Jakarta Utara, DKI Jakarta 14450 || <a href='https://goo.gl/maps/zGMjWrxfbDzLpJQDA' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Port Medical Center",
+      "patterns": [
+        "Rumah Sakit Umum Port Medical Center",
+        "RSU Port Medical Center",
+        "3175396",
+        "Rumah Sakit Port Medical Center",
+        "RS Port Medical Center",
+        "Port Medical Center"
+      ],
+      "responses": [
+        "RSU Port Medical Center, Jl. Enggano No.10, Tanjung Priok, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14310 || <a href='https://goo.gl/maps/5BnS7nmnsdjHbVKE7' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Puri Medika",
+      "patterns": [
+        "Rumah Sakit Umum Puri Medika",
+        "RSU Puri Medika",
+        "3175374",
+        "Rumah Sakit Puri Medika",
+        "RS Puri Medika",
+        "Puri Medika"
+      ],
+      "responses": [
+        "RSU Puri Medika, Jl. Sungai Bambu Raya No.5, Sungai Bambu, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14320 || <a href='https://goo.gl/maps/vAtQeW62H59HKCLf6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Satya Negara",
+      "patterns": [
+        "Rumah Sakit Umum Satya Negara",
+        "RSU Satya Negara",
+        "3175315",
+        "Rumah Sakit Satya Negara",
+        "RS Satya Negara",
+        "Satya Negara"
+      ],
+      "responses": [
+        "RSU Satya Negara, Jl. Agung Utara XXIV No.1, Sunter Agung, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14350 || <a href='https://goo.gl/maps/UDp7L2hR9ZRZFu9i6' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSU Sukmul Sisma Medika",
+      "patterns": [
+        "Rumah Sakit Umum Sukmul Sisma Medika",
+        "RSU Sukmul Sisma Medika",
+        "3175181",
+        "Rumah Sakit Sukmul Sisma Medika",
+        "RS Sukmul Sisma Medika",
+        "Sukmul Sisma Medika"
+      ],
+      "responses": [
+        "RSU Sukmul Sisma Medika, Jl. Tenggiri No 18, Tanjung Priok, Kec. Tanjung Priok, Kota Jakarta Utara, DKI Jakarta 14310 || <a href='https://goo.gl/maps/H6uuG3wbcyn5Fx3v8' target='_blank'>Maps</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Cilincing",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Cilincing",
+        "RSUD Cilincing",
+        "3175414",
+        "Rumah Sakit Cilincing",
+        "RS Cilincing",
+        "Cilincing"
+      ],
+      "responses": [
+        "RSUD Cilincing, Jl. Madya Kebantenan No.4, Semper Timur, Kec. Cilincing, Kota Jakarta Utara, DKI Jakarta 14130 || <a href='https://goo.gl/maps/nnP5sLdqzcWLCdXX7' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Budhi Asih",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Budhi Asih",
+        "RSUD Budhi Asih",
+        "3172024",
+        "Rumah Sakit Budhi Asih",
+        "RS Budhi Asih",
+        "Budhi Asih"
+      ],
+      "responses": [
+        "Jalan Dewi Sartika No. 200, Cawang, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13640 || <a href='https://g.page/rsudbudhiasih?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Cipayung",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Cipayung",
+        "RSUD Cipayung",
+        "3172771",
+        "Rumah Sakit Cipayung",
+        "RS Cipayung",
+        "Cipayung"
+      ],
+      "responses": [
+        "Jalan Mini III No. 4, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, DKI Jakarta 13890 || <a href='https://goo.gl/maps/3d56jp7jbPmX7ibi9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Ciracas",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Ciracas",
+        "RSUD Ciracas",
+        "3172762",
+        "RS Ciracas",
+        "Rumah Sakit Ciracas",
+        "Ciracas"
+      ],
+      "responses": [
+        "Jalan Cibubur I No. 1, Cibubur, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13720 || <a href='https://goo.gl/maps/HYy9nkystrH5uNzR6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kramatjati",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Kramatjati",
+        "RSUD Kramatjati",
+        "3172761",
+        "RS Kramatjati",
+        "Rumah Sakit Kramatjati",
+        "Kramatjati"
+      ],
+      "responses": [
+        "Jalan Raya Inpres No. 48, Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540 || <a href='https://goo.gl/maps/MY5evwXUqkTYNR1T6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pasar Rebo",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Pasar Rebo",
+        "RSUD Pasar Rebo",
+        "3172126",
+        "RS Pasar Rebo",
+        "Rumah Sakit Pasar Rebo",
+        "Pasar Rebo"
+      ],
+      "responses": [
+        "Jalan TB Simatupang No. 30, Gedong, Kec. Pasar Rebo, Kota Jakarta Timur, DKI Jakarta 13760 || <a href='https://goo.gl/maps/yTXELnaNzvMvq3zU8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Adhyaksa",
+      "patterns": [
+        "Rumah Sakit Adhyaksa",
+        "RS Adhyaksa",
+        "3172757",
+        "Adhyaksa"
+      ],
+      "responses": [
+        "Jalan Mabes Hankam No. 60, Ceger, Kec. Cipayung, Kota Jakarta Timur, DKI Jakarta 13820 || <a href='' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Admira",
+      "patterns": ["RS Admira", "Rumah Sakit Admira", "3172747", "Admira"],
+      "responses": [
+        "Jalan Kayu Putih No. 16, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13260 || <a href='https://goo.gl/maps/esWzA5BQraFJuvRv9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Al-Fauzan",
+      "patterns": [
+        "RS Al-Fauzan",
+        "Rumah Sakit Al-Fauzan",
+        "RS Al Fauzan",
+        "Rumah Sakit Al Fauzan",
+        "3172765",
+        "Al-Fauzan",
+        "Al Fauzan"
+      ],
+      "responses": [
+        "Jalan Pedati No. 3, Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540 || <a href='https://g.page/jakartaislamichospital?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Antam Medika",
+      "patterns": [
+        "RS Antam Medika",
+        "Rumah Sakit Antam Medika",
+        "Antam Medika",
+        "Antam",
+        "3172753",
+        "Rumah Sakit Antam"
+      ],
+      "responses": [
+        "Jalan Pemuda No. 1A, Jatinegara Kaum, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210 || <a href='https://goo.gl/maps/jnjDpEjgpebcHHpg8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bedah Rawamangun",
+      "patterns": [
+        "RS Bedah Rawamangun",
+        "Rumah Sakit Bedah Rawamangun",
+        "RS Rawamangun",
+        "Rawamangun",
+        "Bedah Rawamangun",
+        "3172301"
+      ],
+      "responses": [
+        "Jalan Balai Pustaka No. 29, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220 || <a href='https://goo.gl/maps/GLq1nXmkZN21TjzVA' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bhayangkara Raden Said Sukanto",
+      "patterns": [
+        "RS Bhayangkara Raden Said Sukanto",
+        "Rumah Sakit Bhayangkara Raden Said Sukanto",
+        "Bhayangkara Raden Said Sukanto",
+        "3172072"
+      ],
+      "responses": [
+        "Jalan Raya Bogor No. 1, Kramat Jati, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13510 || <a href='https://goo.gl/maps/iz5tuJWKMB3MDazU7' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bina Waluya",
+      "patterns": [
+        "Bina Waluya",
+        "RS Bina Waluya",
+        "Rumah Sakit Bina Waluya",
+        "3172752"
+      ],
+      "responses": [
+        "Jalan TB Simatupang No. 71, Susukan, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13750 || <a href='https://g.page/rsjantungbinawaluya?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Columbia Asia Pulomas",
+      "patterns": [
+        "RS Columbia Asia Pulomas",
+        "RS Columbia",
+        "Rumah Sakit Columbia Asia Pulomas",
+        "Rumah Sakit Columbia",
+        "3172758"
+      ],
+      "responses": [
+        "Jalan Kayu Putih №1, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210 || <a href='https://g.page/rumah-sakit-columbia-asia-puloma?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharma Nugraha",
+      "patterns": [
+        "RS Dharma Nugraha",
+        "Rumah Sakit Dharma Nugraha",
+        "Dharma Nugraha",
+        "3172702"
+      ],
+      "responses": [
+        "Jalan Balai Pustaka Baru №19, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220 || <a href='https://goo.gl/maps/pKgdxUSX6HuGi4KC8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS dr. Esnawan Antariksa",
+      "patterns": [
+        "RS dr. Esnawan Antariksa",
+        "Rumah Sakit dr. Esnawan Antariksa",
+        "Rumah Sakit Esnawan Antariksa",
+        "RS Esnawan Antariksa",
+        "Esnawan Antariksa",
+        "3172061"
+      ],
+      "responses": [
+        "Jalan Merpati №2, Halim Perdana Kusuma, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13610 || <a href='https://goo.gl/maps/qZJBTx75exbWW69D9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS dr. Euis",
+      "patterns": [
+        "RS dr. Euis",
+        "Rumah Sakit dr. Euis",
+        "Rumah Sakit Euis",
+        "RS Euis",
+        "dr. Euis",
+        "3172769"
+      ],
+      "responses": [
+        "Jalan H. Naman №3, Pondok Kelapa, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13450 || <a href='https://goo.gl/maps/XPSwYN5sZnLn6ejf6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Duren Sawit",
+      "patterns": [
+        "RS Duren Sawit",
+        "Rumah Sakit Duren Sawit",
+        "Duren Sawit",
+        "3172746"
+      ],
+      "responses": [
+        "Jalan Duren Sawit Baru №2, Pondok Bambu, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13430 || <a href='https://goo.gl/maps/nt7jBiJ2Px7AZ9578' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Haji Jakarta",
+      "patterns": [
+        "RS Haji Jakarta",
+        "Rumah Sakit Haji Jakarta",
+        "Haji jakarta",
+        "3172724"
+      ],
+      "responses": [
+        "Jalan Raya Pondok Gede №4, Lubang Buaya, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13650 || <a href='https://goo.gl/maps/86VG1JDG3NDZHoAZ9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harapan Bunda",
+      "patterns": [
+        "Rumah Sakit Harapan Bunda",
+        "RS Harapan Bunda",
+        "Harapan Bunda",
+        "3172553"
+      ],
+      "responses": [
+        "Jalan Raya Bogor №42, Rambutan, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13830 || <a href='https://goo.gl/maps/BitrWoE6N5hn5NS17' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harapan Jayakarta",
+      "patterns": [
+        "RS Harapan Jayakarta",
+        "Rumah Sakit Harapan Jayakarta",
+        "Harapan Jayakarta",
+        "3172531"
+      ],
+      "responses": [
+        "Jalan Raya Bekasi №18, Jatinegara, Kec. Cakung, Kota Jakarta Timur, DKI Jakarta 13030 || <a href='https://g.page/rs-harapan-jayakarta?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harum Sisma Medika",
+      "patterns": [
+        "RS Harum Sisma Medika",
+        "RS Harum Simna",
+        "Rumah Sakit Harum Sisma",
+        "Rumah Sakit Harum Sisma Medika",
+        "Harum Sisma Medika",
+        "3172520"
+      ],
+      "responses": [
+        "Jalan Tarum Barat №13, Cipinang Melayu, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13620 || <a href='https://goo.gl/maps/7B17DiSibsAMYhMs8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Hermina Jatinegara",
+      "patterns": [
+        "RS Hermina Jatinegara",
+        "Rumah Sakit Hermina Jatinegara",
+        "Hermina Jatinegara",
+        "3172243"
+      ],
+      "responses": [
+        "Jalan Jatinegara Barat №126, Kampung Melayu, Kec. Jatinegara, Kota Jakarta Timur, DKI Jakarta 13320 || <a href='https://goo.gl/maps/kc4MQrcPg1q1K9ff8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Islam Jakarta Pondok Kopi",
+      "patterns": [
+        "RS Islam Jakarta Pondok Kopi",
+        "Islam Jakarta Pondok Kopi",
+        "Rumah Sakit Islam Jakarta Pondok Kopi",
+        "RS Islam Pondok Kopi",
+        "Rumah Sakit Islam Pondok Kopi",
+        "3172505"
+      ],
+      "responses": [
+        "Jalan Pondok Kopi №1, Pondok Kopi, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13460 || <a href='https://goo.gl/maps/tYrVsaj6Yy1qVid27' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Islam Klender",
+      "patterns": [
+        "RS Islam Klender",
+        "Rumah Sakit Islam Klender",
+        "Islam Klender",
+        "3172735"
+      ],
+      "responses": [
+        "Jalan Bunga Rampai X №8, Malaka Jaya, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13460 || <a href='https://goo.gl/maps/ev7jMww1CovN84nz6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Kartika Pulomas",
+      "patterns": [
+        "RS Kartika Pulomas",
+        "Rumah Sakit Kartika Pulomas",
+        "Kartika Pulomas",
+        "3172516"
+      ],
+      "responses": [
+        "Jalan Pulo Mas Timur №2, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210 || <a href='https://goo.gl/maps/g9SGnUQEEwYvQwkeA' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Ketergantungan Obat",
+      "patterns": [
+        "RS Ketergantungan Obat",
+        "RSKO",
+        "Rumah Sakit Ketergantungan Obat",
+        "3171435"
+      ],
+      "responses": [
+        "Jalan Lapangan Tembak №75, Cibubur, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13720 || <a href='https://goo.gl/maps/B1Qjx6qr7dWDA1tH9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Universitas Kristen Indonesia",
+      "patterns": [
+        "RS Universitas Kristen Indonesia",
+        "RS UKI",
+        "Rumah Sakit Universitas Kristen Indonesia",
+        "Rumah Sakit UKI",
+        "UKI",
+        "3172094"
+      ],
+      "responses": [
+        "Jalan Mayjen Sutoyo №2, Cawang, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13530 || <a href='https://goo.gl/maps/NxpVgtXPakqfauZd8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    }
+  ]
+}

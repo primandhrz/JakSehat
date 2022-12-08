@@ -1,0 +1,409 @@
+{
+  "intents": [
+    {
+      "tag": "RSUD Budhi Asih",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Budhi Asih",
+        "RSUD Budhi Asih",
+        "3172024",
+        "Rumah Sakit Budhi Asih",
+        "RS Budhi Asih",
+        "Budhi Asih"
+      ],
+      "responses": [
+        "Jalan Dewi Sartika No. 200, Cawang, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13640 || <a href='https://g.page/rsudbudhiasih?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Cipayung",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Cipayung",
+        "RSUD Cipayung",
+        "3172771",
+        "Rumah Sakit Cipayung",
+        "RS Cipayung",
+        "Cipayung"
+      ],
+      "responses": [
+        "Jalan Mini III No. 4, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, DKI Jakarta 13890 || <a href='https://goo.gl/maps/3d56jp7jbPmX7ibi9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+    
+    {
+      "tag": "RSUD Ciracas",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Ciracas",
+        "RSUD Ciracas",
+        "3172762",
+        "RS Ciracas",
+        "Rumah Sakit Ciracas",
+        "Ciracas"
+      ],
+      "responses": [
+        "Jalan Cibubur I No. 1, Cibubur, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13720 || <a href='https://goo.gl/maps/HYy9nkystrH5uNzR6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Kramatjati",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Kramatjati",
+        "RSUD Kramatjati",
+        "3172761",
+        "RS Kramatjati",
+        "Rumah Sakit Kramatjati",
+        "Kramatjati"
+      ],
+      "responses": [
+        "Jalan Raya Inpres No. 48, Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540 || <a href='https://goo.gl/maps/MY5evwXUqkTYNR1T6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RSUD Pasar Rebo",
+      "patterns": [
+        "Rumah Sakit Umum Daerah Pasar Rebo",
+        "RSUD Pasar Rebo",
+        "3172126",
+        "RS Pasar Rebo",
+        "Rumah Sakit Pasar Rebo",
+        "Pasar Rebo"
+      ],
+      "responses": [
+        "Jalan TB Simatupang No. 30, Gedong, Kec. Pasar Rebo, Kota Jakarta Timur, DKI Jakarta 13760 || <a href='https://goo.gl/maps/yTXELnaNzvMvq3zU8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Adhyaksa",
+      "patterns": [
+        "Rumah Sakit Adhyaksa",
+        "RS Adhyaksa",
+        "3172757",
+        "Adhyaksa"
+      ],
+      "responses": [
+        "Jalan Mabes Hankam No. 60, Ceger, Kec. Cipayung, Kota Jakarta Timur, DKI Jakarta 13820 || <a href='' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Admira",
+      "patterns": [
+        "RS Admira",
+        "Rumah Sakit Admira",
+        "3172747",
+        "Admira"
+      ],
+      "responses": [
+        "Jalan Kayu Putih No. 16, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13260 || <a href='https://goo.gl/maps/esWzA5BQraFJuvRv9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Al-Fauzan",
+      "patterns": [
+        "RS Al-Fauzan",
+        "Rumah Sakit Al-Fauzan",
+        "RS Al Fauzan",
+        "Rumah Sakit Al Fauzan",
+        "3172765",
+        "Al-Fauzan",
+        "Al Fauzan"
+      ],
+      "responses": [
+        "Jalan Pedati No. 3, Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540 || <a href='https://g.page/jakartaislamichospital?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Antam Medika",
+      "patterns": [
+        "RS Antam Medika",
+        "Rumah Sakit Antam Medika",
+        "Antam Medika",
+        "Antam",
+        "3172753",
+        "Rumah Sakit Antam"
+      ],
+      "responses": [
+        "Jalan Pemuda No. 1A, Jatinegara Kaum, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210 || <a href='https://goo.gl/maps/jnjDpEjgpebcHHpg8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bedah Rawamangun",
+      "patterns": [
+        "RS Bedah Rawamangun",
+        "Rumah Sakit Bedah Rawamangun",
+        "RS Rawamangun",
+        "Rawamangun",
+        "Bedah Rawamangun",
+        "3172301"
+      ],
+      "responses": [
+        "Jalan Balai Pustaka No. 29, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220 || <a href='https://goo.gl/maps/GLq1nXmkZN21TjzVA' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bhayangkara Raden Said Sukanto",
+      "patterns": [
+        "RS Bhayangkara Raden Said Sukanto",
+        "Rumah Sakit Bhayangkara Raden Said Sukanto",
+        "Bhayangkara Raden Said Sukanto",
+        "3172072"
+      ],
+      "responses": [
+        "Jalan Raya Bogor No. 1, Kramat Jati, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13510 || <a href='https://goo.gl/maps/iz5tuJWKMB3MDazU7' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Bina Waluya",
+      "patterns": [
+        "Bina Waluya",
+        "RS Bina Waluya",
+        "Rumah Sakit Bina Waluya",
+        "3172752"
+      ],
+      "responses": [
+        "Jalan TB Simatupang No. 71, Susukan, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13750 || <a href='https://g.page/rsjantungbinawaluya?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Columbia Asia Pulomas",
+      "patterns": [
+        "RS Columbia Asia Pulomas",
+        "RS Columbia",
+        "Rumah Sakit Columbia Asia Pulomas",
+        "Rumah Sakit Columbia",
+        "3172758"
+      ],
+      "responses": [
+        "Jalan Kayu Putih №1, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210 || <a href='https://g.page/rumah-sakit-columbia-asia-puloma?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Dharma Nugraha",
+      "patterns": [
+        "RS Dharma Nugraha",
+        "Rumah Sakit Dharma Nugraha",
+        "Dharma Nugraha",
+        "3172702"
+      ],
+      "responses": [
+        "Jalan Balai Pustaka Baru №19, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13220 || <a href='https://goo.gl/maps/pKgdxUSX6HuGi4KC8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS dr. Esnawan Antariksa",
+      "patterns": [
+        "RS dr. Esnawan Antariksa",
+        "Rumah Sakit dr. Esnawan Antariksa",
+        "Rumah Sakit Esnawan Antariksa",
+        "RS Esnawan Antariksa",
+        "Esnawan Antariksa",
+        "3172061"
+      ],
+      "responses": [
+        "Jalan Merpati №2, Halim Perdana Kusuma, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13610 || <a href='https://goo.gl/maps/qZJBTx75exbWW69D9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS dr. Euis",
+      "patterns": [
+        "RS dr. Euis",
+        "Rumah Sakit dr. Euis",
+        "Rumah Sakit Euis",
+        "RS Euis",
+        "dr. Euis",
+        "3172769"
+      ],
+      "responses": [
+        "Jalan H. Naman №3, Pondok Kelapa, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13450 || <a href='https://goo.gl/maps/XPSwYN5sZnLn6ejf6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Duren Sawit",
+      "patterns": [
+        "RS Duren Sawit",
+        "Rumah Sakit Duren Sawit",
+        "Duren Sawit",
+        "3172746"
+      ],
+      "responses": [
+        "Jalan Duren Sawit Baru №2, Pondok Bambu, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13430 || <a href='https://goo.gl/maps/nt7jBiJ2Px7AZ9578' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Haji Jakarta",
+      "patterns": [
+        "RS Haji Jakarta",
+        "Rumah Sakit Haji Jakarta",
+        "Haji jakarta",
+        "3172724"
+      ],
+      "responses": [
+        "Jalan Raya Pondok Gede №4, Lubang Buaya, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13650 || <a href='https://goo.gl/maps/86VG1JDG3NDZHoAZ9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harapan Bunda",
+      "patterns": [
+        "Rumah Sakit Harapan Bunda",
+        "RS Harapan Bunda",
+        "Harapan Bunda",
+        "3172553"
+      ],
+      "responses": [
+        "Jalan Raya Bogor №42, Rambutan, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13830 || <a href='https://goo.gl/maps/BitrWoE6N5hn5NS17' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harapan Jayakarta",
+      "patterns": [
+        "RS Harapan Jayakarta",
+        "Rumah Sakit Harapan Jayakarta",
+        "Harapan Jayakarta",
+        "3172531"
+      ],
+      "responses": [
+        "Jalan Raya Bekasi №18, Jatinegara, Kec. Cakung, Kota Jakarta Timur, DKI Jakarta 13030 || <a href='https://g.page/rs-harapan-jayakarta?share' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Harum Sisma Medika",
+      "patterns": [
+        "RS Harum Sisma Medika",
+        "RS Harum Simna",
+        "Rumah Sakit Harum Sisma",
+        "Rumah Sakit Harum Sisma Medika",
+        "Harum Sisma Medika",
+        "3172520"
+      ],
+      "responses": [
+        "Jalan Tarum Barat №13, Cipinang Melayu, Kec. Makasar, Kota Jakarta Timur, DKI Jakarta 13620 || <a href='https://goo.gl/maps/7B17DiSibsAMYhMs8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Hermina Jatinegara",
+      "patterns": [
+        "RS Hermina Jatinegara",
+        "Rumah Sakit Hermina Jatinegara",
+        "Hermina Jatinegara",
+        "3172243"
+      ],
+      "responses": [
+        "Jalan Jatinegara Barat №126, Kampung Melayu, Kec. Jatinegara, Kota Jakarta Timur, DKI Jakarta 13320 || <a href='https://goo.gl/maps/kc4MQrcPg1q1K9ff8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Islam Jakarta Pondok Kopi",
+      "patterns": [
+        "RS Islam Jakarta Pondok Kopi",
+        "Islam Jakarta Pondok Kopi",
+        "Rumah Sakit Islam Jakarta Pondok Kopi",
+        "RS Islam Pondok Kopi",
+        "Rumah Sakit Islam Pondok Kopi",
+        "3172505"
+      ],
+      "responses": [
+        "Jalan Pondok Kopi №1, Pondok Kopi, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13460 || <a href='https://goo.gl/maps/tYrVsaj6Yy1qVid27' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Islam Klender",
+      "patterns": [
+        "RS Islam Klender",
+        "Rumah Sakit Islam Klender",
+        "Islam Klender",
+        "3172735"
+      ],
+      "responses": [
+        "Jalan Bunga Rampai X №8, Malaka Jaya, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13460 || <a href='https://goo.gl/maps/ev7jMww1CovN84nz6' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Kartika Pulomas",
+      "patterns": [
+        "RS Kartika Pulomas",
+        "Rumah Sakit Kartika Pulomas",
+        "Kartika Pulomas",
+        "3172516"
+      ],
+      "responses": [
+        "Jalan Pulo Mas Timur №2, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13210 || <a href='https://goo.gl/maps/g9SGnUQEEwYvQwkeA' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Ketergantungan Obat",
+      "patterns": [
+        "RS Ketergantungan Obat",
+        "RSKO",
+        "Rumah Sakit Ketergantungan Obat",
+        "3171435"
+      ],
+      "responses": [
+        "Jalan Lapangan Tembak №75, Cibubur, Kec. Ciracas, Kota Jakarta Timur, DKI Jakarta 13720 || <a href='https://goo.gl/maps/B1Qjx6qr7dWDA1tH9' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "RS Universitas Kristen Indonesia",
+      "patterns": [
+        "RS Universitas Kristen Indonesia",
+        "RS UKI",
+        "Rumah Sakit Universitas Kristen Indonesia",
+        "Rumah Sakit UKI",
+        "UKI",
+        "3172094"
+      ],
+      "responses": [
+        "Jalan Mayjen Sutoyo №2, Cawang, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13530 || <a href='https://goo.gl/maps/NxpVgtXPakqfauZd8' target='_blank'>Maps<"
+      ],
+      "context_set": ""
+    }
+  ]
+}
