@@ -1,0 +1,8 @@
+Flask
+nltk
+numpy
+torch
+torchvision
+pandas
+BeautifulSoup4
+lxml
